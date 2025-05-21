@@ -21,7 +21,7 @@ const HomeMenuAccordionItem = ({
 			</Accordion.ItemTrigger>
 			<Accordion.ItemContent>
 				<Accordion.ItemBody>
-					<Box textAlign="left" px={8} py={6} bg={bodyBg}>
+					<Box textAlign="left" px={8} py={6} bg={bodyBg} position="relative">
 						{children}
 					</Box>
 				</Accordion.ItemBody>
