@@ -3,10 +3,25 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
+  output   = "./generated/prisma"
 }
 
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+model PlotFlag {
+	id			Int     @id @default(autoincrement())
+	uuid 		String
+	name		String
+	description	String
+}
+
+model GameItem {
+	id			Int		@id	@default(autoincrement())
+	name		String
+	mapKey		String
+	displayName	String
+	description	String
 }
