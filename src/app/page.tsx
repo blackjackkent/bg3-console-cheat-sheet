@@ -1,4 +1,4 @@
-import HomeMenuAccordion from "@/components/home/HomeMenuAccordion";
+import HomeMenuAccordion from "@/components/common/HomeMenuAccordion";
 import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
 import Image from "next/image";
 

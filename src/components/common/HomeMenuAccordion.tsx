@@ -2,6 +2,7 @@
 import { Accordion } from "@chakra-ui/react";
 import { useState } from "react";
 import HomeMenuAccordionItem from "./HomeMenuAccordionItem";
+import PlotFlagsTools from "../tools/PlotFlagsTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
@@ -12,7 +13,7 @@ const HomeMenuAccordion = () => {
 			collapsible
 		>
 			<HomeMenuAccordionItem value="manage-flags" title="Manage Plot Flags">
-				Manage Plot Flags
+				<PlotFlagsTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="spawn-items" title="Spawn Items">
 				Spawn Items
