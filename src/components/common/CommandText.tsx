@@ -18,7 +18,6 @@ const CommandText = ({ value }: CommandTextProps) => {
 			console.error("Failed to copy text:", err);
 		}
 	};
-	console.log(bg);
 	return (
 		<Box
 			w="full"

@@ -1,6 +1,7 @@
 import usePlotFlags from "@/lib/hooks/usePlotFlags";
 import PlotFlagsAboutModal from "../about-modals/PlotFlagsAboutModal";
 import {
+	Box,
 	Combobox,
 	ComboboxInputValueChangeDetails,
 	Heading,
@@ -18,11 +19,15 @@ import { PlotFlag } from "@/lib/types";
 import debounce from "lodash.debounce";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { flushSync } from "react-dom";
+import CommandText from "../common/CommandText";
+import { useColorMode } from "../ui/color-mode";
 
 const PlotFlagsTools = ({}) => {
 	const [query, setQuery] = useState<string>();
 	const { data, error, isLoading } = usePlotFlags(query || "");
 	const [selectedFlagUuids, setSelectedFlagUuids] = useState<string[]>();
+	const { colorMode } = useColorMode();
+	console.log(colorMode);
 
 	const contentRef = useRef<HTMLDivElement>(null);
 	const { collection, set } = useListCollection<PlotFlag>({
@@ -30,7 +35,6 @@ const PlotFlagsTools = ({}) => {
 		itemToString: (item) => item.name,
 		itemToValue: (item) => item.uuid,
 	});
-	console.log(data);
 
 	useEffect(() => {
 		set(data || []);
@@ -66,7 +70,7 @@ const PlotFlagsTools = ({}) => {
 	return (
 		<>
 			<PlotFlagsAboutModal />
-			<Heading size="lg" fontWeight="bold">
+			<Heading size="lg" fontWeight="bold" mb={4}>
 				Generate Plot Flag Commands
 			</Heading>
 			<Text mb={4}>
@@ -82,6 +86,7 @@ const PlotFlagsTools = ({}) => {
 				positioning={{
 					fitViewport: true,
 				}}
+				mb={8}
 			>
 				<Combobox.Control>
 					<Combobox.Input placeholder="Type to search" />
@@ -163,6 +168,25 @@ const PlotFlagsTools = ({}) => {
 					</Combobox.Positioner>
 				</Portal>
 			</Combobox.Root>
+			{!!selectedFlagUuids?.length && (
+				<VStack alignItems="flex-start">
+					<Text color="orange.300">To set this flag:</Text>
+					<CommandText
+						value={`SetFlag("${selectedFlagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
+					/>
+					<Text color="orange.300">To unset this flag:</Text>
+					<CommandText
+						value={`ClearFlag("${selectedFlagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
+					/>
+					<Text color="orange.300">
+						To check the value of this flag (returns &quot;0&quot; for unset,
+						&quot;1&quot; for set):
+					</Text>
+					<CommandText
+						value={`print(GetFlag("${selectedFlagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1]))`}
+					/>
+				</VStack>
+			)}
 		</>
 	);
 };
