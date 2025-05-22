@@ -11,6 +11,7 @@ const HomeMenuAccordion = () => {
 			value={value}
 			onValueChange={(e) => setValue(e.value)}
 			collapsible
+			multiple
 		>
 			<HomeMenuAccordionItem value="manage-flags" title="Manage Plot Flags">
 				<PlotFlagsTools />

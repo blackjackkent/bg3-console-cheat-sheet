@@ -4,6 +4,7 @@ import {
 	Combobox,
 	ComboboxInputValueChangeDetails,
 	Heading,
+	Highlight,
 	HStack,
 	Portal,
 	Span,
@@ -15,16 +16,21 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { PlotFlag } from "@/lib/types";
 import debounce from "lodash.debounce";
+import { useVirtualizer } from "@tanstack/react-virtual";
+import { flushSync } from "react-dom";
 
 const PlotFlagsTools = ({}) => {
 	const [query, setQuery] = useState<string>();
 	const { data, error, isLoading } = usePlotFlags(query || "");
 	const [selectedFlagUuids, setSelectedFlagUuids] = useState<string[]>();
 
+	const contentRef = useRef<HTMLDivElement>(null);
 	const { collection, set } = useListCollection<PlotFlag>({
 		initialItems: [],
-		limit: 10,
+		itemToString: (item) => item.name,
+		itemToValue: (item) => item.uuid,
 	});
+	console.log(data);
 
 	useEffect(() => {
 		set(data || []);
@@ -40,21 +46,43 @@ const PlotFlagsTools = ({}) => {
 		handleInputDebounce(e.inputValue);
 	};
 
+	const virtualizer = useVirtualizer({
+		count: collection.size,
+		getScrollElement: () => contentRef.current,
+		estimateSize: () => 60,
+		overscan: 5,
+		scrollPaddingEnd: 32,
+	});
+
+	const handleScrollToIndexFn = (details: { index: number }) => {
+		flushSync(() => {
+			virtualizer.scrollToIndex(details.index, {
+				align: "center",
+				behavior: "auto",
+			});
+		});
+	};
+
 	return (
 		<>
 			<PlotFlagsAboutModal />
 			<Heading size="lg" fontWeight="bold">
 				Generate Plot Flag Commands
 			</Heading>
-			<Text>Search for a plot flag by name or keyword(s).</Text>
+			<Text mb={4}>
+				Search for a plot flag by name or keyword(s). Select a result item to
+				generate console commands to manipulate that flag in game.
+			</Text>
 			<Combobox.Root
 				collection={collection}
 				onInputValueChange={handleInput}
+				scrollToIndexFn={handleScrollToIndexFn}
 				value={selectedFlagUuids}
 				onValueChange={(e) => setSelectedFlagUuids(e.value)}
+				positioning={{
+					fitViewport: true,
+				}}
 			>
-				<Combobox.Label>Search Star Wars Characters</Combobox.Label>
-
 				<Combobox.Control>
 					<Combobox.Input placeholder="Type to search" />
 					<Combobox.IndicatorGroup>
@@ -62,10 +90,9 @@ const PlotFlagsTools = ({}) => {
 						<Combobox.Trigger />
 					</Combobox.IndicatorGroup>
 				</Combobox.Control>
-
 				<Portal>
 					<Combobox.Positioner>
-						<Combobox.Content minW="sm">
+						<Combobox.Content minW="sm" ref={contentRef}>
 							{isLoading ? (
 								<HStack p="2">
 									<Spinner size="xs" borderWidth="1px" />
@@ -76,21 +103,61 @@ const PlotFlagsTools = ({}) => {
 									Error fetching
 								</Span>
 							) : (
-								collection.items?.map((flag) => (
-									<Combobox.Item key={flag.uuid} item={flag}>
-										<VStack justify="space-between" textStyle="sm">
-											<Span fontWeight="medium" truncate>
-												{flag.name}
-											</Span>
-											{flag.description && (
-												<Span color="fg.muted" truncate>
-													{flag.description}
-												</Span>
-											)}
-										</VStack>
-										<Combobox.ItemIndicator />
-									</Combobox.Item>
-								))
+								<div
+									style={{
+										height: `${virtualizer.getTotalSize()}px`,
+										width: "100%",
+										position: "relative",
+									}}
+								>
+									{virtualizer.getVirtualItems().map((virtualItem) => {
+										const flag = collection.items[virtualItem.index];
+										return (
+											<Combobox.Item
+												key={flag.uuid}
+												item={flag}
+												position="absolute"
+												top={0}
+												left={0}
+												w="full"
+												height={`${virtualItem.size}px`}
+												transform={`translateY(${virtualItem.start}px)`}
+												borderBottom="1px solid #333"
+												cursor="pointer"
+											>
+												<VStack
+													w="full"
+													whiteSpace="nowrap"
+													overflow="hidden"
+													textOverflow="ellipsis"
+													alignItems="flex-start"
+												>
+													<Span fontWeight="bold" truncate>
+														<Highlight
+															query={query || ""}
+															styles={{ bg: "orange.muted" }}
+															ignoreCase
+														>
+															{flag.name}
+														</Highlight>
+													</Span>
+													{flag.description && (
+														<Span color="fg.muted" truncate>
+															<Highlight
+																query={query || ""}
+																styles={{ bg: "orange.muted" }}
+																ignoreCase
+															>
+																{flag.description}
+															</Highlight>
+														</Span>
+													)}
+												</VStack>
+												<Combobox.ItemIndicator />
+											</Combobox.Item>
+										);
+									})}
+								</div>
 							)}
 						</Combobox.Content>
 					</Combobox.Positioner>
