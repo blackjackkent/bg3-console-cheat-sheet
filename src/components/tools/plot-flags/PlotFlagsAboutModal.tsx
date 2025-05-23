@@ -1,6 +1,6 @@
 import { Text } from "@chakra-ui/react";
-import CommandText from "../common/CommandText";
-import AboutModal from "../common/AboutModal";
+import CommandText from "../../common/CommandText";
+import AboutModal from "../../common/AboutModal";
 
 const PlotFlagsAboutModal = () => {
 	return (

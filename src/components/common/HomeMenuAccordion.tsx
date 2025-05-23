@@ -2,7 +2,7 @@
 import { Accordion } from "@chakra-ui/react";
 import { useState } from "react";
 import HomeMenuAccordionItem from "./HomeMenuAccordionItem";
-import PlotFlagsTools from "../tools/PlotFlagsTools";
+import PlotFlagsTools from "../tools/plot-flags/PlotFlagsTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
