@@ -10,20 +10,35 @@ export default function Home() {
 				<Heading size="4xl" mb="4">
 					Script Extender Console Cheat Sheet
 				</Heading>
-				<Text>
-					This tool is a cheat sheet for rapidly generating commands to be used
-					in the{" "}
-					<Link
-						href="https://github.com/Norbyte/bg3se"
-						target="_blank"
-						rel="noopener noreferrer"
-						colorPalette="orange"
-					>
-						Baldur&apos;s Gate 3 Script Extender mod
-					</Link>
-					.
-				</Text>
-				<Text>Select an option below to get started.</Text>
+				<Box w={{ base: "full", md: "50%" }}>
+					<Text>
+						This tool is a cheat sheet for rapidly generating commands to be
+						used in the{" "}
+						<Link
+							href="https://github.com/Norbyte/bg3se"
+							target="_blank"
+							rel="noopener noreferrer"
+							colorPalette="orange"
+						>
+							Baldur&apos;s Gate 3 Script Extender mod
+						</Link>
+						.
+					</Text>
+					<Text my={4}>
+						If you find any errors in this information, have a suggestion for
+						improvement, or wish to request an addition, please reach out to me
+						by{" "}
+						<Link
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues/new"
+							colorPalette="orange"
+						>
+							filing an issue on Github
+						</Link>
+						.
+					</Text>
+				</Box>
 
 				<Heading size="2xl" my={8}>
 					What would you like to do?

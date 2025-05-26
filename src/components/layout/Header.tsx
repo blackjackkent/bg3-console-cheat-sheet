@@ -22,7 +22,7 @@ const Header = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 					variant="underline"
-					href="http://blackjackkent.tumblr.com/ask"
+					href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues/new"
 				>
 					Contact
 				</Link>
