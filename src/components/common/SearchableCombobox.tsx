@@ -83,7 +83,7 @@ function SearchableCombobox<T>({
 			scrollToIndexFn={handleScrollToIndexFn}
 			value={selectedValues}
 			onValueChange={(e) => setSelectedValues(e.value)}
-			mb={8}
+			mb={4}
 		>
 			<Combobox.Control>
 				<Combobox.Input placeholder="Type to search" />

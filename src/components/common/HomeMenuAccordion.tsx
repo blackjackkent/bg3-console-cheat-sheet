@@ -3,6 +3,7 @@ import { Accordion } from "@chakra-ui/react";
 import { useState } from "react";
 import HomeMenuAccordionItem from "./HomeMenuAccordionItem";
 import PlotFlagsTools from "../tools/plot-flags/PlotFlagsTools";
+import SpawnItemsTools from "../tools/spawn-items/SpawnItemsTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
@@ -17,7 +18,7 @@ const HomeMenuAccordion = () => {
 				<PlotFlagsTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="spawn-items" title="Spawn Items">
-				Spawn Items
+				<SpawnItemsTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="add-gold" title="Add Gold">
 				Add Gold
