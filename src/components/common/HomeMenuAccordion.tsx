@@ -7,6 +7,7 @@ import SpawnItemsTools from "../tools/spawn-items/SpawnItemsTools";
 import AddGoldTools from "../tools/add-gold/AddGoldTools";
 import CharacterUuidsTools from "../tools/character-uuids/CharacterUuidsTools";
 import TriggerRespecTools from "../tools/trigger-respec/TriggerRespecTools";
+import SetApprovalTools from "../tools/set-approval/SetApprovalTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
@@ -42,7 +43,7 @@ const HomeMenuAccordion = () => {
 				value="set-approval"
 				title="Set Companion Approval Rating"
 			>
-				Set Companion Approval Rating
+				<SetApprovalTools />
 			</HomeMenuAccordionItem>
 		</Accordion.Root>
 	);
