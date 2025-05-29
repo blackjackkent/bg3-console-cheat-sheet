@@ -92,6 +92,11 @@ const CharacterUuidsTools = () => {
 					/>
 				</Box>
 				<Text color="orange.300">
+					The UUID of the avatar character of your playthrough (Tav, Durge, or
+					the origin character you selected at game start):
+				</Text>
+				<CommandText value={`Osi.DB_Avatars:Get(nil)[1][1]`} />
+				<Text color="orange.300">
 					To get the UUID of another character in the party (such as a
 					hireling), select them, then run:
 				</Text>

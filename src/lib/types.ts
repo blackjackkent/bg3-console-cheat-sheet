@@ -1,1 +1,1 @@
-export type { PlotFlag, GameItem } from "@/lib/prisma";
+export type { PlotFlag, GameItem, Cutscene } from "@/lib/prisma";

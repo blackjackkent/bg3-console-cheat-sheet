@@ -25,3 +25,27 @@ model GameItem {
 	displayName	String
 	description	String
 }
+
+model Cutscene {
+	id			Int		@id @default(autoincrement())
+	name		String
+	description	String
+	uuid		String
+	characters	CutsceneCharacter[]
+	category	CutsceneCategory @relation(fields: [categoryId], references: [id])
+	categoryId	Int
+}
+
+model CutsceneCharacter {
+	id			Int			@id @default(autoincrement())
+	index		Int
+	description	String	
+	cutscene	Cutscene	@relation(fields: [cutsceneId], references: [id])
+	cutsceneId	Int
+}
+
+model CutsceneCategory {
+	id			Int			@id @default(autoincrement())
+	description	String
+	categories	Cutscene[]
+}

@@ -70,3 +70,30 @@ export const CHARACTER_UUIDS: CharacterUuidData[] = [
 		voiceId: "vc774d7644a1748dcb47032ace9ce447d",
 	},
 ];
+
+export const CUTSCENE_CATEGORIES = {
+	0: {
+		name: "Romance Cutscenes",
+	},
+	1: {
+		name: "Act 1 Main Quest Cutscenes",
+	},
+	2: {
+		name: "Act 1 Side Quest Cutscenes",
+	},
+	3: {
+		name: "Act 2 Main Quest Cutscenes",
+	},
+	4: {
+		name: "Act 2 Side Quest Cutscenes",
+	},
+	5: {
+		name: "Act 3 Main Quest Cutscenes",
+	},
+	6: {
+		name: "Act 3 Side Quest Cutscenes",
+	},
+	7: {
+		name: "Miscellaneous Cutscenes",
+	},
+};
