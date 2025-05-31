@@ -34,6 +34,7 @@ model Cutscene {
 	characters	CutsceneCharacter[]
 	category	CutsceneCategory @relation(fields: [categoryId], references: [id])
 	categoryId	Int
+	notes		String?
 }
 
 model CutsceneCharacter {
@@ -41,7 +42,7 @@ model CutsceneCharacter {
 	index		Int
 	description	String	
 	cutscene	Cutscene	@relation(fields: [cutsceneId], references: [id])
-	cutsceneId	Int
+	cutsceneId	Int		
 }
 
 model CutsceneCategory {

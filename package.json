@@ -7,7 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"seed": "ts-node ./prisma/seed/seed.ts"
+		"seed": "ts-node ./prisma/seed/seed.ts",
+		"add-cutscene": "ts-node ./prisma/seed/add-cutscene.ts"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^3.19.1",
@@ -27,10 +28,12 @@
 		"@eslint/eslintrc": "^3",
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/node": "^20",
+		"@types/prompts": "^2.4.9",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"eslint": "^9",
 		"eslint-config-next": "15.3.2",
+		"prompts": "^2.4.2",
 		"ts-node": "^10.9.2",
 		"typescript": "^5"
 	}

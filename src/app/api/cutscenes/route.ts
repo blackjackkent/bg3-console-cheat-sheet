@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
 		const category = item.category.description.toLocaleUpperCase();
 		const name = item.name.toLocaleUpperCase();
 		const description = item.description.toLocaleUpperCase();
-		const characters = item.characters.filter((char) =>
+		const matchingCharacters = item.characters.filter((char) =>
 			char.description.toLocaleUpperCase().includes(queryNormalized)
 		);
 
@@ -22,7 +22,7 @@ export async function GET(request: NextRequest) {
 			category.includes(queryNormalized) ||
 			name.includes(queryNormalized) ||
 			description.includes(queryNormalized) ||
-			characters.length > 0
+			matchingCharacters.length > 0
 		);
 	});
 	return Response.json(filteredItems);
