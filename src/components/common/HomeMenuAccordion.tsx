@@ -8,6 +8,7 @@ import AddGoldTools from "../tools/add-gold/AddGoldTools";
 import CharacterUuidsTools from "../tools/character-uuids/CharacterUuidsTools";
 import TriggerRespecTools from "../tools/trigger-respec/TriggerRespecTools";
 import SetApprovalTools from "../tools/set-approval/SetApprovalTools";
+import TriggerCutsceneTools from "../tools/trigger-cutscene/TriggerCutsceneTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
@@ -28,7 +29,7 @@ const HomeMenuAccordion = () => {
 				<AddGoldTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="trigger-cutscene" title="Trigger Cutscene">
-				Trigger Cutscene
+				<TriggerCutsceneTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="get-uuids" title="Get Character UUIDs">
 				<CharacterUuidsTools />
