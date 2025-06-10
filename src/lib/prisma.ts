@@ -3,6 +3,8 @@ export type {
 	PlotFlag,
 	GameItem,
 	Cutscene,
+	CutsceneCharacter,
+	CutsceneCategory,
 } from "../../prisma/generated/prisma";
 
 const prisma = new PrismaClient();

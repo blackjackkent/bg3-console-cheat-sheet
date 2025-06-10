@@ -22,7 +22,9 @@ const TriggerCutsceneAboutModal = () => {
 			<Text mb={4}>
 				will trigger Wyll&apos;s Act 2 (dancing) romance scene, but with Karlach
 				in the role of Wyll and Lae&apos;zel in the role of the player
-				character.
+				character. See the section of this site titled &quot;Get Character
+				UUIDs&quot; for information on how to find the UUIDs for your desired
+				characters.
 			</Text>
 			<Text mb={4}>
 				Triggering these scenes manually, particularly with characters they were

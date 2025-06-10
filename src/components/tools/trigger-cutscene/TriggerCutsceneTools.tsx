@@ -1,9 +1,9 @@
-import { Heading, Text, VStack } from "@chakra-ui/react";
+import { Heading, Link, Separator, Text } from "@chakra-ui/react";
 import { Cutscene } from "@/lib/types";
-import CommandText from "../../common/CommandText";
 import { useState } from "react";
 import SearchableCombobox from "@/components/common/SearchableCombobox";
 import TriggerCutsceneAboutModal from "./TriggerCutsceneAboutModal";
+import TriggerCutsceneCommandDetails from "./TriggerCutsceneCommandDetails";
 
 const TriggerCutsceneTools = ({}) => {
 	const [selectedSceneUuids, setSelectedSceneUuids] = useState<string[]>([]);
@@ -18,32 +18,38 @@ const TriggerCutsceneTools = ({}) => {
 				Search for a cutscene by keyword(s). Select a result item to generate
 				console commands to manipulate that flag in game.
 			</Text>
+			<Text mb={4} fontSize="sm" color="fg.muted">
+				Can&apos;t find the scene you&apos;re looking for?{" "}
+				<Link
+					variant="underline"
+					colorPalette="orange"
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues"
+				>
+					File an issue on GitHub
+				</Link>{" "}
+				to request an addition.
+			</Text>
 			<SearchableCombobox
 				apiKey="cutscenes"
 				itemToDescription={(item: Cutscene) => item.description}
 				itemToString={(item: Cutscene) => item.name}
 				itemToValue={(item: Cutscene) => item.uuid}
+				itemToSub={(item) => {
+					return `Characters: ${item.characters
+						.map((c) => c.description)
+						.join(", ")}`;
+				}}
 				selectedValues={selectedSceneUuids}
 				setSelectedValues={setSelectedSceneUuids}
+				itemSize={120}
 			/>
-			{!!selectedSceneUuids?.length && (
-				<VStack alignItems="flex-start">
-					<Text color="orange.300">To set this flag:</Text>
-					<CommandText
-						value={`SetFlag("${selectedSceneUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
-					/>
-					<Text color="orange.300">To unset this flag:</Text>
-					<CommandText
-						value={`ClearFlag("${selectedSceneUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
-					/>
-					<Text color="orange.300">
-						To check the value of this flag (returns &quot;0&quot; for unset,
-						&quot;1&quot; for set):
-					</Text>
-					<CommandText
-						value={`print(GetFlag("${selectedSceneUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1]))`}
-					/>
-				</VStack>
+			{!!selectedSceneUuids.length && (
+				<>
+					<Separator w="full" borderColor="gray.500" size="sm" mb={4} />
+					<TriggerCutsceneCommandDetails sceneUuid={selectedSceneUuids[0]} />
+				</>
 			)}
 		</>
 	);

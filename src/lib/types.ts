@@ -1,1 +1,11 @@
-export type { PlotFlag, GameItem, Cutscene } from "@/lib/prisma";
+export type { PlotFlag, GameItem } from "@/lib/prisma";
+import type {
+	CutsceneCategory,
+	CutsceneCharacter,
+	Cutscene as DbCutscene,
+} from "@/lib/prisma";
+
+export interface Cutscene extends DbCutscene {
+	characters: CutsceneCharacter[];
+	category: CutsceneCategory;
+}

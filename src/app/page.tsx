@@ -10,7 +10,7 @@ export default function Home() {
 				<Heading size="4xl" mb="4">
 					Script Extender Console Cheat Sheet
 				</Heading>
-				<Box w={{ base: "full", md: "50%" }}>
+				<Box w="full">
 					<Text>
 						This tool is a cheat sheet for rapidly generating commands to be
 						used in the{" "}

@@ -21,8 +21,10 @@ type SearchableComboboxProps<T> = {
 	itemToString: (item: T) => string;
 	itemToValue: (item: T) => string;
 	itemToDescription: (item: T) => string;
+	itemToSub?: (item: T) => string;
 	selectedValues: string[];
 	setSelectedValues: (vals: string[]) => void;
+	itemSize?: number;
 };
 
 function SearchableCombobox<T>({
@@ -30,8 +32,10 @@ function SearchableCombobox<T>({
 	itemToString,
 	itemToDescription,
 	itemToValue,
+	itemToSub,
 	selectedValues,
 	setSelectedValues,
+	itemSize = 60,
 }: SearchableComboboxProps<T>) {
 	const [query, setQuery] = useState<string>("");
 	const { data, error, isLoading } = useSWR<T[]>(
@@ -63,7 +67,7 @@ function SearchableCombobox<T>({
 	const virtualizer = useVirtualizer({
 		count: collection.size,
 		getScrollElement: () => contentRef.current,
-		estimateSize: () => 60,
+		estimateSize: () => itemSize,
 		overscan: 5,
 		scrollPaddingEnd: 32,
 	});
@@ -117,6 +121,7 @@ function SearchableCombobox<T>({
 									const name = itemToString(item);
 									const value = itemToValue(item);
 									const description = itemToDescription(item);
+									const sub = !!itemToSub ? itemToSub(item) : null;
 									return (
 										<Combobox.Item
 											key={value}
@@ -154,6 +159,22 @@ function SearchableCombobox<T>({
 															ignoreCase
 														>
 															{description}
+														</Highlight>
+													</Span>
+												)}
+												{!!sub && (
+													<Span
+														color="fg.muted"
+														truncate
+														fontSize="sm"
+														fontWeight="bold"
+													>
+														<Highlight
+															query={query || ""}
+															styles={{ bg: "orange.muted" }}
+															ignoreCase
+														>
+															{sub}
 														</Highlight>
 													</Span>
 												)}
