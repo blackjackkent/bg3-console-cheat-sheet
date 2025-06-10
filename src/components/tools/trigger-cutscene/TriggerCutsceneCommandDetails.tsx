@@ -1,6 +1,6 @@
 import { Cutscene } from "@/lib/types";
 import { fetcher } from "@/lib/util";
-import { Box, Heading, Spinner, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, Span, Spinner, Text, VStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import useSWR from "swr";
 import TriggerCutsceneCharacterInput from "./TriggerCutsceneCharacterInput";
@@ -58,13 +58,16 @@ const TriggerCutsceneCommandDetails = ({
 							<Heading size="md" fontWeight="bold">
 								{data?.name}
 							</Heading>
-							<Text fontSize="md" color="fg.muted">
-								{data?.description}
-							</Text>
 							<Text fontSize="sm" fontWeight="bold" color="fg.muted">
 								Characters:{" "}
 								{data?.characters.map((c) => c.description).join(", ")}
 							</Text>
+							<Text fontSize="md">{data?.description}</Text>
+							{!!data?.notes && (
+								<Text mt={4} fontSize="sm" color="fg.muted">
+									<Span fontWeight="bold">Notes:</Span> {data?.notes}
+								</Text>
+							)}
 						</Box>
 						<Text color="orange.300">
 							Enter a UUID for a character to fill each of the following roles:
