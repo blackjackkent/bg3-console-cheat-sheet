@@ -9,7 +9,8 @@
 		"lint": "next lint",
 		"seed": "ts-node ./prisma/seed/seed.ts",
 		"add-cutscene": "ts-node ./prisma/seed/add-cutscene.ts",
-		"load-cutscene-data": "ts-node ./prisma/seed/load-cutscene-data.ts"
+		"load-cutscene-data": "ts-node ./prisma/seed/load-cutscene-data.ts",
+		"postinstall": "prisma generate"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^3.19.1",
