@@ -1,9 +1,10 @@
-import { Heading, Link, Separator, Text } from "@chakra-ui/react";
+import { Heading, Separator, Text } from "@chakra-ui/react";
 import { Cutscene } from "@/lib/types";
 import { useState } from "react";
 import SearchableCombobox from "@/components/common/SearchableCombobox";
 import TriggerCutsceneAboutModal from "./TriggerCutsceneAboutModal";
 import TriggerCutsceneCommandDetails from "./TriggerCutsceneCommandDetails";
+import ExternalLink from "@/components/common/ExternalLink";
 
 const TriggerCutsceneTools = ({}) => {
 	const [selectedSceneUuids, setSelectedSceneUuids] = useState<string[]>([]);
@@ -20,15 +21,9 @@ const TriggerCutsceneTools = ({}) => {
 			</Text>
 			<Text mb={4} fontSize="sm" color="fg.muted">
 				Can&apos;t find the scene you&apos;re looking for?{" "}
-				<Link
-					variant="underline"
-					colorPalette="orange"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues"
-				>
+				<ExternalLink href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues">
 					File an issue on GitHub
-				</Link>{" "}
+				</ExternalLink>{" "}
 				to request an addition.
 			</Text>
 			<SearchableCombobox

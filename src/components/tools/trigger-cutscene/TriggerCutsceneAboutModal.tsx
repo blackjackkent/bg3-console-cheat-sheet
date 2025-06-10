@@ -1,6 +1,7 @@
-import { Code, Link, Text } from "@chakra-ui/react";
+import { Code, Text } from "@chakra-ui/react";
 import AboutModal from "../../common/AboutModal";
 import CommandText from "@/components/common/CommandText";
+import ExternalLink from "@/components/common/ExternalLink";
 
 const TriggerCutsceneAboutModal = () => {
 	return (
@@ -43,15 +44,9 @@ const TriggerCutsceneAboutModal = () => {
 				This app provides the commands for a non-exhaustive list of cutscene
 				triggers. If you would like to see a scene included here that is
 				missing, please{" "}
-				<Link
-					variant="underline"
-					colorPalette="orange"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues"
-				>
+				<ExternalLink href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues">
 					file an issue on GitHub
-				</Link>{" "}
+				</ExternalLink>{" "}
 				with information about the scene you would like to see added.
 			</Text>
 		</AboutModal>

@@ -1,10 +1,11 @@
+import ExternalLink from "@/components/common/ExternalLink";
 import HomeMenuAccordion from "@/components/common/HomeMenuAccordion";
-import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
 
 export default function Home() {
 	return (
-		<Box>
+		<Box pb={8}>
 			<Flex direction="column" alignItems="center" textAlign="center">
 				<Image src={`/images/logo-bg3.png`} alt="" width="200" height="200" />
 				<Heading size="4xl" mb="4">
@@ -14,28 +15,18 @@ export default function Home() {
 					<Text>
 						This tool is a cheat sheet for rapidly generating commands to be
 						used in the{" "}
-						<Link
-							href="https://github.com/Norbyte/bg3se"
-							target="_blank"
-							rel="noopener noreferrer"
-							colorPalette="orange"
-						>
+						<ExternalLink href="https://github.com/Norbyte/bg3se">
 							Baldur&apos;s Gate 3 Script Extender mod
-						</Link>
+						</ExternalLink>
 						.
 					</Text>
 					<Text my={4}>
 						If you find any errors in this information, have a suggestion for
 						improvement, or wish to request an addition, please reach out to me
 						by{" "}
-						<Link
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues/new"
-							colorPalette="orange"
-						>
+						<ExternalLink href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues/new">
 							filing an issue on Github
-						</Link>
+						</ExternalLink>
 						.
 					</Text>
 				</Box>

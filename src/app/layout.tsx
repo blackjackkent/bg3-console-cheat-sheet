@@ -12,12 +12,13 @@ export default function RootLayout(props: { children: React.ReactNode }) {
 				<Provider>
 					<VStack w="full" h="vh">
 						<Header />
-						<Box flex="1" position="relative" w="full">
+						<Box flex="1" position="relative" w="full" overflow="auto">
 							<Box
 								h="full"
 								w={{ base: "full", md: "768px" }}
 								margin="auto"
 								px={8}
+								pb={4}
 							>
 								{children}
 							</Box>

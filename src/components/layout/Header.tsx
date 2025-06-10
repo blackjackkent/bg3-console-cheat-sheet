@@ -16,6 +16,9 @@ const Header = () => {
 			</NextLink>
 			<HStack spaceX={4}>
 				<Link variant="underline" asChild>
+					<NextLink href="/contribute">Contribute</NextLink>
+				</Link>
+				<Link variant="underline" asChild>
 					<NextLink href="/credits">Credits</NextLink>
 				</Link>
 				<Link
