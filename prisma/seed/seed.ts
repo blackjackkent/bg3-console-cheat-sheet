@@ -1,12 +1,19 @@
 import { PrismaClient } from "../generated/prisma";
 import plotFlags from "./Flags_array.json";
 import items from "./items.json";
+import csvToJson from "convert-csv-to-json";
 
 const prisma = new PrismaClient();
 
 type PlotFlagJsonItem = {
 	UUID: string;
 	Name: string;
+	Description: string;
+};
+
+type CharacterTagJsonItem = {
+	Name: string;
+	GUID: string;
 	Description: string;
 };
 
@@ -22,11 +29,31 @@ type GameJsonItem = {
 async function main() {
 	// await importPlotFlags();
 	// await importItems();
+	await importCharacterTags();
+}
+
+async function importCharacterTags() {
+	const fileInputName = "./prisma/seed/character_tags.csv";
+	const jsonData = csvToJson.fieldDelimiter(",").getJsonFromCsv(fileInputName);
+	const typedTags = jsonData as CharacterTagJsonItem[];
+	console.log(`Imported ${jsonData.length} tags`);
+	for (let i = 0; i < typedTags.length; i++) {
+		const { GUID, Name, Description } = typedTags[i] as CharacterTagJsonItem;
+		const cleanDescription = Description.replaceAll("%", ",");
+		const tag = await prisma.characterTag.create({
+			data: {
+				uuid: GUID,
+				name: Name,
+				description: cleanDescription,
+			},
+		});
+		console.log(`Inserted ${JSON.stringify(tag)}`);
+	}
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function importPlotFlags() {
-	const typedFlags = plotFlags as [];
+	const typedFlags = plotFlags as PlotFlagJsonItem[];
 	console.log(`Imported ${typedFlags.length} flags`);
 	await prisma.plotFlag.deleteMany({});
 	for (let i = 0; i < typedFlags.length; i++) {
@@ -47,7 +74,7 @@ async function importPlotFlags() {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function importItems() {
 	const typedItems = items as [];
-	console.log(`Imported ${typedItems.length} flags`);
+	console.log(`Imported ${typedItems.length} items`);
 	await prisma.gameItem.deleteMany({});
 	for (let i = 0; i < typedItems.length; i++) {
 		const { Name, MapKey, Data } = typedItems[i] as GameJsonItem;

@@ -19,6 +19,13 @@ model PlotFlag {
 	description	String
 }
 
+model CharacterTag {
+	id			Int     @id @default(autoincrement())
+	uuid 		String
+	name		String
+	description	String
+}
+
 model GameItem {
 	id			Int		@id	@default(autoincrement())
 	name		String

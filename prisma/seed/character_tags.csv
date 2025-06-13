@@ -1,0 +1,1034 @@
+Name,GUID,UUID,Description
+AARAKOCRA,e8193d83-f2bc-4e21-8573-b4e158cc9363,e8193d83-f2bc-4e21-7385-e1b4cc586393,Character looks like an aarakocra
+AASIMAR,41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201,41c6cdc9-aff5-46ae-c4af-0caa9ccd01d2,Character looks like an aasimar
+ABERRATION,f6fd70e6-73d3-4a12-a77e-f24f30b3b424,f6fd70e6-73d3-4a12-7ea7-4ff2b33024b4,Type Tag for aberration-type monsters
+ACOLYTE,906d1961-e9c6-4170-b775-62797a0efe1c,906d1961-e9c6-4170-75b7-79620e7a1cfe,
+ACT1_DEN_AI_HINT_RAMPARTS,34ebba96-404b-42f9-9726-ac4063f37161,34ebba96-404b-42f9-2697-40acf3636171,
+ACT1_DEN_APPRENTICE,210f09f5-81e0-406c-baa3-2ea44e2f20d8,210f09f5-81e0-406c-a3ba-a42e2f4ed820,For the Apprentice's custom disturbance
+ACT1_DEN_CHARMEDKID,c070d771-944d-474b-b594-3786d545521e,c070d771-944d-474b-94b5-863745d51e52,| Status tag for the Harpy Meal charmed halfling |
+ACT1_DEN_DRUIDTRESPASS,4d4377c2-5061-4c6a-8ded-73d37a11b6fa,4d4377c2-5061-4c6a-ed8d-d373117afab6,|Tag druids who must have a disturbance reaction to the player trespassing into the Sacred Pond area.|
+ACT1_DEN_FAITHWARDEN,cd873546-4158-4d9a-9c87-958ea63a1b08,cd873546-4158-4d9a-879c-8e953aa6081b,Honorary title that a druid player may receive if they help free the Grove from the Shadow Druids
+ACT1_DEN_GATEAIHINT,6aadddaf-cc7b-448d-a4e1-b2fc539bf23d,6aadddaf-cc7b-448d-e1a4-fcb29b533df2,For Siege raiders% helper to move into the den after the gate ahs been destroyed.
+ACT1_DEN_GREETING,9f2e27f1-dca8-4376-a148-92a016b08142,9f2e27f1-dca8-4376-48a1-a092b0164281,|NPC will do a custom generic reaction.|
+ACT1_DEN_HAGTRADER,55fe3f63-d568-43d3-936e-b3984eed3cc3,55fe3f63-d568-43d3-6e93-98b3ed4ec33c,Auntie Ethel in the Den.
+ACT1_DEN_HIDEOUTGUARD,205f0c01-e07d-486d-b751-b05f73e136d0,205f0c01-e07d-486d-51b7-5fb0e173d036,|React to thiefling hideout crime.|
+ACT1_DEN_IDOLTHEFT,8991c4c4-59f6-40b8-a8e1-c70138eea64d,8991c4c4-59f6-40b8-e1a8-01c7ee384da6,| Can catch the thief who stole the Idol |
+ACT1_DEN_OGRETHROWTARGET,a780967b-0e8e-4b78-a625-c008e05c70a8,a780967b-0e8e-4b78-25a6-08c05ce0a870,
+ACT1_DEN_STORAGE,68f671ac-42dc-43f7-9ec3-d95c21f554c2,68f671ac-42dc-43f7-c39e-5cd9f521c254,
+ACT1_DEN_STORAGEKEY,c2e0bb63-62ce-46ea-b553-9f30ae4d37db,c2e0bb63-62ce-46ea-53b5-309f4daedb37,
+ACT1_FOR_AI_SKELETONCASKET,05c0f89c-b3d5-4065-8415-d7a55554e586,05c0f89c-b3d5-4065-1584-a5d7545586e5,
+ACT1_FOR_BOTTOMLESS_ETTERCAPS,b2d42bb3-38c9-4c83-a7a0-6c6eb34959bc,b2d42bb3-38c9-4c83-a0a7-6e6c49b3bc59,Ettercaps that will react to players trespassing in their nest
+ACT1_FOR_GLADEGUARD,af54ab50-4ffb-41f3-9485-f7c81bd37cfd,af54ab50-4ffb-41f3-8594-c8f7d31bfd7c,Generics flag% for NPCs guarding the dryad's glade in the forest
+ACT1_FOR_SPIDERQUEENEGGS,49458de3-20c1-4471-a8a6-2febeaf89e96,49458de3-20c1-4471-a6a8-eb2ff8ea969e,Combat AI tag used for the Spider Queen fight.
+ACT1_GOB_ASSISTANT_TORTURER,13e4707d-1fd1-4850-94f8-29e755a0200e,13e4707d-1fd1-4850-f894-e729a0550e20,|Tag for Goblet% reacts if you kill Liam% but differently from Spike|
+ACT1_GOB_DIGGINGTOOL,09ad9054-26f9-422b-98a0-61d28981e157,09ad9054-26f9-422b-a098-d261818957e1,Items that can be used to dig out of GOB Wolf Pens Prison
+ACT1_GOB_DROWCOMNOBUFF,9f26585a-4e60-4ea7-bb3f-ca718c0b36a6,9f26585a-4e60-4ea7-3fbb-71ca0b8ca636,|Target condition to prevent Minthara from using her buff on tagged characters|
+ACT1_GOB_Festivities,614b7f6c-e6ef-4d6d-b58d-4d514f4bdff6,614b7f6c-e6ef-4d6d-8db5-514d4b4ff6df,|Reacts when the player poisons the area|
+ACT1_GOB_OGREBODYGUARD,6f7c1d13-635f-461d-ad02-410799d0098f,6f7c1d13-635f-461d-02ad-0741d0998f09,A combat tag allowing Gut% the goblin priestess% to use a certain spell on Polma% her ogre bodyguard.
+ACT1_GOB_PENITENT,ffc90ec2-bdab-4866-8f0a-0b8db2a164f9,ffc90ec2-bdab-4866-0a8f-8d0ba1b2f964,|Took part in the pain priest's penance% so is excluded from the reaction voice bark|
+ACT1_GOB_PRIESTESS,b4a82c4b-74eb-41aa-96a1-5a2c5dedf06d,b4a82c4b-74eb-41aa-a196-2c5aed5d6df0,A combat tag allowing the goblin priestess's allies to use healing spells on her% and on her only.
+ACT1_GOB_PRIESTESS_PLAYER_DANGER,27a0ab52-9a5e-473f-aabd-573fa54d30eb,27a0ab52-9a5e-473f-bdaa-3f574da5eb30,A combat tag allowing Gut% the goblin priestess% to see that the player is in front of the statue% so that she can use CC spells to keep them there.
+ACT1_GOB_PRIESTESS_STATUE,f1fbea64-76c0-4ab0-9e3d-c5a748351b17,f1fbea64-76c0-4ab0-3d9e-a7c53548171b,A combat tag allowing Gut% the goblin priestess% to use her spells on the statues around her.
+ACT1_GOB_PRIESTESS_STATUE_NOMELEE,99e663f6-26b4-47b4-bb6e-682a597a8983,99e663f6-26b4-47b4-6ebb-2a687a598389,
+ACT1_GOB_PRIESTESS_STATUE_UNSAFE,9ceba3bd-c44b-4b7b-a52c-ba6109c73b68,9ceba3bd-c44b-4b7b-2ca5-61bac709683b,A combat tag allowing Gut% the goblin priestess% to know that she should not use a spell if she's too close to a statue she may have considered for destruction.
+ACT1_GOB_SPIDERNEST_GUARDS,82d1439c-2e6f-4734-ab75-a264c44b8ef1,82d1439c-2e6f-4734-75ab-64a24bc4f18e,|Guards at Spider Pit in Gob camp - will react to players opening spider's cage|
+ACT1_GOB_TORTURER,7a425fa4-def2-4591-8a97-481a05a38eb7,7a425fa4-def2-4591-978a-1a48a305b78e,|Tag for Torturer Spike% reacts if you kill Liam|
+ACT1_GOB_WARPAINT,b450e5e9-9c2f-4be9-aee2-71d0b2cecfa4,b450e5e9-9c2f-4be9-e2ae-d071ceb2a4cf,|Reacts when sees War Paint|
+ACT1_HAG_AIHELPER_CAGE,d5e810be-c790-42a6-afbd-3d5fcf1de1b8,d5e810be-c790-42a6-bdaf-5f3d1dcfb8e1,
+ACT1_HAG_HUSBAND,d61567bd-ea67-4b07-a7ed-1b71eb4e714d,d61567bd-ea67-4b07-eda7-711b4eeb4d71,Identifies Mayrina's husband
+ACT1_HAG_ILLUSION,2a84bac4-3111-43a6-8f0c-9995b6187962,2a84bac4-3111-43a6-0c8f-959918b66279,AI tag for the hag's Illusions
+ACT1_MOO_DROW_GUARD,f64626cd-da8c-4ddf-a17c-a03227ff5fd6,f64626cd-da8c-4ddf-7ca1-32a0ff27d65f,Generics tag for Moonrise Towers guards
+ACT1_MOO_MINDWITNESS,0ef680af-d077-466f-a9f3-0f9fa7104d24,0ef680af-d077-466f-f3a9-9f0f10a7244d,Crime reaction tag for Moonrise Dungeon Mindwitness
+ACT1_ORI_WYLLCONFRONTATION_BONDEDAVATAR,27a08796-8a75-4bd3-b441-c8124244ce62,27a08796-8a75-4bd3-41b4-12c8444262ce,
+ACT1_PLA_STUCKHALFELF,edd388de-4376-483d-a6fd-d656b6f46015,edd388de-4376-483d-fda6-56d6f4b61560,
+ACT1_PLA_ZARIELCULTIST,7d034aef-d1a9-4899-a4e8-65952eac3cad,7d034aef-d1a9-4899-e8a4-9565ac2ead3c,Crime tag for zariel cultists.
+ACT1_SHA_SKELETON_GUARD,adc7502c-2c14-4eb7-9f51-56e1835431fe,adc7502c-2c14-4eb7-519f-e1565483fe31,|Skeleton guard reacting to players trespassing into the treasure room.|
+ACT1_UND_FULLBUCKET,c5d2d42f-8204-4dc4-a4d3-241f2241496d,c5d2d42f-8204-4dc4-d3a4-1f2441226d49,Tag for checking whether the bucket in myconid circle full. Used in anubis
+ACT1_UND_LONEDUERGAR,00dfb1f8-0a49-4fce-9b1c-d0869b095272,00dfb1f8-0a49-4fce-1c9b-86d0099b7252,|Tag that indicates Gekh Coal% needed for custom crime|
+ACT1B_CRE_CARETAKER,982b48a1-fd2f-464a-a02f-0a5b2cc83a4e,982b48a1-fd2f-464a-2fa0-5b0ac82c4e3a,
+ACT1B_CRE_GITHALLY,70082ca5-e943-4e79-9490-56a0e98bc52d,70082ca5-e943-4e79-9094-a0568be92dc5,For turrets to discern who to shoot at in the gith creche
+ACT1B_CRE_GITHYANKI_YOUTH,f6ba0295-fe26-467a-a77e-4aa672106354,f6ba0295-fe26-467a-7ea7-a64a10725463,Combat Tag. Used to help Githyanki Sa'Varsh apply his Buf to Youth gith only
+ACT1B_CRE_INQUISITOR_TRIGGERMINDSTEALTEMPEST,1271938d-b5a2-4321-9cae-f681045981b2,1271938d-b5a2-4321-ae9c-81f65904b281,Combat Tag. Used to trigger Inquisitor's Mindsteal Tempest (2nd phase) if N of his minions are dead.
+ACT1B_CRE_MAGEHANDIGNORE,3bd1ef33-35b9-41e6-ab53-dc9414fe7b8a,3bd1ef33-35b9-41e6-53ab-94dcfe148a7b,For gith magehands to discern which targets to ignore.
+ACT1B_CRE_TEMPLAR,427318f0-480b-40a1-a316-38cb8e4c5e56,427318f0-480b-40a1-16a3-cb384c8e565e,For the Templar to trigger a unique crime when attacked from an unseen source
+ACT1B_CRE_VARRL,a9fcbd06-c9cb-4ee5-922c-caf3197b5fbe,a9fcbd06-c9cb-4ee5-2c92-f3ca7b19be5f,Used to deliver custom Assault AD.
+ACT2_COL_BARRACKS_MISTRESS,d35c6c4a-3542-4cf8-9af8-b77daad75370,d35c6c4a-3542-4cf8-f89a-7db7d7aa7053,
+ACT2_COL_BUTCHER,d815623d-67d8-4074-a5e7-cdadf18e10ba,d815623d-67d8-4074-e7a5-adcd8ef1ba10,
+ACT2_COL_CANDLELIGHTER,bd119f76-0e10-4201-81f7-45708ec2ca18,bd119f76-0e10-4201-f781-7045c28e18ca,Marks the character who's going to light the candle in the zombie fight with the Necromancer
+ACT2_COL_INNECROMANCERCAGE,eb6f9627-3093-497b-8d6b-d5b2f6fd8995,eb6f9627-3093-497b-6b8d-b2d5fdf69589,
+ACT2_COL_NECROMANCERZOMBIE,92a54816-bfd1-4af0-a0de-90bbfffaaa0b,92a54816-bfd1-4af0-dea0-bb90faff0baa,
+ACT2_COL_RESTORATIONSOURCE,847fa022-ee37-427c-b74e-5373726badcf,847fa022-ee37-427c-4eb7-73536b72cfad,
+ACT2_COL_VAULT_ATGRANDDESIGNSCULPTURE,40eb3c03-0dec-4244-a8d5-83b89af32727,40eb3c03-0dec-4244-d5a8-b883f39a2727,
+ACT2_COL_VAULT_SOLVING,50d2cab2-7636-43c7-be04-a76ee83829a4,50d2cab2-7636-43c7-04be-6ea738e8a429,
+ACT2_HAV_AI_HINT_ISOBELFLEE,3f261d03-8132-4f0d-a954-689a040f9f58,3f261d03-8132-4f0d-54a9-9a680f04589f,Tag set on Isobel to make her 'flee' in a prefered direction
+ACT2_HAV_FLAMINGSPY,a5e92dfc-7fa2-4619-bdd7-8c13d9ae7d47,a5e92dfc-7fa2-4619-d7bd-138caed9477d,
+ACT2_HAV_GUARD,e4b05758-8995-4ca1-9aad-7409991b7095,e4b05758-8995-4ca1-ad9a-09741b999570,Tag for for all the guards in haven (used for checkpoint crime and dialog).
+ACT2_HAV_HALSINLAKESIDE_DARKVINES,11a6d2a2-e349-42d4-a151-c9b7ae5703d6,11a6d2a2-e349-42d4-51a1-b7c957aed603,A tag to make the vines in halsin lakeside fight stay inside.
+ACT2_HAV_HARPER1,e765757d-707c-4aef-9b39-8e9f5ec265ef,e765757d-707c-4aef-399b-9f8ec25eef65,Tag to identify S_HAV_HarperGuard_001_8082f1d4-8942-492e-8d26-1e1ed6bd881f for voice recording.
+ACT2_HAV_HARPER2,3e50f8fd-6292-4b5c-af49-854634a59121,3e50f8fd-6292-4b5c-49af-4685a5342191,Tag to identify S_HAV_HarperGuard_002_34a9bfd8-1ca2-4a1c-b72e-2bf1cfc046a4 for voice recording.
+ACT2_HAV_ISOBEL,feddd4ac-752b-43db-97b7-78ad68654ee0,feddd4ac-752b-43db-b797-ad786568e04e,Combat tag - allows Marcus's tadpole power to leave Isobel unharmed
+ACT2_HAV_MOL,cea2da07-5a6d-4883-b62a-daad19afd357,cea2da07-5a6d-4883-2ab6-addaaf1957d3,
+ACT2_HAV_SIEGE_SHADOWCURSED_PRESERVE_HP,54d84ff5-73f6-4eaf-aa92-0fec99cdace0,54d84ff5-73f6-4eaf-92aa-ec0fcd99e0ac,
+ACT2_HAV_SUMMONREADY,816cea1e-49c5-431f-85ff-521cc8571df8,816cea1e-49c5-431f-ff85-1c5257c8f81d,
+ACT2_MOO_BOOKANIMATEDTARGET,4e97c12f-b77a-4a7d-a42d-9a157c8ec7f5,4e97c12f-b77a-4a7d-2da4-159a8e7cf5c7,
+ACT2_MOO_CAT,1c1d2a2d-1d64-4565-b1bb-f5383cfe9f34,1c1d2a2d-1d64-4565-bbb1-38f5fe3c349f,
+ACT2_MOO_JAILBREAKTOOL,b148e963-283a-4c02-a7c4-3193ce2ec8e9,b148e963-283a-4c02-c4a7-93312ecee9c8,Tools that can break rocks.
+ACT2_MOO_KETHERIC,01d32285-432f-4430-a85b-c50ddf98d9d2,01d32285-432f-4430-5ba8-0dc598dfd2d9,
+ACT2_MOO_KETHERIC_BLOCKCOMMAND,e97caba7-e96d-46d6-a1ac-01bade846aeb,e97caba7-e96d-46d6-aca1-ba0184deeb6a,Used to prevent Ketheric using his command troops ability after too many of his troops are killed.
+ACT2_MOO_KETHERIC_TAUNT,34ccbf00-621b-4cb2-a3e7-daef32df9146,34ccbf00-621b-4cb2-e7a3-efdadf324691,Used for Ketheric's Taunt Mechanic in phase 1
+ACT2_MOO_MASTERKEY,bd7e0b26-7c5c-4f50-b07f-4e62489d514c,bd7e0b26-7c5c-4f50-7fb0-624e9d484c51,Used to track master keys in MOO.
+ACT2_MOO_SCRYINGEYE,ed9e7c5c-d578-4769-bf8c-13870ee139ed,ed9e7c5c-d578-4769-8cbf-8713e10eed39,A tag set on scrying eyes in the Moonrise Towers for crime handling.
+ACT2_SCL_FISHERMANSHUT_NETIGNORETARGET,de82eeb4-9595-4ed3-9f1d-9d08b8d17930,de82eeb4-9595-4ed3-1d9f-089dd1b83079,
+ACT2_SCL_FISHERMANSHUT_PRIORITYTARGET,8112eae1-d98d-4d47-a6b6-88589aefb455,8112eae1-d98d-4d47-b6a6-5888ef9a55b4,
+ACT2_SELUNEOINTMENTAPPLIED,fcb7764b-5f7c-4c51-b230-b9c0cf9340b4,fcb7764b-5f7c-4c51-30b2-c0b993cfb440,This character has the ointment of selune applied on them.
+ACT2_SHA_BALTHAZAR,e6cd3ba7-7a49-44c5-a10b-8799efe36d8c,e6cd3ba7-7a49-44c5-0ba1-9987e3ef8c6d,
+ACT2_SHA_BALTHAZAR_SKELETON,3472c5e3-8a90-40bd-800b-619ab2781e4c,3472c5e3-8a90-40bd-0b80-9a6178b24c1e,
+ACT2_SHA_TRIALS_DONTTELEPORT,6be0d584-ab13-402a-8e6c-ddab996f9813,6be0d584-ab13-402a-6c8e-abdd6f991398,
+ACT2_SHADOW_CURSE_IMMUNE,b47643e0-583c-4808-b108-f6d3b605b0a9,b47643e0-583c-4808-08b1-d3f605b6a9b0,
+ACT2_SHADOW_CURSE_RESISTANT_DONT_PROPAGATE,87dc3ebb-0eca-47d8-971e-3c500c743dd7,87dc3ebb-0eca-47d8-1e97-503c740cd73d,
+ACT2_TWN_ACIDPIT_OOZE,d1bf2480-ec9b-46fa-a10c-d403f058741b,d1bf2480-ec9b-46fa-0ca1-03d458f01b74,A tag to identify the enemies in the acid pit fight so that they can be made immune to the Fetid Aura status.
+ACT2_TWN_HOSPITAL_NURSE,04e1eeed-7fad-46b5-8555-cbdea2214b6d,04e1eeed-7fad-46b5-5585-decb21a26d4b,
+ACT2_TWN_HOSPITAL_RECEPTIONIST,903a911c-41a2-4679-9b4b-14ebb34a5575,903a911c-41a2-4679-4b9b-eb144ab37555,Receptionist at the hospital% the tag is needed for checkpoint crime
+ACT2_TWN_HOSPITAL_RECEPTIONIST,d6664ad8-a51d-4003-b5b0-be440b730dda,d6664ad8-a51d-4003-b0b5-44be730bda0d,
+ACT2_TWN_MASONSGUILD_VALIDTRAPTARGET,dda79ecf-88ae-4ac7-a714-1530e395783c,dda79ecf-88ae-4ac7-14a7-301595e33c78,
+ACT2_TWN_SOULAMULET_EQUIPPED,18c4f28a-7bcc-41c0-8d87-3ea807cb55b6,18c4f28a-7bcc-41c0-878d-a83ecb07b655,Soul Amulet from Regretful Hunter is equipped
+ACT2_TWN_SOULRELEASETARGET,ca1b6360-b456-47ec-a67e-152e33bace20,ca1b6360-b456-47ec-7ea6-2e15ba3320ce,Can be targeted by Regretful Hunter Soul Release
+ACT2_TWN_TOLLHOUSECOLLECTOR,0b9f73c2-ed02-4a45-abe1-8c1427ae9d9a,0b9f73c2-ed02-4a45-e1ab-148cae279a9d,
+ACT2_TWN_TOLLHOUSECOLLECTOR_FACE,b03c73a9-a44d-4ba9-a329-038a07288c6c,b03c73a9-a44d-4ba9-29a3-8a0328076c8c,
+ACT2_TWN_WARDINGBONDRECEIVER,334f1e22-a7e2-4705-8aab-d0c2a9807d77,334f1e22-a7e2-4705-ab8a-c2d080a9777d,Tag which is set when you equip a magical ring. Allows the wearer of the matching ring from pait to target you with Warding Bond spell.
+ACT3_BALDURSMOUTH_WANDERER_01,3605d4dc-9e36-40e2-9d9c-cbcbeafe1c5e,3605d4dc-9e36-40e2-9c9d-cbcbfeea5e1c,
+ACT3_BALDURSMOUTH_WANDERER_02,b19e2a4f-c0bd-4185-8141-24a53bca8e6a,b19e2a4f-c0bd-4185-4181-a524ca3b6a8e,
+ACT3_BALDURSMOUTH_WANDERER_03,09921751-4eb7-41b4-91b9-9d688aea0824,09921751-4eb7-41b4-b991-689dea8a2408,
+ACT3_BALDURSMOUTH_WANDERER_04,ab35f8fd-135b-4c02-8649-b65ba1934ecc,ab35f8fd-135b-4c02-4986-5bb693a1cc4e,
+ACT3_BALDURSMOUTH_WANDERER_05,b2b39ab8-d2ce-4ad2-9834-55407e5ce34d,b2b39ab8-d2ce-4ad2-3498-40555c7e4de3,
+ACT3_BALDURSMOUTH_WANDERER_06,1993e54f-89e9-4e1a-99c9-df267b89fe66,1993e54f-89e9-4e1a-c999-26df897b66fe,
+ACT3_BALDURSMOUTH_WANDERER_07,49816f80-c238-43fb-9887-565d5ec6fe39,49816f80-c238-43fb-8798-5d56c65e39fe,
+ACT3_BALDURSMOUTH_WANDERER_08,82eab2e2-be68-4e5d-b5d0-5ff5f88e1802,82eab2e2-be68-4e5d-d0b5-f55f8ef80218,
+ACT3_END_MINDPLATFORM,e0805552-7bb2-4a73-9fab-98bb7cf64ce9,e0805552-7bb2-4a73-ab9f-bb98f67ce94c,
+ACT3_END_MINDPORTALDISABLED,6f7d24c4-ffdf-4258-bf74-bb7f155ef83e,6f7d24c4-ffdf-4258-74bf-7fbb5e153ef8,
+ACT3_END_MINFLAYER_AIHINT_A,89d8a7dd-adac-4634-a244-b43d52beb1d4,89d8a7dd-adac-4634-44a2-3db4be52d4b1,
+ACT3_END_MINFLAYER_AIHINT_B,50f9e776-f4a0-46c3-9d40-d29599298d2f,50f9e776-f4a0-46c3-409d-95d229992f8d,
+ACT3_END_MINFLAYER_AIHINT_C,2914c0df-77a6-4f84-a944-63d1eb9a7aa5,2914c0df-77a6-4f84-44a9-d1639aeba57a,
+ACT3_END_MINFLAYER_AIHINT_D,d9296499-db49-40c9-adfe-dcea05bd16d5,d9296499-db49-40c9-fead-eadcbd05d516,
+ACT3_END_ORPHEUS_SHACKLES,f9e13f98-450d-4b6e-9a64-2f41f901142e,f9e13f98-450d-4b6e-649a-412f01f92e14,
+ACT3_END_SEARCHINGABSOLUTIST,2c9ac2c0-78db-4d68-988c-6816d6766a63,2c9ac2c0-78db-4d68-8c98-166876d6636a,
+ACT3_HOH_ORTHON_SPELL_LIMIT,5f13326a-be94-4ca9-926b-8d6bec318ab0,5f13326a-be94-4ca9-6b92-6b8d31ecb08a,
+ACT3_LOW_CAZADOR,1e65b2b1-4fcc-42ca-9edb-b84e5a14d493,1e65b2b1-4fcc-42ca-db9e-4eb8145a93d4,
+ACT3_LOW_CAZADORS_PALACE_GUARD,aa2910ca-02d7-4857-ac17-566898ed7ee8,aa2910ca-02d7-4857-17ac-6856ed98e87e,Tag for the main guard at the Guard Tower that leads to Cazador's palace.
+ACT3_LOW_COUNTINGHOUSE_AI_DISARMVAULTTRAP,b2d39cc2-21cb-4e3f-85a4-891490272916,b2d39cc2-21cb-4e3f-a485-148927901629,
+ACT3_LOW_COUNTINGHOUSE_AI_DOCKSALARM_TRIGGER,c24e747b-2d7c-44b5-bf3c-1425b4650313,c24e747b-2d7c-44b5-3cbf-251465b41303,
+ACT3_LOW_COUNTINGHOUSE_AI_LOWERALARM_TRIGGER,b76df365-15e5-4954-ae92-a7eadf76e13d,b76df365-15e5-4954-92ae-eaa776df3de1,
+ACT3_LOW_COUNTINGHOUSE_AI_UPPERALARM_TRIGGER,558f4c12-c503-4c20-bed9-26adc3efcf35,558f4c12-c503-4c20-d9be-ad26efc335cf,
+ACT3_LOW_COUNTINGHOUSE_CASHGUARD,b5a316ac-921c-4884-9a2c-8fd05c64c64b,b5a316ac-921c-4884-2c9a-d08f645c4bc6,
+ACT3_LOW_DEVILSFEE_COINOFMAMMON,41a50e74-133f-4ac0-997d-9c98da47d313,41a50e74-133f-4ac0-7d99-989c47da13d3,
+ACT3_LOW_GROTTOSENTRY,5266a00f-7340-4a34-aea5-eb67cc07c1f3,5266a00f-7340-4a34-a5ae-67eb07ccf3c1,
+ACT3_LOW_HAG,9b91e9ae-0205-476d-a381-17dca1b2cdc7,9b91e9ae-0205-476d-81a3-dc17b2a1c7cd,
+ACT3_LOW_HAG_PHASE1,5e17174e-3ac1-45fd-aee7-7f3e58c5a4e9,5e17174e-3ac1-45fd-e7ae-3e7fc558e9a4,
+ACT3_LOW_HAG_PHASE2,23736f75-cb7c-4211-8a83-d6100bf09b04,23736f75-cb7c-4211-838a-10d6f00b049b,
+ACT3_LOW_HAG_PHASE3,c7d23663-bfd0-4e62-bd31-4d5c9b4d5e8e,c7d23663-bfd0-4e62-31bd-5c4d4d9b8e5e,
+ACT3_LOW_HAG_PHASE4,3c6f95e0-6d5e-4e80-bdc6-9e325e63d022,3c6f95e0-6d5e-4e80-c6bd-329e635e22d0,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_BETRAYAL,64c980e9-5a36-4445-bb73-be08a2cd70e6,64c980e9-5a36-4445-73bb-08becda2e670,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_DARKNESS,2905d006-36ac-4dd2-8cfc-f6f898001a52,2905d006-36ac-4dd2-fc8c-f8f60098521a,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_DISEASE,10a6215e-1152-4550-bf6f-443f15369951,10a6215e-1152-4550-6fbf-3f4436155199,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_MINDFLAYER,6aeefcd3-25b4-4d13-928f-6c13ff63d0a9,6aeefcd3-25b4-4d13-8f92-136c63ffa9d0,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_POWERLESS,2e33a20d-0a3a-495a-83e6-aa91503d489d,2e33a20d-0a3a-495a-e683-91aa3d509d48,
+ACT3_LOW_HOUSEOFGRIEF_FEAR_SPIDERS,b0581c50-c2c8-4140-b793-dfaea33945da,b0581c50-c2c8-4140-93b7-aedf39a3da45,
+ACT3_LOW_HOUSEOFGRIEF_HEART_CRAVEN,fe684418-2454-45c1-a482-328b12f60b7a,fe684418-2454-45c1-82a4-8b32f6127a0b,
+ACT3_LOW_HOUSEOFGRIEF_HEART_FALSE,04bfa5a1-5701-443b-90a3-cf8e596ac503,04bfa5a1-5701-443b-a390-8ecf6a5903c5,
+ACT3_LOW_HOUSEOFGRIEF_HEART_JEALOUS,9b15de08-d0aa-439f-bcad-e7a6201505a7,9b15de08-d0aa-439f-adbc-a6e71520a705,
+ACT3_LOW_HOUSEOFGRIEF_HEART_MELANCHOLY,e57c19fe-4f1c-4a44-9b5a-a9b511fdbbef,e57c19fe-4f1c-4a44-5a9b-b5a9fd11efbb,
+ACT3_LOW_HOUSEOFGRIEF_HEART_PRYING,f8d720f9-9c6b-4097-be00-1661ec059de8,f8d720f9-9c6b-4097-00be-611605ece89d,
+ACT3_LOW_HOUSEOFGRIEF_HEART_VIOLENT,71c456cd-8cc2-4eac-9425-e7e359b3eea9,71c456cd-8cc2-4eac-2594-e3e7b359a9ee,
+ACT3_LOW_HOUSEOFGRIEF_POLYMORPH,627d87be-85c2-406b-b1b6-8e51c08b652f,627d87be-85c2-406b-b6b1-518e8bc02f65,
+ACT3_LOW_HOUSEOFGRIEF_SHADOWHEART,f16ff923-66b8-46d2-80db-95108612bbee,f16ff923-66b8-46d2-db80-10951286eebb,
+ACT3_LOW_HOUSEOFGRIEF_VICTIM,8d2d234e-a25a-4a92-b1a1-df5e90b08ebd,8d2d234e-a25a-4a92-a1b1-5edfb090bd8e,
+ACT3_LOW_HOUSEOFHOPE_BANISHABLECHARACTER,13a5d85a-5624-4d8d-bad7-c2ab834b2856,13a5d85a-5624-4d8d-d7ba-abc24b835628,
+ACT3_LOW_HOUSEOFHOPE_DEBTOR,9fb62daf-68db-483e-bc3b-6032d9ea7bd8,9fb62daf-68db-483e-3bbc-3260ead9d87b,
+ACT3_LOW_HOUSEOFHOPE_SOULPILLAR,6ad77773-3043-47d8-a4f6-fc0434eaf28c,6ad77773-3043-47d8-f6a4-04fcea348cf2,
+ACT3_LOW_IRONTHRONE_DEADPLAYER,656bc31a-5949-4c9b-9690-334dd3d5bfe8,656bc31a-5949-4c9b-9096-4d33d5d3e8bf,
+ACT3_LOW_IRONTHRONE_MIZORASPIDERSTARGET_FIRSTLADDER,bb83e4b4-d819-4252-a53a-2616204c76a6,bb83e4b4-d819-4252-3aa5-16264c20a676,
+ACT3_LOW_IRONTHRONE_PRISONER,af8b63d3-64c8-4d84-8222-a2bc54ac887b,af8b63d3-64c8-4d84-2282-bca2ac547b88,
+ACT3_LOW_IRONTHRONE_RAVENGARDTARGET,6953dce2-8f2f-4ff4-bb29-78cbb3dc5638,6953dce2-8f2f-4ff4-29bb-cb78dcb33856,
+ACT3_LOW_IRONTHRONE_SWARMTARGET_HATCH,905c6c3b-22b3-4fa0-a8df-c0a7095bd897,905c6c3b-22b3-4fa0-dfa8-a7c05b0997d8,
+ACT3_LOW_IRONTHRONE_SWARMTARGET_INNERDOOR,a7f4b2a4-97d2-41f8-9fe9-39160750d1e1,a7f4b2a4-97d2-41f8-e99f-16395007e1d1,
+ACT3_LOW_IRONTHRONE_SWARMTARGET_OUTERDOOR,4116c28d-b243-4c28-8ecb-9b2385d2fe68,4116c28d-b243-4c28-cb8e-239bd28568fe,
+ACT3_LOW_JANNATHSBUTLER,5eddaac2-3745-479b-a49e-eb4578279d3c,5eddaac2-3745-479b-9ea4-45eb27783c9d,The butler at Jannath's House
+ACT3_LOW_KURWINCOFFIN_FORBIDDENBYGHOSTS,5494ba04-c134-472a-b072-2b167ed74253,5494ba04-c134-472a-72b0-162bd77e5342,
+ACT3_LOW_ORIN,fd10b344-0360-412c-acd1-a12529acd673,fd10b344-0360-412c-d1ac-25a1ac2973d6,
+ACT3_LOW_OSKARSBELOVED_THROWABLEITEM,71409555-b8c7-4b30-91fa-74093d68139e,71409555-b8c7-4b30-fa91-0974683d9e13,
+ACT3_LOW_SAREVOK,94378bca-62f8-4fa4-a558-5d8d43f2740f,94378bca-62f8-4fa4-58a5-8d5df2430f74,
+ACT3_LOW_SORCEROUSSUNDRIES_NIGHTSONGNOTICE,defa680c-03b5-402f-93a9-bc646fc65413,defa680c-03b5-402f-a993-64bcc66f1354,
+ACT3_LOW_SORCEROUSSUNDRIES_TOLNA,6969134c-9c7b-4527-8bb6-43b78600667f,6969134c-9c7b-4527-b68b-b74300867f66,
+ACT3_LOW_SORCEROUSSUNDRIES_VENDOR,9f66044c-876d-48cb-94c4-5b8c7a5f5d9e,9f66044c-876d-48cb-c494-8c5b5f7a9e5d,
+ACT3_LOW_STEELWATCHFOUNDRY_CINEHIDE,9f00b763-df79-49fb-9915-9fd7aa1117cc,9f00b763-df79-49fb-1599-d79f11aacc17,
+ACT3_LOW_TRESSYMTRADE_MAGICITEM,983087c8-c9d3-4a87-bc69-65f9329666c8,983087c8-c9d3-4a87-69bc-f9659632c866,
+ACT3_LOW_UMBERLEECULTIST,756d8d63-645d-4561-84c7-7716eadf2217,756d8d63-645d-4561-c784-1677dfea1722,
+ACT3_LOW_VICONIA,f7ce8204-7043-425f-8746-a7162e49786e,f7ce8204-7043-425f-4687-16a7492e6e78,
+ACT3_STEELWATCHFOUNDRY_DETONATOR_HOLDER,31ab6af3-94de-418f-9921-197d1d8b2f44,31ab6af3-94de-418f-2199-7d198b1d442f,
+ACT3_VOSS,835818c1-8cf2-4d0a-85cc-6822f2b27bcf,835818c1-8cf2-4d0a-cc85-2268b2f2cf7b,
+ACT3_WYR_CHESS_PLAYERSIDE,443d1f4b-26f4-4fd6-a3b4-7d1d95046231,443d1f4b-26f4-4fd6-b4a3-1d7d04953162,
+ACT3_WYR_CHESS_VALIDPOS1,2826afb6-6acc-431b-bf08-614cb1fd8906,2826afb6-6acc-431b-08bf-4c61fdb10689,Valid position for figure 1 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS10,3095740b-af8b-4c81-9372-32c331dbdd65,3095740b-af8b-4c81-7293-c332db3165dd,Valid position for figure 10 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS11,8e0860d4-f88d-4312-ba34-0619db70663f,8e0860d4-f88d-4312-34ba-190670db3f66,Valid position for figure 11 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS12,35886142-5e0c-4ac0-ad99-04a29546d9c9,35886142-5e0c-4ac0-99ad-a2044695c9d9,Valid position for figure 12 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS13,c3a239d5-8b3b-41bf-b5e5-06c4c8df3ebd,c3a239d5-8b3b-41bf-e5b5-c406dfc8bd3e,Valid position for figure 13 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS14,308bb08a-8ef1-4285-a8c6-9cec22aa878b,308bb08a-8ef1-4285-c6a8-ec9caa228b87,
+ACT3_WYR_CHESS_VALIDPOS15,5a919708-f6a8-4aa0-a7ca-17858989ef37,5a919708-f6a8-4aa0-caa7-8517898937ef,
+ACT3_WYR_CHESS_VALIDPOS16,ef67c85c-7861-4e35-bd03-4e95d14f49e0,ef67c85c-7861-4e35-03bd-954e4fd1e049,
+ACT3_WYR_CHESS_VALIDPOS17,1bc7f496-38b3-4986-a9a7-b52f5c91979a,1bc7f496-38b3-4986-a7a9-2fb5915c9a97,
+ACT3_WYR_CHESS_VALIDPOS18,9696d26c-f268-4b2f-b68f-a628fe598277,9696d26c-f268-4b2f-8fb6-28a659fe7782,
+ACT3_WYR_CHESS_VALIDPOS19,b10d148e-4b6b-4129-8276-f3f0eacfbccb,b10d148e-4b6b-4129-7682-f0f3cfeacbbc,
+ACT3_WYR_CHESS_VALIDPOS2,cb1aa16e-f82b-4c31-bb1d-3e4354f8178c,cb1aa16e-f82b-4c31-1dbb-433ef8548c17,Valid position for figure 2 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS3,4dba2eaa-fc50-43f9-8fca-a1083c525667,4dba2eaa-fc50-43f9-ca8f-08a1523c6756,Valid position for figure 3 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS4,2a1ab916-179f-47e6-b9ae-0cb4cb4393f3,2a1ab916-179f-47e6-aeb9-b40c43cbf393,Valid position for figure 4 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS5,f39e97bf-131d-47df-b0ea-b77781814a59,f39e97bf-131d-47df-eab0-77b78181594a,Valid position for figure 5 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS6,711bfaaa-b7f1-4e88-b25c-21c262e39791,711bfaaa-b7f1-4e88-5cb2-c221e3629197,Valid position for figure 6 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS7,e42ee9ed-00c7-4b5f-ba2d-5c74d4d8d835,e42ee9ed-00c7-4b5f-2dba-745cd8d435d8,Valid position for figure 7 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS8,27a40a92-7e08-475f-9966-ca35b7d95eb9,27a40a92-7e08-475f-6699-35cad9b7b95e,Valid position for figure 8 of the Wyrm's Way chess pieces.
+ACT3_WYR_CHESS_VALIDPOS9,c56a58c6-f041-4190-abc1-dbda5f5cd2e2,c56a58c6-f041-4190-c1ab-dadb5c5fe2d2,Valid position for figure 9 of the Wyrm's Way chess pieces.
+ACT3_WYR_CIRCUS_BEASTCAGE,c2e9f87c-ec66-4519-bbf6-fb8ce249e6dc,c2e9f87c-ec66-4519-f6bb-8cfb49e2dce6,Is set on a locked cage where circus beast is held.
+ACT3_WYR_CIRCUS_CAGEOPENER,f3acc92a-eb22-4076-940b-e52988d0dbdf,f3acc92a-eb22-4076-0b94-29e5d088dfdb,Is set on a character who can open the beast cages.
+ACT3_WYR_CIRCUS_DUMMYCONTAINER,5bb43a05-d32a-41b5-94d8-bcaaee608178,5bb43a05-d32a-41b5-d894-aabc60ee7881,
+ACT3_WYR_CIRCUS_MERCHANT,0f027f0f-39ae-410e-96e7-a387771e02e6,0f027f0f-39ae-410e-e796-87a31e77e602,Tag to use for the kobold merchant for the crime reactions.
+ACT3_WYR_CIRCUS_THIEFGLOVES,3777b973-c1d2-45db-9c3b-f055cfc4dc6f,3777b973-c1d2-45db-3b9c-55f0c4cf6fdc,
+ACT3_WYR_DAPPERDROW,08b29047-12b0-4390-8ed2-caabcd937e78,08b29047-12b0-4390-d28e-abca93cd787e,
+ACT3_WYR_GORTASH,ece30580-7788-4488-955d-7ee0a32322ed,ece30580-7788-4488-5d95-e07e23a3ed22,
+ACT3_WYR_POSTHOUSE_CLEANINGCAGES,3f1841b9-a03a-4127-819b-ec652de79102,3f1841b9-a03a-4127-9b81-65ece72d0291,
+ACT3_WYR_POSTHOUSE_TRESSYM,67d39477-dcab-42bd-956d-cdaedb12c4c4,67d39477-dcab-42bd-6d95-aecd12dbc4c4,
+ACT3_WYR_REFUGEECAMP_BIGBARNCAPTAIN,79fbc518-fb56-49a1-b93f-61928f4d802d,79fbc518-fb56-49a1-3fb9-92614d8f2d80,Tag for the Flaming Fist captain% standing near the Big Barn in Refugee Camp.
+ACT3_WYR_SENTIENTAMULET_POSSESSED,db31e8b2-fcf1-4b66-9184-1a6cde92d9ce,db31e8b2-fcf1-4b66-8491-6c1a92deced9,
+ACT3_WYR_WINDMILLMINDFLAYER_HASEATENBRAIN,dacd9d7a-4b49-4c0b-8d91-5ebef8959ad4,dacd9d7a-4b49-4c0b-918d-be5e95f8d49a,
+ACT3_WYR_WYRMROCK_FLAMINGFISTOFFICEMAINGUARD,e5241030-09fd-4df3-8858-df22121e86a4,e5241030-09fd-4df3-5888-22df1e12a486,
+ACT3_WYR_WYRMROCK_FLAMINGFISTTHIEF,185eb8d6-c3d8-449c-90d8-842a6fbfb70a,185eb8d6-c3d8-449c-d890-2a84bf6f0ab7,Tag for the Flaming Fist Thief% needed for a custom trespassing crime
+ACT3_WYR_WYRMROCK_PRISONGUARD,c6866623-dd02-446b-85dc-f25c96230b71,c6866623-dd02-446b-dc85-5cf22396710b,
+ACT3_WYR_WYRMROCK_SECRETARY,b43a8aa0-467f-42f0-9e3b-bfdb19554310,b43a8aa0-467f-42f0-3b9e-dbbf55191043,Tag for the Ravengard's Secretary% needed for a custom trespassing crime
+ACT3C_END_GHOST_AVATAR,8b70b692-f2a1-4115-bf81-de93fe62e0f1,8b70b692-f2a1-4115-81bf-93de62fef1e0,Origin Avatar character is dead but playable as a ghost.
+AGGRESSIVE_GUARD,9753e2e5-34be-48d5-bf05-c6ae9a616f3b,9753e2e5-34be-48d5-05bf-aec6619a3b6f,Used in Generics: arrests people like GUARD% but more aggressive dialogs (like NOT_MESSING_AROUND). Should alsowork for goblins and generally low INT NPCs.
+AGGRESSIVEBEAST,1ed04fb5-e654-4dbf-893c-a795952e77e1,1ed04fb5-e654-4dbf-3c89-95a72e95e177,Generic Behaviours Beast that attacks you if you attack it
+AI_AVOID_TARGET,3eebe42c-39ec-4165-9e70-b6811ab7b313,3eebe42c-39ec-4165-709e-81b6b71a13b3,AI helper tag used in spell conditions to improve targetting for AI.
+AI_BLOCKOFFHANDATTACK,20a2809a-36a7-4b02-baa2-3a022767d7cb,20a2809a-36a7-4b02-a2ba-023a6727cbd7,A combat tag for the AI to be unable to use offhand attacks.
+AI_BLOCKWEAPONACTIONS,53c3304c-032d-4c49-86df-00b3b03a6b13,53c3304c-032d-4c49-df86-b3003ab0136b,Assign to characters or roots who should not use weapon actions spells (slash% rush% pin down etc)
+AI_HINT_CALLFORHELP,527e1935-b73d-41e1-97e8-4b90e45b00a1,527e1935-b73d-41e1-e897-904b5be4a100,|AI hint specifically for enemeis who use the Call For Help spell|
+AI_HINT_CASTER,45a231e4-e94f-4b0e-a941-2daf1adf44b5,45a231e4-e94f-4b0e-41a9-af2ddf1ab544,AI Hint tag for Trigger% used for range spell casters
+AI_HINT_RANGER,3cae4ff5-e9c0-485b-b695-f8830961a781,3cae4ff5-e9c0-485b-95b6-83f8610981a7,Ai hint trigger for Rangers
+AI_HINT_SUMMONER,0353b9e8-b2a1-45b9-8eec-3d59ef6c0514,0353b9e8-b2a1-45b9-ec8e-593d6cef1405,Ai hint trig% used for summon skills
+AI_HINT_TACRETREAT,85f430aa-2b76-408a-9390-051d55ed12a5,85f430aa-2b76-408a-9093-1d05ed55a512,Ai hint tag for trigger
+AI_HINT_TELEPORT,32049276-fd31-469a-a1d2-f37db9482be7,32049276-fd31-469a-d2a1-7df348b9e72b,
+AI_HINT_UNIQUE,1902723d-dd16-4e7a-87d6-7b07f63add79,1902723d-dd16-4e7a-d687-077b3af679dd,Ai hints for unique skills
+AI_IGNORED_TARGET,ff6d7d1f-094f-432e-a117-fdc3a0ab7ac1,ff6d7d1f-094f-432e-17a1-c3fdaba0c17a,Tag characters that the Ai should completely ignore in the calculations.
+AI_PREFERRED_TARGET,64bc9da1-9262-475a-a397-157600b7debd,64bc9da1-9262-475a-97a3-7615b700bdde,Tag characters that the Ai should prefer% such as the king in the Kill the King Arena game mode.
+AI_RESURRECTABLE,379efa66-1428-4f46-a2e6-7dd59cd5d0bf,379efa66-1428-4f46-e6a2-d57dd59cbfd0,Tag used for filtering resurrect() spells used by AI
+AI_THROWITEM,ef5d1184-dd1c-4988-bef9-ad19471aadba,ef5d1184-dd1c-4988-f9be-19ad1a47baad,Tag used for AI to find objects in their environment to use with the Throw spell.
+AI_UNPREFERRED_TARGET,9787450d-f34d-43bd-be88-d2bac00bb8ee,9787450d-f34d-43bd-88be-bad20bc0eeb8,Tag characters that the Ai should prefer not to target
+AI_USEITEM_A,f532d904-4e7c-469f-8e47-67a639cd1ae1,f532d904-4e7c-469f-478e-a667cd39e11a,Combat AI tag used for use objects
+AI_USESPELL_A,33aa698c-aea0-43e2-bd16-582aa718fd3e,33aa698c-aea0-43e2-16bd-2a5818a73efd,Generic tag for AI spell use
+AI_USESPELL_B,3297ed55-ccc1-473e-8475-ac4162a63fdd,3297ed55-ccc1-473e-7584-41aca662dd3f,Generic tag for AI spell use
+AI_USESPELL_C,64d4bb52-dd35-4d61-a112-0bc9a5789597,64d4bb52-dd35-4d61-12a1-c90b78a59795,Generic tag for AI spell use
+AI_USESPELL_D,2d17a512-3d41-4f88-8953-f9c4ad4722b2,2d17a512-3d41-4f88-5389-c4f947adb222,Generic tag for AI spell use
+AI_USESPELL_E,72c898ce-e277-46ad-b6fe-2f030c57737f,72c898ce-e277-46ad-feb6-032f570c7f73,Generic tag for AI spell use
+AI_USETORCH,2ec769ab-8dec-4865-b7d8-02960ed594b9,2ec769ab-8dec-4865-d8b7-9602d50eb994,Generic tag for the AI to use torches. Used only in specific situations.
+ALCH_EXTRACT,85b58b89-c881-43c2-bbbe-7c8a0b3bf981,85b58b89-c881-43c2-bebb-8a7c3b0b81f9,
+ALCH_EXTRACT_AIR,396d2447-7bea-4a24-9d67-759bef6ea30e,396d2447-7bea-4a24-679d-9b756eef0ea3,
+ALCH_EXTRACT_EARTH,b1a48fd7-e57f-4ccc-a074-77a8c73ff9c9,b1a48fd7-e57f-4ccc-74a0-a8773fc7c9f9,
+ALCH_EXTRACT_FEY,27a3d2ef-8d8b-4880-ae82-325b617ef627,27a3d2ef-8d8b-4880-82ae-5b327e6127f6,
+ALCH_EXTRACT_FIRE,49eaebbf-cbc9-4ec7-a3ad-1ebaa61c69d6,49eaebbf-cbc9-4ec7-ada3-ba1e1ca6d669,
+ALCH_EXTRACT_SHADOW,793792be-c22c-48db-a3aa-3003a7566c4b,793792be-c22c-48db-aaa3-033056a74b6c,
+ALCH_EXTRACT_WATER,2abf1548-ab1a-43ce-85de-f7127465c879,2abf1548-ab1a-43ce-de85-12f7657479c8,
+ALCH_INGREDIENT,64b824e7-50c5-475a-98c2-52026e372d77,64b824e7-50c5-475a-c298-0252376e772d,
+ALCH_SOLUTION,4b9a13c2-5499-4dd5-b8ba-331a2e972d78,4b9a13c2-5499-4dd5-bab8-1a33972e782d,
+ALCH_SOLUTION_COATING,9a42f996-decf-4fcc-ad11-2ba6abada287,9a42f996-decf-4fcc-11ad-a62badab87a2,
+ALCH_SOLUTION_ELIXIR,71031c9c-eb3e-49b3-bf38-20ce078eff15,71031c9c-eb3e-49b3-38bf-ce208e0715ff,
+ALCH_SOLUTION_GRENADE,f87b203d-75ad-4527-b717-137044bc2ea1,f87b203d-75ad-4527-17b7-7013bc44a12e,
+ALCH_SOLUTION_POTION,8798a644-4720-4487-bc1a-6a4bf8f3a126,8798a644-4720-4487-1abc-4b6af3f826a1,
+ALCOHOL,b8496c62-4ecb-45de-860c-ae3aab0ed7da,b8496c62-4ecb-45de-0c86-3aae0eabdad7,Tag to check whether drink is alcoholic or not
+ALFIRA,c93d7c45-ff8f-4565-b4de-5b5eb48207bb,c93d7c45-ff8f-4565-deb4-5e5b82b4bb07,
+ALIGN_EVIL,6d08632e-0300-4587-80b9-8e411b0efb3b,6d08632e-0300-4587-b980-418e0e1b3bfb,Tag used on God UUID objects to define their alignment. Don't change its name
+ALIGN_GOOD,34064d50-38fe-44e4-aaed-129ac3b44933,34064d50-38fe-44e4-edaa-9a12b4c33349,Tag used on God UUID objects to define their alignment. Don't change its name
+ALIGN_NEUTRAL,c1ff8a7f-c430-4671-bc4e-098f874ae302,c1ff8a7f-c430-4671-4ebc-8f094a8702e3,Tag used on God UUID objects to define their alignment. Don't change its name
+ALLOW_PICKPOCKET_FOR_SUBRACE,8064838d-48cc-454e-bdcd-7a1f76f798c5,8064838d-48cc-454e-cdbd-1f7af776c598,
+ALLOW_SPEAK_WITH_DEAD,cd5365fe-990a-4855-b203-503203d8dd9e,cd5365fe-990a-4855-03b2-3250d8039edd,|Allows SwD on entities normally wouldn't allow it.|
+Ally,9addaf05-65e6-4a78-836e-92f668e42ca6,9addaf05-65e6-4a78-6e83-f692e468a62c,
+ALWAYS_PERMANENTLY_HOSTILE_TO_ALL_PLAYERS,6115eeaa-0a4c-46b1-8a6d-2a83fbd65e07,6115eeaa-0a4c-46b1-6d8a-832ad6fb075e,
+APOSTLE_OF_MYRKUL,7fb75b00-68b1-4217-874e-6ce1812d20e8,7fb75b00-68b1-4217-4e87-e16c2d81e820,
+ARCHDRUID_KAGHA,e1850f47-8063-45b6-b6cf-1dd6ade7f840,e1850f47-8063-45b6-cfb6-d61de7ad40f8,A combat tag allowing character to exclusively target Kagha.
+ARROW,fa8afea4-4742-4467-bdef-69851bd15878,fa8afea4-4742-4467-efbd-8569d11b7858,Special arrow% e.g. Arrow of Fire
+ASMODEUSTIEFLING,c3fd1fc3-2edf-4d17-935d-44ab92406df1,c3fd1fc3-2edf-4d17-5d93-ab444092f16d,|Asmodeus Tiefling|
+ASTARION,23a46e79-e73c-4043-940f-cb0aace9ab2e,23a46e79-e73c-4043-0f94-0acbe9ac2eab,| Astarion% Vampire Companion |
+ASTARION_BITE_VICTIM,c912718b-b200-4305-80ef-4020de96356e,c912718b-b200-4305-ef80-204096de6e35,
+ASTRAL_ZEALOT,a1103fcc-da28-40d0-872e-2c46899ae240,a1103fcc-da28-40d0-2e87-462c9a8940e2,
+AUTOMATON,0f9099e9-a4d8-4b17-b2e5-e6f74eeb79b4,0f9099e9-a4d8-4b17-e5b2-f7e6eb4eb479,
+AVATAR,306b9b05-1057-4770-aa17-01af21acd650,306b9b05-1057-4770-17aa-af01ac2150d6,
+BADASSCIVILIAN,91f4b379-63a2-40e9-a509-7b9b2f90e4c8,91f4b379-63a2-40e9-09a5-9b7b902fc8e4,Generic Behaviours Civilian that have harsher reactions to crimes
+BADGER,c00895b9-7d92-4848-af0b-477a231e00f5,c00895b9-7d92-4848-0baf-7a471e23f500,Species type for VFX
+BAHAMUT,fdccfc34-47e9-45ff-8755-511f91cb0e97,fdccfc34-47e9-45ff-5587-1f51cb91970e,|Player or NPC chose Bahamut.|
+BALDURIAN,f15e9b0d-676c-4f52-9abf-365cff89ef0f,f15e9b0d-676c-4f52-bf9a-5c3689ff0fef,For characters from Baldur's Gate. Used in Baldur's Gate 3
+BALTHAZAR_NIGHSTONG_SKELETON,1ed53d67-c9d7-44aa-88dd-ab2b402154a0,1ed53d67-c9d7-44aa-dd88-2bab2140a054,Used for Balthazar's Reclaim Control spell
+BANE,494bddcf-9325-4883-a937-817fbdf11161,494bddcf-9325-4883-37a9-7f81f1bd6111,|Player or NPC chose Bane.|
+BANITE,5f831985-6974-4106-91a7-44ae08341943,5f831985-6974-4106-a791-ae4434084319,
+BANITE_BLACKGAUNTLET,7132eb74-5836-42f4-ac50-bb26c0234fde,7132eb74-5836-42f4-50ac-26bb23c0de4f,
+BARBARIAN,02913f9a-f696-40cf-acdf-32032afab32c,02913f9a-f696-40cf-dfac-0332fa2a2cb3,They call you a savage% an animal. They don't know what it's like to need to fight% tooth and claw% just to survive. You do. 
+BARD,d93434bd-6b71-4789-b128-ee24156057cc,d93434bd-6b71-4789-28b1-24ee6015cc57,An inspiring magician whose power echoes the music of creation.
+BEAR,298e9df0-bd3c-40f4-82ae-14adb77d7c2e,298e9df0-bd3c-40f4-ae82-ad147db72e7c,Species tag
+BEAST,890b5a2a-e773-48df-b191-c887d87bec16,890b5a2a-e773-48df-91b1-87c87bd816ec,Type Tag for beast-type monsters (animals)
+BEETLE,5b931643-e739-4caf-8c80-168304861df6,5b931643-e739-4caf-808c-83168604f61d,Species tag
+BEHOLDER,b4ecfb1d-d8e6-4f2d-a003-0ed1f62b495b,b4ecfb1d-d8e6-4f2d-03a0-d10e2bf65b49,Monster tag
+BERSERKER,ac3449f7-c09b-4bc0-8634-fcff97d49279,ac3449f7-c09b-4bc0-3486-fffcd4977992,A supplimentary Berserker tag for more primal lines.
+BESTIAL,92aae5aa-4595-4f1c-96d2-9e2499d35c6f,92aae5aa-4595-4f1c-d296-249ed3996f5c,Race group (aarakocra% kenku% lizardfolk% tabaxi% tortle)
+BHAAL,f5e62c47-fb93-449f-9057-cb1a3c003aff,f5e62c47-fb93-449f-5790-1acb003cff3a,|Player or NPC chose Bhaal.|
+BIRD,bb9ccc7a-405c-4ba5-bcb4-32445b2dfd33,bb9ccc7a-405c-4ba5-b4bc-44322d5b33fd,Species tag
+BLADE_OF_FRONTIERS,03423cd8-db56-4840-a01f-84c8c3b728a6,03423cd8-db56-4840-1fa0-c884b7c3a628,
+BLINDSIGHT,a49c94ac-6903-408e-8b05-86371fd865c0,a49c94ac-6903-408e-058b-3786d81fc065,|Applied by the Bind Sight Passive. A monster with blindsight can perceive its surroundings without relying on sight% within a specific radius.|
+BLOCK_BOSS_DISTURBANCES,04a90774-cd81-4173-8918-1c0f7dc8ec2a,04a90774-cd81-4173-1889-0f1cc87d2aec,
+BLOCK_PICKPOCKET,fe2e65d3-a8de-45bf-a372-c339adec669e,fe2e65d3-a8de-45bf-72a3-39c3ecad9e66,|This character cannot be pickpocketed|
+BLOCK_RESURRECTION,22a75dbb-1588-407e-b559-5aa4e6d4e6a6,22a75dbb-1588-407e-59b5-a45ad4e6a6e6,
+BLOCK_SPEAK_WITH_DEAD,70f9d685-b791-4ea2-88e4-fc8fc48b4234,70f9d685-b791-4ea2-e488-8ffc8bc43442,
+BLOCK_USE_FROM_CONSTELLATION,89a63758-d622-41cd-81f9-baceffc12618,89a63758-d622-41cd-f981-cebac1ff1826,
+BLOOD_WAR_VETERAN,4ebf24e4-19f2-4634-a2ec-b0ce82199d6f,4ebf24e4-19f2-4634-eca2-ceb019826f9d,
+BLUDGEONING,3cbf1ad9-ebb4-4b37-8075-945fbfb471b3,3cbf1ad9-ebb4-4b37-7580-5f94b4bfb371,
+BOAR,aa120bba-b749-4b54-8457-62ceae41688c,aa120bba-b749-4b54-5784-ce6241ae8c68,Species tag
+BODYTYPE_STRONG,d3116e58-c55a-4853-a700-bee996207397,d3116e58-c55a-4853-00a7-e9be20969773,
+BONE,4ab2ef8c-8766-45bb-b3bb-cacc82865889,4ab2ef8c-8766-45bb-bbb3-ccca86828958,Used onBone items. For animals who eat bones (dogs)
+BONE_CORPSE_PILE,677d225c-19ea-4de1-bd1d-ec8c2f2b8772,677d225c-19ea-4de1-1dbd-8cec2b2f7287,
+BOO,b2d0061d-97df-4e3e-8017-921a6602a981,b2d0061d-97df-4e3e-1780-1a92026681a9,
+BOOK,8a8e253a-c081-45a1-9fa2-91b6901dc568,8a8e253a-c081-45a1-a29f-b6911d9068c5,
+BRANDED,310f7186-bb0b-4905-b8f6-dfc2fe62570a,310f7186-bb0b-4905-f6b8-c2df62fe0a57,| Branded as a follower of the Absolute |
+BREWER_CREATURE,8d76358a-70fe-4ea1-9a16-4f27ddab06e2,8d76358a-70fe-4ea1-169a-274fabdde206,
+BUGBEAR,dc18a33a-bdd1-41be-8ad5-e6fca917b54e,dc18a33a-bdd1-41be-d58a-fce617a94eb5,Species tag for bugbears
+BULETTE,06c1ef36-dac6-4224-8320-d4d38f84897f,06c1ef36-dac6-4224-2083-d3d4848f7f89,
+CAMBION,79563753-c1e4-4f3a-93a7-4aad1f3ab46e,79563753-c1e4-4f3a-a793-ad4a3a1f6eb4,Subtype Tag for cambions
+CAMPSUPPLIES,14e17bf7-a466-404a-b097-29642492a2b2,14e17bf7-a466-404a-97b0-64299224b2a2,Any item with this tag will get added to the camp supplies if added to a player's inventory
+CANBEBLINDED,e19f68ed-0c16-425e-92d3-3fbd5d3c58a0,e19f68ed-0c16-425e-d392-bd3f3c5da058,Marks an item to be able to be BLINDED.
+CANBECALMED,e3a622d6-e9f3-4925-9650-7a3e6fefee6c,e3a622d6-e9f3-4925-5096-3e7aef6f6cee,Marks an item to be able to be CALMED.
+CANCAST_FIND_DOG_FAMILIAR,4fe9c7b8-2f74-4467-901e-00be49468c9f,4fe9c7b8-2f74-4467-1e90-be0046499f8c,
+CANDLE,489adf86-3f6c-4e2f-b3e8-7d30d3908896,489adf86-3f6c-4e2f-e8b3-307d90d39688,|This item is a candle|
+CANT_SHOVE_THROW,43a3d567-8e45-4257-ab62-4543fc1bbbf2,43a3d567-8e45-4257-62ab-43451bfcf2bb,
+CANTLOSEEYE,b5de40c5-edec-43a7-a918-1d85c13232de,b5de40c5-edec-43a7-18a9-851d32c1de32,This character only has one functioning eye.
+CANTSPEAK,693d950b-2617-43ac-8e3c-2ff5fda7f956,693d950b-2617-43ac-3c8e-f52fa7fd56f9,|A character that does not possess natural speaking abilities (e.g. animals% intellect devourers% possibly also silenced characters% ...)|
+CAT,a7d28634-e3bf-40c3-8d8c-e1daf4acad74,a7d28634-e3bf-40c3-8c8d-dae1acf474ad,Species tag
+CELESTIAL,7cba0bd7-b955-4ac9-95ba-79e75978d9ac,7cba0bd7-b955-4ac9-ba95-e7797859acd9,Type Tag for celestial-type monsters
+CHARLATAN,07925e5b-af3d-4743-a565-b9fee04c24ac,07925e5b-af3d-4743-65a5-feb94ce0ac24,|You know what makes people tick% and you use this to your advantage. You are a master of deception and schemes.|
+CHARMED_ADV,ada75891-25ff-4bdc-9a11-ad32de62a961,ada75891-25ff-4bdc-119a-32ad62de61a9,Advantage on rolls against charm statuses
+CHASM_IMMUNE,1063224a-a5ab-41b1-b309-0ac730e4e8ce,1063224a-a5ab-41b1-09b3-c70ae430cee8,
+CHASM_IMMUNE_FLY,8803503b-64e0-49dd-ba5b-0c4f2c5cc0b5,8803503b-64e0-49dd-5bba-4f0c5c2cb5c0,
+CHASM_IMMUNE_SWIM,b7018e56-3185-4dde-8605-48bd9e782969,b7018e56-3185-4dde-0586-bd48789e6929,
+CHEESE,8d0976b4-1019-4095-adf6-60f1216cb2dc,8d0976b4-1019-4095-f6ad-f1606c21dcb2,Food Tag
+CHICKEN,0fc0e733-c539-4d4d-b0cb-fef6d666ba9b,0fc0e733-c539-4d4d-cbb0-f6fe66d69bba,Species tag
+CHOSENOFBOOOAL,8e4a646f-7ec2-49bb-974e-d2cc34e9b525,8e4a646f-7ec2-49bb-4e97-ccd2e93425b5,
+CIVIL_RACE,be87fe94-657b-49fd-bec5-1348119018c7,be87fe94-657b-49fd-c5be-48139011c718,Tag that make to logic about Playable Races 
+CIVILIAN,71120d5d-3853-46e4-9762-33f59aa6b4ae,71120d5d-3853-46e4-6297-f533a69aaeb4,Generic Behaviours
+CLERIC,1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5,1671b4bf-4f47-4bb7-b99c-bb80601fd509,|A priestly champion who wields divine magic in service of a higher power.|
+CLERIC_BAHAMUT,28ee4ac1-86a3-490e-ab02-7085bd7c56d6,28ee4ac1-86a3-490e-02ab-85707cbdd656,Player or NPC is cleric of Bane.
+CLERIC_BANE,178016d5-e3d3-44bd-8aa5-6ac3d1c61e6c,178016d5-e3d3-44bd-a58a-c36ac6d16c1e,Player or NPC is cleric of Bane.
+CLERIC_BHAAL,b03d4a89-bba7-45a4-a89d-a132ddd75637,b03d4a89-bba7-45a4-9da8-32a1d7dd3756,Player or NPC is cleric of Bhaal.
+CLERIC_CORELLONLARETHIAN,ca4e5850-139e-4b52-9d5e-553e33ff082a,ca4e5850-139e-4b52-5e9d-3e55ff332a08,Player or NPC is cleric of Corellon Larethian.
+CLERIC_EILISTRAEE,c4749983-8bb9-4aa5-bf18-afd9cb1ce915,c4749983-8bb9-4aa5-18bf-d9af1ccb15e9,Player is a cleric of EIlistraee.
+CLERIC_EVIL,aa9f126f-ac9a-48d9-a128-1394fae8f4e8,aa9f126f-ac9a-48d9-28a1-9413e8fae8f4,Player is a cleric of an evil-aligned deity
+CLERIC_GARLGLITTERGOLD,67bd28cc-9cf4-4c64-9213-8d26fbe27e1b,67bd28cc-9cf4-4c64-1392-268de2fb1b7e,Player or NPC is cleric of Garl Glittergold.
+CLERIC_GOOD,64dc9d31-db7a-418e-bbbe-6f5b4d32608f,64dc9d31-db7a-418e-bebb-5b6f324d8f60,Player is a cleric of a good-aligned deity
+CLERIC_GRUUMSH,c3743bdd-3653-47fb-8a5c-d8489d7a1be0,c3743bdd-3653-47fb-5c8a-48d87a9de01b,Player or NPC is cleric of Gruumsh.
+CLERIC_HELM,6c28eba6-f46c-4755-9e4e-0223e64f7d72,6c28eba6-f46c-4755-4e9e-23024fe6727d,Player or NPC is cleric of Helm.
+CLERIC_ILMATER,838e9a70-94fc-4bcf-850a-19be5247a43b,838e9a70-94fc-4bcf-0a85-be1947523ba4,Player or NPC is cleric of Ilmater.
+CLERIC_KELEMVOR,a01efcc1-9e2f-4438-956b-b448cbf73bde,a01efcc1-9e2f-4438-6b95-48b4f7cbde3b,Player or NPC is cleric of Kelemvor.
+CLERIC_LADUGUER,4276e5a0-f6b3-4f4e-8836-4cd8b0cade2f,4276e5a0-f6b3-4f4e-3688-d84ccab02fde,Player or NPC is cleric of Laduguer.
+CLERIC_LATHANDER,6e31b516-92fc-4526-b1cd-92516e02cf86,6e31b516-92fc-4526-cdb1-5192026e86cf,Player or NPC is cleric of Lathander.
+CLERIC_LOLTH,7aee9e55-ecb4-4cdc-804d-1ec20d07efc5,7aee9e55-ecb4-4cdc-4d80-c21e070dc5ef,Player or NPC is cleric of Lolth.
+CLERIC_MIELIKKI,5ce73ec6-be80-4853-ad3c-12149d71e07e,5ce73ec6-be80-4853-3cad-1412719d7ee0,Player or NPC is cleric of Mielikki.
+CLERIC_MORADIN,3ce8734c-440c-43f8-b0f4-079d69e7eb33,3ce8734c-440c-43f8-f4b0-9d07e76933eb,Player or NPC is cleric of Moradin.
+CLERIC_MYRKUL,7ea36792-21e5-4ea9-9544-de276651c376,7ea36792-21e5-4ea9-4495-27de516676c3,Player or NPC is cleric of Myrkul.
+CLERIC_MYSTRA,90de46bd-9f0c-4c2f-9505-56063b31b360,90de46bd-9f0c-4c2f-0595-0656313b60b3,Player or NPC is cleric of Mystra.
+CLERIC_NEUTRAL,2947a463-3c45-4a70-959a-3e81a943ab92,2947a463-3c45-4a70-9a95-813e43a992ab,Player is a cleric of a neutral-aligned deity.
+CLERIC_OGHMA,9fbbedb6-c485-4c6b-94b7-c7d7592223b3,9fbbedb6-c485-4c6b-b794-d7c72259b323,Player or NPC is cleric of Oghma.
+CLERIC_SELUNE,10b2a53c-3eb0-451c-8057-0f1cc9e62a4d,10b2a53c-3eb0-451c-5780-1c0fe6c94d2a,Player or NPC is cleric of Selune.
+CLERIC_SHAR,0d1d64b8-70d6-4702-8643-be348b0f3fc6,0d1d64b8-70d6-4702-4386-34be0f8bc63f,Player or NPC is cleric of Shar.
+CLERIC_TALOS,da25a7cc-066d-43dc-8f1e-74c17cd0d589,da25a7cc-066d-43dc-1e8f-c174d07c89d5,Player or NPC is cleric of Talos.
+CLERIC_TEMPUS,31d96353-a4b8-4abf-9cce-f7a9174e65da,31d96353-a4b8-4abf-ce9c-a9f74e17da65,Player or NPC is cleric of Tempus.
+CLERIC_TIAMAT,4cd1c7f7-7a8c-421a-87dc-687c4eefd683,4cd1c7f7-7a8c-421a-dc87-7c68ef4e83d6,Player or NPC is cleric of Tiamat.
+CLERIC_TYMORA,edc085f7-63f8-4bb0-b60c-b68c92b67708,edc085f7-63f8-4bb0-0cb6-8cb6b6920877,Player or NPC is cleric of Tymora.
+CLERIC_TYR,16657b43-323e-4eee-8982-77338229444b,16657b43-323e-4eee-8289-337729824b44,Player or NPC is cleric of Tyr.
+CLERIC_VLAAKITH,91b2d344-fce8-48b3-a83d-9688cbddb1b8,91b2d344-fce8-48b3-3da8-8896ddcbb8b1,Player or NPC is cleric of Vlaakith.
+CLERIC_YONDALLA,dc005135-7eee-4406-a46e-9535e7412422,dc005135-7eee-4406-6ea4-359541e72224,Player or NPC is cleric of Yondalla.
+CLOAKER_PHASM_SPAWN_HELPER,67861b17-bf46-4fa8-8f55-de1216cbec26,67861b17-bf46-4fa8-558f-12decb1626ec,To determine where the first Cloaker Phantasm will spawn.
+CLOAKER_PHASM_SPAWN_HELPER2,c17ccab2-439c-4893-92a2-aa697db90661,c17ccab2-439c-4893-a292-69aab97d6106,To determine where the second Cloaker Phantasm will spawn.
+CLOAKER_PHASM_SPAWN_HELPER3,86fb6653-9c6e-4b9b-8355-03d9cc99b477,86fb6653-9c6e-4b9b-5583-d90399cc77b4,To determine where the third Cloaker Phantasm will spawn.
+CLOISTERED_STRAY,9a839349-e128-4b92-aee6-b2b8a311fd7a,9a839349-e128-4b92-e6ae-b8b211a37afd,
+COATING,354041e2-72d7-422d-ae75-aa0ac22d5ebd,354041e2-72d7-422d-75ae-0aaa2dc2bd5e,
+COMBAT_FALLBACK_AD_MUTE,c2ac7224-9157-446e-b909-4c01c53025f5,c2ac7224-9157-446e-09b9-014c30c5f525,
+COMBAT_FORMATIONTACTICS,adb71c5b-0f7d-44bf-9d34-6912d014578a,adb71c5b-0f7d-44bf-349d-126914d08a57,This tag will govern who can benefit from Formation Tactics (Guards% Flaming Fist...)
+COMBAT_GOBLINKING,406d4f64-8713-4d6c-a498-abe40e9ec6c1,406d4f64-8713-4d6c-98a4-e4ab9e0ec1c6,This tag allows Dror Ragzlin's allies to cast healing spells upon him - and only upon him.
+COMBAT_PACKTACTICS,6e046250-7aa6-4a81-897f-e6cf3f208e5c,6e046250-7aa6-4a81-7f89-cfe6203f5c8e,This tag will govern who can benefit from Pack Tactics (Hyenas% Zhentarim fighters...)
+COMBATPORTAL,bde69893-ee8d-4327-aa58-075e40ce1e05,bde69893-ee8d-4327-58aa-5e07ce40051e,Specifies which portals or teleporters the NPCs can use during COMBAT.
+COMPREHEND_LANGUAGES,1d6e36a6-d757-449b-8040-2af3f1a99c3a,1d6e36a6-d757-449b-4080-f32aa9f13a9c,Able to read any languages
+CONSTRUCT,22e5209c-eaeb-40dc-b6ef-a371794110c2,22e5209c-eaeb-40dc-efb6-71a34179c210,Type Tag for Construct-type monsters
+CONSUMABLE,4d79b277-97f0-4227-a780-7a14fb9827fc,4d79b277-97f0-4227-80a7-147a98fbfc27,Food or drink
+CONTROL_UNDEAD_IMMUNE,9be69f6b-a5a9-4b84-ad7e-cd3a420fb81f,9be69f6b-a5a9-4b84-7ead-3acd0f421fb8,
+CORELLONLARETHIAN,575b3b3c-4a5b-44d5-868f-0c6875f95568,575b3b3c-4a5b-44d5-8f86-680cf9756855,Player or NPC worships Corellon Larethian.
+CORPSE_PILE,b4ddc9cf-e406-47bb-aa77-0a1a603cdd2b,b4ddc9cf-e406-47bb-77aa-1a0a3c602bdd,| Can be a target for Animate Dead |
+CORPSE_SPOKEN,249ba319-6652-47ec-9f31-ef5be55429c3,249ba319-6652-47ec-319f-5bef54e5c329,| Has been the target of speak with dead|
+COW,e9b781b3-40af-4d43-856c-e98b0694764c,e9b781b3-40af-4d43-6c85-8be994064c76,Species tag
+CRAB,757ee779-e15e-4663-8a56-ab8929f56c02,757ee779-e15e-4663-568a-89abf529026c,Species tag
+CRE_ASTRALPRISON_SPOKETODAISY,4c0924fc-5a3e-435b-8d1d-cd2e70968e54,4c0924fc-5a3e-435b-1d8d-2ecd9670548e,
+CREATURE_SPORE_SERVANT,e45d5440-4a29-42e1-845d-890ae8e82a63,e45d5440-4a29-42e1-5d84-0a89e8e8632a,This character has been reanimated by myconid spores and is now an undead spore servant.
+CRIMINAL,74ed9de3-fff5-419a-949b-18bd5e17944e,74ed9de3-fff5-419a-9b94-bd18175e4e94,|You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld.|
+CROCODILE,a7e489d1-cfe5-44c3-9eb8-a60cd89ff71a,a7e489d1-cfe5-44c3-b89e-0ca69fd81af7,Species tag
+CROWDSYS_ITEM,421e9ec8-03d2-47eb-a6ca-db7aa30ab7c4,421e9ec8-03d2-47eb-caa6-7adb0aa3c4b7,Tag that is set on certien Items to make them counted in the crowd system
+CROWDSYS_NPC,1274ffab-2fa2-4d6f-801e-751664ceb771,1274ffab-2fa2-4d6f-1e80-1675ce6471b7,Tag for disturbance/crime reactions by crowd system NPCs
+CUSTOM_BURN_VFX,3e1e0629-2ded-4e27-8cbd-a6e92d3d3ed1,3e1e0629-2ded-4e27-bd8c-e9a63d2dd13e,
+DAISY_DESIRETRACK,8f815f65-6fe5-4671-8e2b-63575e1f2e88,8f815f65-6fe5-4671-2b8e-57631f5e882e,
+DAISY_FEARTRACK,c1400eed-4e63-4cb6-8ae1-f616505fda1a,c1400eed-4e63-4cb6-e18a-16f65f501ada,
+DAISY_FEMALE,17c2405e-5771-4150-ad00-b1ef8d1dd5ae,17c2405e-5771-4150-00ad-efb11d8daed5,|Daisy female gender|
+DAISY_FEMALE_VOICE,3549f056-0826-45ee-a8ae-351449b70fe3,3549f056-0826-45ee-aea8-1435b749e30f,Internal tag that should never display-- player selected daisy's female voice
+DAISY_MALE,807af8f5-0183-42d9-8d40-6e93d5236cc2,807af8f5-0183-42d9-408d-936e23d5c26c,|Daisy male gender|
+DAISY_MALE_VOICE,799118d3-901c-41cc-8f99-25326d23c649,799118d3-901c-41cc-998f-3225236d49c6,Does not dispaly; internal tag to mark the player has chosen Daisy's male voice
+DAISY_NEUTRAL,3caea564-7be7-4f04-ad3c-05f4ebee3926,3caea564-7be7-4f04-3cad-f405eeeb2639,
+DAISY_REASONTRACK,6ea65c6d-3172-4478-9530-b74cbdcbb870,6ea65c6d-3172-4478-3095-4cb7cbbd70b8,
+DARK_JUSTICIAR,4e4e26e8-9bbf-4913-93c7-c55972a6d051,4e4e26e8-9bbf-4913-c793-59c5a67251d0,Character is a Dark Justiciar of Shar
+DARK_URGE,fe825e69-1569-471f-9b3f-28fd3b929683,fe825e69-1569-471f-3f9b-fd28923b8396,|Dark Urge origin tag.|
+DEAD_SPEAKER,72de9ad8-bd70-4b1f-be9d-2551c5bd8837,72de9ad8-bd70-4b1f-9dbe-5125bdc53788,| A Tag to mark dead spekers in a dialog|
+DEBUG,b8d357e9-afe5-487d-b6c0-1fbcc22d3a92,b8d357e9-afe5-487d-c0b6-bc1f2dc2923a,Tag for skipping certain challenges
+DECLUTTER,7c601918-966e-45b1-8684-6b82a2066a99,7c601918-966e-45b1-8486-826b06a2996a,
+DEEP_WATER_CHASM,fb59fa11-9bd3-4af4-a81d-b5ad1882102e,fb59fa11-9bd3-4af4-1da8-adb582182e10,
+DEEPGNOME,2bbc3217-3d8c-46e6-b599-a0f1c9063f9a,2bbc3217-3d8c-46e6-99b5-f1a006c99a3f,|Deep Gnome|
+DEEPROTHE,bba2bcc8-eb3c-435d-97dd-f522ec43ee67,bba2bcc8-eb3c-435d-dd97-22f543ec67ee,
+DEER,f1a7354a-c38f-4d89-af73-a38403e1f9d3,f1a7354a-c38f-4d89-73af-84a3e103d3f9,Species tag
+DEFEATED,f0020818-86f1-4ee9-a5a9-9ace9ecc9010,f0020818-86f1-4ee9-a9a5-ce9acc9e1090,
+DEMON,9a187721-0588-4f3c-ba9c-bff4989001b9,9a187721-0588-4f3c-9cba-f4bf9098b901,Demonic creatures
+DEN_HIDEOUTKID,52c6aff2-d34c-44f6-bc1e-2992b5cb9461,52c6aff2-d34c-44f6-1ebc-9229cbb56194,| React to DEN_ThieflingHideoutTrespass custom crime. |
+DEN_KIDPROTECTOR,31e8b88d-a232-43d5-8cce-74c590fe23c8,31e8b88d-a232-43d5-ce8c-c574fe90c823,| React to Thiefling Hideout Crime. |
+DETECTTHOUGHTS,7e0395f8-aa53-4549-9af3-e2d203d678ee,7e0395f8-aa53-4549-f39a-d2e2d603ee78,|Player has acces to Detect Thoughts (Either spell prepared and free spellslot or scroll available) | Also used in as Interal Speech indicator
+DEVA,f3045a08-1739-4776-9d7b-6c52b55ba8a9,f3045a08-1739-4776-7b9d-526c5bb5a9a8,Deva
+DEVIL,6abb4b64-51a7-4d63-9359-66f0047a6fe2,6abb4b64-51a7-4d63-5993-f0667a04e26f,|Tag for lawful evil fiends|
+DIAMOND,c602daff-1e6b-45d3-a41d-e4ec332652f3,c602daff-1e6b-45d3-1da4-ece42633f352,
+DIG,eccffef9-1e5e-44b8-b14c-2af0faeea423,eccffef9-1e5e-44b8-4cb1-f02aeefa23a4,
+DINOSAUR,c485baa6-d363-462b-856d-d946b60aab61,c485baa6-d363-462b-6d85-46d90ab661ab,
+DISABLE_WEAPON_EFFECTS,e0a85c7e-09d4-4395-948a-4ee272ad1953,e0a85c7e-09d4-4395-8a94-e24ead725319,Disables weapon effects on the tagged weapon
+DISCOVERABLE,ebe17d12-23a8-4554-8bf4-20589d42ea52,ebe17d12-23a8-4554-f48b-5820429d52ea,
+DISPLACER_BEAST,ba107054-6d0a-45de-93bc-06d72d4feeb3,ba107054-6d0a-45de-bc93-d7064f2db3ee,
+DIVINE_INTERVENTION,0aa50ec5-f0a5-4a9d-a3c8-3ae49a37941e,0aa50ec5-f0a5-4a9d-c8a3-e43a379a1e94,
+DIVINE_INTERVENTION_USED,37ad267f-7295-4c1e-9ca4-769c8c06441d,37ad267f-7295-4c1e-a49c-9c76068c1d44,
+DJINNI,bf11285b-996d-4779-9273-d91e6d38860e,bf11285b-996d-4779-7392-1ed9386d0e86,|A tag for the Djinni.|
+DO_NOT_TRANSLATE,e10d0262-f1fe-425d-9e45-8bff373731d7,e10d0262-f1fe-425d-459e-ff8b3737d731,Used to remove tagged node from loca translation - used for nodes featuring only string vars
+DOG,35313c46-61b6-4e06-b054-ae84400a1890,35313c46-61b6-4e06-54b0-84ae0a409018,Subspecies Tag
+DONOTUSE_COMPANION,2a4f9fcc-5891-4150-bf3f-a219e69a7f33,2a4f9fcc-5891-4150-3fbf-19a29ae6337f,Tagging possible companions and henchmen so that they put items on bottom bar like players.
+DONT_DECLUTTER,b774a7ec-4c37-4223-9a03-2b321246cc55,b774a7ec-4c37-4223-039a-322b461255cc,This entity will not be decluttered (mostly done by camps)
+DOUBLE_ALCHEMY,648a06ce-8eb0-4905-b4b8-6724df91a5f5,648a06ce-8eb0-4905-b8b4-246791dff5a5,
+DOWNED_DISABLED,7095912e-fcb9-41dd-aec3-3cf7803e4b22,7095912e-fcb9-41dd-c3ae-f73c3e80224b,Does not become Downed
+DRAGON,95748ad1-cda2-4c0c-a9b2-875899327693,95748ad1-cda2-4c0c-b2a9-588732999376,Type Tag for Dragon-type monsters
+DRAGON_FLYPOINT_A,2f09de52-b7be-4e48-b8ff-7b15aeba1037,2f09de52-b7be-4e48-ffb8-157bbaae3710,
+DRAGON_FLYPOINT_B,ff0b9ae6-43fe-4ace-8b47-c1e0a79e80c5,ff0b9ae6-43fe-4ace-478b-e0c19ea7c580,
+DRAGONBORN,02e5e9ed-b6b2-4524-99cd-cb2bc84c754a,02e5e9ed-b6b2-4524-cd99-2bcb4cc84a75,Character looks like a dragonborn
+DRINK,8e318736-9f62-458e-8fd0-463d0b298c05,8e318736-9f62-458e-d08f-3d46290b058c,Food/Consumable
+DROWELF,a672ac1d-d088-451a-9537-3da4bf74466c,a672ac1d-d088-451a-3795-a43d74bf6c46,|Drow|
+DROWHALFELF,4fa13243-199d-4c9a-b455-d844276a98f5,4fa13243-199d-4c9a-55b4-44d86a27f598,|Drow Half-Elf|
+DRUID,44ac4317-4d38-4d28-80e2-94024c6e42f0,44ac4317-4d38-4d28-e280-02946e4cf042,A priest of the Old Faith% wielding the powers of nature and adopting animal forms.
+DUERGARDWARF,78adf3cd-4741-47a8-94f6-f3d322432591,78adf3cd-4741-47a8-f694-d3f343229125,|Duergar|
+DWARF,486a2562-31ae-437b-bf63-30393e18cbdd,486a2562-31ae-437b-63bf-3930183eddcb,|Dwarf|
+EAGLE,85f98951-5d9f-4beb-9cb3-4828340ed23f,85f98951-5d9f-4beb-b39c-28480e343fd2,
+EILISTRAEE,7cef166f-7766-4332-b9aa-d0d06fbca61e,7cef166f-7766-4332-aab9-d0d0bc6f1ea6,|Player or NPC chose Eilistraee.|
+ELEMENTAL,196351e2-ff25-4e2b-8560-222ac6b94a54,196351e2-ff25-4e2b-6085-2a22b9c6544a,Type Tag for ELEMENTAL-type monsters
+ELEMENTAL_AIR,b9413db4-f096-4232-ae21-33ca0ac856af,b9413db4-f096-4232-21ae-ca33c80aaf56,
+ELEMENTAL_EARTH,ea959210-d136-454b-bc6a-8c153cb4efa6,ea959210-d136-454b-6abc-158cb43ca6ef,
+ELEMENTAL_FIRE,4a12b219-8eae-471b-8f3b-c388da29fc1e,4a12b219-8eae-471b-3b8f-88c329da1efc,
+ELEMENTAL_WATER,c7fdad4f-2953-4de8-8a4f-109e36ec3640,c7fdad4f-2953-4de8-4f8a-9e10ec364036,
+ELF,351f4e42-1217-4c06-b47a-443dcf69b111,351f4e42-1217-4c06-7ab4-3d4469cf11b1,|Elf|
+EMPEROR,234f357f-4b2b-4611-a225-52ef098b5fcc,234f357f-4b2b-4611-25a2-ef528b09cc5f,
+END_CROWN_OF_KARSUS,f61a0325-1150-47b7-8702-b0f0d24107c8,f61a0325-1150-47b7-0287-f0b041d2c807,
+Enemy,43ef091a-1e8c-4906-a4fd-229506e6bb41,43ef091a-1e8c-4906-fda4-9522e60641bb,
+ENFORCE_ANALYSIS,3bd9cf0a-5512-4d6a-9da8-d15684ea0412,3bd9cf0a-5512-4d6a-a89d-56d1ea841204,Tag for characters that must be looked at by Treasure and Experience Analyser
+ENTERTAINER,bd3cfefd-5fe2-47ea-bd3c-e99eaad9b714,bd3cfefd-5fe2-47ea-3cbd-9ee9d9aa14b7,|You know how to entrance% entertain% and inspire an audience. Your art is your life.|
+ETTERCAP,ac54d665-f27c-4f14-8d4c-0df7a337a976,ac54d665-f27c-4f14-4c8d-f70d37a376a9,Species' tag
+EXPLOSIVES,f6e89388-0e91-4e9d-b5b7-1d4938dda540,f6e89388-0e91-4e9d-b7b5-491ddd3840a5,Used to track all the smokepowder% runepowder and other explosive items.
+EXTRA_ATTACK_BLOCKED,d0e9dcd3-d65c-4c43-933d-af3fd9c30fb0,d0e9dcd3-d65c-4c43-3d93-3fafc3d9b00f,A system tag to block Extra Attacks. Applied% for instance% to shadow-cursed undead in SCL.
+FEMALE,3806477c-65a7-4100-9f92-be4c12c4fa4f,3806477c-65a7-4100-929f-4cbec4124ffa,
+FEY,8cac055c-82dd-435c-9496-cf4c4b4581ab,8cac055c-82dd-435c-9694-4ccf454bab81,Type Tag for fey-type monsters
+FIEND,44be2f5b-f27e-4665-86f1-49c5bfac54ab,44be2f5b-f27e-4665-f186-c549acbfab54,Type Tag for fiend-type monsters
+FIGHTER,1ae7017c-4884-4a43-bc4a-742fa0d201c0,1ae7017c-4884-4a43-4abc-2f74d2a0c001,A master of martial combat% skilled with a variety of weapons and armour.
+FIND_FAMILIAR,8713fda9-1855-42ef-8c54-a1e2d5a49194,8713fda9-1855-42ef-548c-e2a1a4d59491,
+FIRBOLG,45759dc2-4d7a-4853-af73-50cfd412409b,45759dc2-4d7a-4853-73af-cf5012d49b40,Character looks like a firbolg
+FISH,ec16c2d2-2943-41cf-9796-0439ef65b2cf,ec16c2d2-2943-41cf-9697-390465efcfb2,Food
+FLESH_GOLEM,3fb78de4-190d-4ae4-b491-be89959fae56,3fb78de4-190d-4ae4-91b4-89be9f9556ae,Monster tag
+FOLKHERO,9c38904c-4aed-4d22-9038-fc7d103aaed5,9c38904c-4aed-4d22-3890-7dfc3a10d5ae,|You have humble beginnings% but are destined for so much more. Already the people of your home village regard you as their champion% and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.|
+FOLLOWER,275cee8d-2c1a-4afc-b6a0-0ef6ed2b11ee,275cee8d-2c1a-4afc-a0b6-f60e2bedee11,Character is currently a follower in the player party.
+FOOD,c86e0114-a5ab-48f6-b497-de321ebff577,c86e0114-a5ab-48f6-97b4-32debf1e77f5,Food/Consumable
+FOR_GOBLINTRIBE,107e2c8a-8293-4650-9c9e-647ed66e1769,107e2c8a-8293-4650-9e9c-7e646ed66917,Goblin Tribe's generics tag. Used in a quest in the Forest
+FORBIDDEN_FOR_SILENCE,ff5acb44-0a6e-435a-968a-586bd03dd611,ff5acb44-0a6e-435a-8a96-6b583dd011d6,|Items with this tag will create Vandalize crime if Silence is applied on them.|
+FORBIDDENKNOWLEDGE,673cb6af-f12b-4d6e-abfa-1bb83cf4ce44,673cb6af-f12b-4d6e-faab-b81bf43c44ce,Earned by finishing the Tome of Thayan Necromancy. Will be relevant in later acts.
+FORESTGNOME,09518377-4ea1-4ce2-b8e8-61477c26ebdd,09518377-4ea1-4ce2-e8b8-4761267cddeb,|Forest Gnome|
+FRIGHTENED_ADV,6fea07d3-020d-413d-b467-9616a99d25ef,6fea07d3-020d-413d-67b4-16969da9ef25,Advantage on rolls against frightened statuses
+FRIGHTENED_DISADV,ff464189-e5a7-4f53-bacb-8dd21c024350,ff464189-e5a7-4f53-cbba-d28d021c5043,
+FROG,0976fc05-da0e-43ea-8978-5accef445e0f,0976fc05-da0e-43ea-7889-cc5a44ef0f5e,Species tag
+FULL_CEREMORPH,3797bfc4-8004-4a19-9578-61ce0714cc0b,3797bfc4-8004-4a19-7895-ce6114070bcc,
+FUNGUS,9ce24229-8350-49ee-bd8f-da34a08e8be6,9ce24229-8350-49ee-8fbd-34da8ea0e68b,
+GALE,a3907be6-50c2-407e-b159-8c53f9a3418e,a3907be6-50c2-407e-59b1-538ca3f98e41,|Gale companion|
+GARLGLITTERGOLD,4a4130a1-c96a-43e8-91cc-1e3959e50053,4a4130a1-c96a-43e8-cc91-391ee5595300,Player or NPC worships Garl Glittergold.
+GASEOUS_FORM,22d7c29e-28d8-4126-ab03-8a7adbf98850,22d7c29e-28d8-4126-03ab-7a8af9db5088,
+GASPIT,c39d6f8f-646e-485c-8d3f-df1ceb5afb87,c39d6f8f-646e-485c-3f8d-1cdf5aeb87fb,Object is a gaspit
+GENASI,48d7b679-dffd-4f68-a306-adac19de8acf,48d7b679-dffd-4f68-06a3-acadde19cf8a,Character looks like a genasi
+GENERIC,730e82f3-c067-44a4-985b-0dfe079d4fea,730e82f3-c067-44a4-5b98-fe0d9d07ea4f,|Generic origin|
+GENITAL_PENIS,d27831df-2891-42e4-b615-ae555404918b,d27831df-2891-42e4-15b6-55ae04548b91,
+GENITAL_VULVA,a0738fdf-ca0c-446f-a11d-6211ecac3291,a0738fdf-ca0c-446f-1da1-1162acec9132,
+GHOST,3def9d73-7c73-487b-8111-d1df1dce076e,3def9d73-7c73-487b-1181-dfd1ce1d6e07,
+GIANT,375bd683-249f-488e-8ada-4ea49df5540d,375bd683-249f-488e-da8a-a44ef59d0d54,Type Tag for giant-type monsters
+GITHYANKI,677ffa76-2562-4217-873e-2253d4720ba4,677ffa76-2562-4217-3e87-532272d4a40b,Character looks like a githyanki
+GLO_GENERIC_CULTIST,35e61bba-f575-4d24-a3d4-ac29ad9878f9,35e61bba-f575-4d24-d4a3-29ac98adf978,
+GNOLL,1350164f-85e1-42f9-89c9-eb0c6703e890,1350164f-85e1-42f9-c989-0ceb036790e8,Species tag
+GNOLL_FLESHGNAWER,0ef7a827-b872-4c8c-85f0-2a2b516439c4,0ef7a827-b872-4c8c-f085-2b2a6451c439,Monster tag
+GNOLL_FLIND,fbc00bf9-4124-4dd1-922e-9e508e271af5,fbc00bf9-4124-4dd1-2e92-509e278ef51a,Monster tag
+GNOME,1f0551f3-d769-47a9-b02b-5d3a8c51978c,1f0551f3-d769-47a9-2bb0-3a5d518c8c97,|Gnome|
+GOBLIN,608597d9-bf00-4ede-aabe-767457280925,608597d9-bf00-4ede-beaa-747628572509,Species tag
+GOBLIN_KID,88730ec2-439e-4172-95f4-b7f1875169fa,88730ec2-439e-4172-f495-f1b75187fa69,Behaviour Tag
+GREMISHKA,8c0c7811-d944-4780-8e62-96f0911819e5,8c0c7811-d944-4780-628e-f0961891e519,Species Tag
+GRENADE,fe0d86c3-a562-430e-a633-d8bf9bb27284,fe0d86c3-a562-430e-33a6-bfd8b29b8472,
+GROVE_KEEPER,2af9b9be-be8e-406a-852e-2df1f8684f3d,2af9b9be-be8e-406a-2e85-f12d68f83d4f,
+GRUUMSH,7ef33e10-bdb0-4268-833a-5da1e52aa26a,7ef33e10-bdb0-4268-3a83-a15d2ae56aa2,|Player or NPC chose Gruumsh.|
+GUARD,0b52f35e-fb1f-4865-bcd2-5d21ef7343cd,0b52f35e-fb1f-4865-d2bc-215d73efcd43,Used In Generics
+GUILD_ARTISAN,baf9fb0e-f535-40a0-bb78-3ec289d84e66,baf9fb0e-f535-40a0-78bb-c23ed889664e,
+HAG,fe8308ce-d51c-4f41-a986-217a9c6dac5f,fe8308ce-d51c-4f41-86a9-7a216d9c5fac,Subtype Tag for hags
+HAG_AIHELPER_CAGELEVER,28d93787-9cce-47bd-b111-8f0c483fbade,28d93787-9cce-47bd-11b1-0c8f3f48deba,
+HAGEYED,c1f7de2b-7cc5-41bc-a723-011172bbc4ba,c1f7de2b-7cc5-41bc-23a7-1101bb72bac4,|This character's eye has been blinded by Auntie Ethel the Hag|
+HALFELF,34317158-8e6e-45a2-bd1e-6604d82fdda2,34317158-8e6e-45a2-1ebd-04662fd8a2dd,|Half-Elf|
+HALFLING,b99b6a5d-8445-44e4-ac58-81b2ee88aab1,b99b6a5d-8445-44e4-58ac-b28188eeb1aa,|Halfling|
+HALFORC,3311a9a9-cdbc-4b05-9bf6-e02ba1fc72a3,3311a9a9-cdbc-4b05-f69b-2be0fca1a372,Player is a half-orc
+HALSIN,b3af2048-9443-47eb-b643-b3b025c7af60,b3af2048-9443-47eb-43b6-b0b3c72560af,
+HARPY,4ce54d09-192f-4090-a5fd-72b84c9400de,4ce54d09-192f-4090-fda5-b872944cde00,
+HASSWDDIALOG,21be1053-c642-4081-b64b-56678ae11594,21be1053-c642-4081-4bb6-6756e18a9415,Character is interesting for purposes of Speak With Dead.
+HAUNTED_ONE,ce00b3b6-238e-4524-851b-3d1f2d2b1189,ce00b3b6-238e-4524-1b85-1f3d2b2d8911,
+HAV_HARPER_LYMN,c4a5a026-c1f1-474f-b8d6-8775946d825e,c4a5a026-c1f1-474f-d6b8-75876d945e82,Filters lines for Harper Lymn to reflect her specific speech pattern.
+HEALING_POTION,1879a93d-2edf-4f54-85dd-81a3724d677f,1879a93d-2edf-4f54-dd85-a3814d727f67,Tags healing potions
+HELM,c33d2cf7-1c8d-41ea-b4d9-4773778410f6,c33d2cf7-1c8d-41ea-d9b4-73478477f610,|Player or NPC chose Helm.|
+HENCHMAN,bdf9490a-a51f-4995-96c2-e9da59e30253,bdf9490a-a51f-4995-c296-dae9e3595302,Recruited henchman
+HERMIT,2fa3f042-2b50-41b2-8045-39ddd4421ca9,2fa3f042-2b50-41b2-4580-dd3942d4a91c,|You lived in seclusion -either in a sheltered community such as a monastery% or entirely alone- for a formative part of your life.|
+HIGHELF,492c3200-1226-4114-bad1-f6b1ba737f3d,492c3200-1226-4114-d1ba-b1f673ba3d7f,|High Elf|
+HIGHHALFELF,52b71dea-9d4e-402d-9700-fb9c360a44c9,52b71dea-9d4e-402d-0097-9cfb0a36c944,|High Half-Elf|
+HILLDWARF,534098fa-601d-4f6e-8c4e-b3a8d4b1f141,534098fa-601d-4f6e-4e8c-a8b3b1d441f1,|Hill Dwarf|
+HIT_PROXY,1b1a83c5-4fc9-488f-b4ed-0fcf844b1f5c,1b1a83c5-4fc9-488f-edb4-cf0f4b845c1f,
+HOBGOBLIN,193938c4-ed1c-4648-af3f-f4b59152ec92,193938c4-ed1c-4648-3faf-b5f4529192ec,|Hobgoblin tag description|
+HOOKHORROR,5e1d89d2-c7f6-49d2-8ed8-64b4ae7c4aba,5e1d89d2-c7f6-49d2-d88e-b4647caeba4a,
+HUMAN,69fd1443-7686-4ca9-9516-72ec0b9d94d7,69fd1443-7686-4ca9-1695-ec729d0bd794,|Human|
+HUMANOID,7fbed0d4-cabc-4a9d-804e-12ca6088a0a8,7fbed0d4-cabc-4a9d-4e80-ca128860a8a0,
+HYENA,035128b6-9778-4aa7-8f5f-6623aa4bf4c6,035128b6-9778-4aa7-5f8f-23664baac6f4,Subspecies tag
+IDENTITY_NEUTRAL,987da248-4855-40b8-9182-4ff04eb7c13d,987da248-4855-40b8-8291-f04fb74e3dc1,
+IGNORE_ANALYSIS,71440223-b00f-4a44-9ce2-869adc9c9abc,71440223-b00f-4a44-e29c-9a869cdcbc9a,Tag for characters that should be ignored by Treasure and Experience Analyser
+IGNORE_AOO,0668a5fd-72e0-4f9e-b85e-baae8796c637,0668a5fd-72e0-4f9e-5eb8-aeba968737c6,Combat tag for characters to ignore the Attack of Opportunity of enemies
+IGNORE_CHASMS,a50cb0b1-29a6-4711-a71d-0dc3e3642287,a50cb0b1-29a6-4711-1da7-c30d64e38722,"Characters and items with this tag will not be affected by chasms (no ""enter"" event to script% no destruction or teleportation of the object% ...)"
+IGNORE_COMBAT_LATE_JOIN_PENALTY,6d60bed7-10cc-4b52-8fb7-baa75181cd49,6d60bed7-10cc-4b52-b78f-a7ba815149cd,
+IGNORE_DANGEROUS_SURFACES,bbf62461-4af4-4631-807a-eb0bd988d9a6,bbf62461-4af4-4631-7a80-0beb88d9a6d9,Characters with this tag will not try and move out of dangerous surfaces. Be careful with this tag!
+IGNORE_HEIGHT_DIFFERENCE,03a8e066-673e-4353-ae04-7c40174ea05b,03a8e066-673e-4353-04ae-407c4e175ba0,Characters with this tag ignore vertical range limitations for melee interactions. Useful for very tall characters.
+IGNORE_PLATFORM_DESTRUCTION,cf60d691-4307-4a8c-af4d-0e8781ea2503,cf60d691-4307-4a8c-4daf-870eea810325,
+IGNORE_SCRYINGEYE,fbe01665-b1dc-41f0-8db5-92e09499a632,fbe01665-b1dc-41f0-b58d-e092999432a6,
+IGNORESEENCOMBAT,8b0dabbf-6254-4f3f-b459-40246a4d6d90,8b0dabbf-6254-4f3f-59b4-24404d6a906d,used in behaviour Script to Ignore Cowering when seening a combat
+IGNOREVANDALISE,7e9915ff-d7a4-4e52-9ac3-806075102ccc,7e9915ff-d7a4-4e52-c39a-60801075cc2c,Item with this tag won't generate a Vandalise or VandaliseNoOwner crime
+ILLITHID,1eec74e8-3673-4500-abec-57b7ed8469ed,1eec74e8-3673-4500-ecab-b75784eded69,|Is infected by an Illithid Tadpole| 
+ILLITHID_HIDDEN_CHECK,4835ba9d-c0d6-40fb-ad62-88f875b536c2,4835ba9d-c0d6-40fb-62ad-f888b575c236,
+ILMATER,75586076-1aaf-4e4a-a516-93f1e6cd3472,75586076-1aaf-4e4a-16a5-f193cde67234,|Player or NPC chose Ilmater.|
+IN_CAMP,7fe47378-d9dc-48b4-b7be-53efbfbdca20,7fe47378-d9dc-48b4-beb7-ef53bdbf20ca,
+INANIMATE,a66639f1-15bd-43ae-8f13-fda1270187cc,a66639f1-15bd-43ae-138f-a1fd0127cc87,
+INCENSE,cb78c689-21b5-49a2-ad0e-a44a83dbb8d7,cb78c689-21b5-49a2-0ead-4aa4db83d7b8,
+INFERNAL_METAL,596255e4-37a3-4d06-b09d-2905874f892f,596255e4-37a3-4d06-9db0-05294f872f89,
+INGREDIENT,18aef887-d7c7-46b9-9443-e3bb4af14ac9,18aef887-d7c7-46b9-4394-bbe3f14ac94a,Ingredient Tag Duh
+INK,83a0c07c-f6d9-4c5a-9aff-d3f0e9ea1dc7,83a0c07c-f6d9-4c5a-ff9a-f0d3eae9c71d,
+INNATE_FLYER,801bd716-0666-4dd5-b449-45ffa9a52a0f,801bd716-0666-4dd5-49b4-ff45a5a90f2a,
+INTELLECT_DEVOURER,69901347-23cb-4f60-abf3-527f23cdf0db,69901347-23cb-4f60-f3ab-7f52cd23dbf0,Intellect devourer
+INTELLECT_DEVOURER_US,70da70c9-353d-4a53-aee5-7ee5fc9fcd94,70da70c9-353d-4a53-e5ae-e57e9ffc94cd,A tag for Us% the Intellect Devourer companion
+ITEM_SELUNE,85acccfa-596c-4a9e-b476-47c3a16d2104,85acccfa-596c-4a9e-76b4-c3476da10421,|A relic looted from Selunites|
+ITEMINTERACTION_UNLOCKED,6ca541e1-b5d9-4cfa-b745-61a5483052d7,6ca541e1-b5d9-4cfa-45b7-a5613048d752,
+ITEMINTERACTION_UNLOCKED2,20319972-c9f2-4011-b1fc-34d4468752c7,20319972-c9f2-4011-fcb1-d4348746c752,
+JAHEIRA,2c948b46-0d8a-426b-ad8b-5f41233df4c1,2c948b46-0d8a-426b-8bad-415f3d23c1f4,|Jaheira companion|
+JAHEIRA_ALLY,7c3a81df-17d9-4b46-bde6-652492898b4e,7c3a81df-17d9-4b46-e6bd-246589924e8b,
+JAILOR,2f277b95-581b-4aee-995d-0e6488d16e78,2f277b95-581b-4aee-5d99-640ed188786e,Use in generics to denote guards in prisons
+KARLACH,9aab4bcd-e1f7-4008-8f7b-f1203789ae9b,9aab4bcd-e1f7-4008-7b8f-20f189379bae,|Karlach% Hells' champion. Tiefling origin.|
+KARLACH_CAN_TOUCH,52dbe682-7948-44cc-b152-ae9be23b8590,52dbe682-7948-44cc-52b1-9bae3be29085,
+KELEMVOR,23541bea-8177-496d-b58b-c29c4f13c22c,23541bea-8177-496d-8bb5-9cc2134f2cc2,|Player or NPC chose Kelemvor.|
+KENKU,b7215e01-b86a-4ce1-96e0-4f035afaaeae,b7215e01-b86a-4ce1-e096-034ffa5aaeae,Character looks like a kenku
+KEY,9851fa99-5538-432a-8e77-c90929a88974,9851fa99-5538-432a-778e-09c9a8297489,
+KID,ee978587-6c68-4186-9bfc-3b3cc719a835,ee978587-6c68-4186-fc9b-3c3b19c735a8,Behaviour Tag
+KNOCK_TARGET,b0cf1015-6367-4f54-82ef-92cd9df72590,b0cf1015-6367-4f54-ef82-cd92f79d9025,|The object is targetable by the Knock spell% even if it's not systemically locked.|
+KNOCKBLOCK,e56e4df0-a4d7-480b-b69f-573c988b2f37,e56e4df0-a4d7-480b-9fb6-3c578b98372f,Prevents the object from being a valid object for Knock if it's locked
+KOBOLD,f68151f2-58ee-42e6-98ad-7d858c4a0f13,f68151f2-58ee-42e6-ad98-857d4a8c130f,Species tag
+KUOTOA,e3763301-199e-4022-8813-da1bb4eb9542,e3763301-199e-4022-1388-1bdaebb44295,Race Tag for KUOTOA
+LADUGUER,92919073-a23b-490a-a316-a083f179f083,92919073-a23b-490a-16a3-83a079f183f0,Player or NPC worships Laduguer.
+LAEZEL,3b07eac7-fab3-4120-a46c-51dbb3ec500b,3b07eac7-fab3-4120-6ca4-db51ecb30b50,| Lae'zel% the Gith Companion |
+LAEZEL_ORPHEUSPATH,616688cd-b203-4f14-8c33-086bb83062a3,616688cd-b203-4f14-338c-6b0830b8a362,
+LATHANDER,7cae2d74-89f3-4312-9816-6ae6827f318c,7cae2d74-89f3-4312-1698-e66a7f828c31,Player or NPC worships Lathander.
+LEGEND_OF_BALDURS_GATE,927b8097-a925-4174-8150-81ba2190d129,927b8097-a925-4174-5081-ba81902129d1,
+LIGHTFOOTHALFLING,57a00605-9e74-477c-bd9d-53c721e25e56,57a00605-9e74-477c-9dbd-c753e221565e,|Lightfoot Halfling|
+LIZARDFOLK,615d115d-6d1d-477c-8b2c-d8e91b8cfe7d,615d115d-6d1d-477c-2c8b-e9d88c1b7dfe,Character looks like a lizardfolk
+LOCKPICKS,1013e720-9b0f-4783-8686-9b5506840088,1013e720-9b0f-4783-8686-559b84068800,|This item can be used to open locks|
+LOLTH,899a6ce7-731e-473b-b87b-5d0cf383abff,899a6ce7-731e-473b-7bb8-0c5d83f3ffab,Player or NPC worships Lolth.
+LOLTHDROWELF,ef9c5b74-56a8-48cc-b0b9-169ee16bf026,ef9c5b74-56a8-48cc-b9b0-9e166be126f0,LOLTH-SWORN
+LOOT_GOLD,6c6b7cac-113c-42ee-bc46-05567b067a9f,6c6b7cac-113c-42ee-46bc-5605067b9f7a,A tag allowing the Toll Collector to reason about goldpiles around her.
+LOW_DEVILSFEE_EXTRACT_FIRE,70120e88-1d0e-4a3d-acfb-ff8134523e99,70120e88-1d0e-4a3d-fbac-81ff5234993e,
+LOW_DEVILSFEE_INFERNALMARBLE,e924da8f-2778-40d9-af7e-0e08722ec791,e924da8f-2778-40d9-7eaf-080e2e7291c7,
+LOW_GUILDHALL_KEEPALLYNEARBY_TECHNICAL,ec8fe209-95af-46da-9846-8a117aaf94ec,ec8fe209-95af-46da-4698-118aaf7aec94,
+LOW_HOUSEOFHOPE_IDENTIFY_RAPHAEL,935acd43-8ff3-46b0-b8fa-f264235d39c9,935acd43-8ff3-46b0-fab8-64f25d23c939,
+LOW_HOUSEOFHOPE_RAPHAELIAN_CAMBION,c1969619-dfea-43cb-a30a-c684cc43263e,c1969619-dfea-43cb-0aa3-84c643cc3e26,
+LOW_OSKARSBELOVED_COUNTERFEITEDOBJECT,aaf9732c-41b1-41b6-ae17-b3145ff1662e,aaf9732c-41b1-41b6-17ae-14b3f15f2e66,
+LOW_PHILGRAVESMANSION_UPPERFLOORGHOUL,e75b79f9-686f-4037-974e-d0c801f9511b,e75b79f9-686f-4037-4e97-c8d0f9011b51,
+LOW_PRISON_EXPENSIVETRADER,67ce2dba-f55c-48e6-9303-673d5ed51331,67ce2dba-f55c-48e6-0393-3d67d55e3113,
+LOW_RAMAZITHSTOWER_LORROAKAN_TECHNICAL,5902e1ed-b525-498a-bc98-253f8c1c6fce,5902e1ed-b525-498a-98bc-3f251c8cce6f,
+LOW_RAMAZITHSTOWER_TAG_AIR,bbe6a481-a1a5-46a5-a8d4-5402c5bb1a62,bbe6a481-a1a5-46a5-d4a8-0254bbc5621a,
+LOW_RAMAZITHSTOWER_TAG_EARTH,f8263585-23fb-491d-8f31-fa23d298cbb0,f8263585-23fb-491d-318f-23fa98d2b0cb,
+LOW_RAMAZITHSTOWER_TAG_FIRE,59b3dc0b-305e-47f1-9a5e-2f022caccae4,59b3dc0b-305e-47f1-5e9a-022fac2ce4ca,
+LOW_RAMAZITHSTOWER_TAG_WATER,ea415e07-8129-4e76-a99f-78dba923f37d,ea415e07-8129-4e76-9fa9-db7823a97df3,
+LOW_SEWERS_GREASEELEMENTAL,2ba49a5b-0818-4637-8932-f12f7f6b6d40,2ba49a5b-0818-4637-3289-2ff16b7f406d,
+LOW_SEWERS_GREASEMEPHIT,31316a7d-2f70-468b-8904-2aaa4bb477f5,31316a7d-2f70-468b-0489-aa2ab44bf577,
+LOW_SEWERS_USED,e4cdfd8e-2314-4ff9-a6f4-76fc47a2d33b,e4cdfd8e-2314-4ff9-f4a6-fc76a2473bd3,
+MALE,8f74d144-041e-4035-a9ac-72f41fc32de7,8f74d144-041e-4035-aca9-f472c31fe72d,
+MASKED,0d07268e-a63b-40e4-b8eb-d5d002dcefdd,0d07268e-a63b-40e4-ebb8-d0d5dc02ddef,Set for Masked Poisoned items 
+MEAT,fae436d4-da32-42a6-a2b2-9635da0b82eb,fae436d4-da32-42a6-b2a2-35960bdaeb82,Checked by osi/behaviour for certain food type items
+MEAZEL,de22a017-976b-4a19-a7c7-e9bbbad4ece9,de22a017-976b-4a19-c7a7-bbe9d4bae9ec,Species Tag
+MEPHISTOPHELESTIEFLING,ec5bea6b-26f1-4917-919c-375f67ac13d1,ec5bea6b-26f1-4917-9c91-5f37ac67d113,|Mephistopheles Tiefling|
+MEPHIT,b875ad18-12ea-4f09-a19b-67988e2eeb73,b875ad18-12ea-4f09-9ba1-98672e8e73eb,Subtype Tag for mephits
+METAL,abadcad5-9229-4999-8c7a-cd557ff2c95c,abadcad5-9229-4999-7a8c-55cdf27f5cc9,Used to determine whether item is made of metal for purpose of spell targeting.
+MIELIKKI,f21f419c-bbf8-42df-ae89-f1de72e90cf5,f21f419c-bbf8-42df-89ae-def1e972f50c,Player or NPC worships Mielikki.
+MINDFLAYER,8ee4d870-3f6b-466c-968f-ab0ba2be6229,8ee4d870-3f6b-466c-8f96-0babbea22962,
+MINDMELD,4874959b-4811-4b89-8f55-85fe04fbcd61,4874959b-4811-4b89-558f-fe85fb0461cd,For Dialog lines that are marked a Mind Meld Internal Speech
+MINOTAUR,aa374556-6257-4326-829f-7a9667e6fcb4,aa374556-6257-4326-9f82-967ae667b4fc,
+MINSC,26fb71ce-d2c8-44b5-90d6-cb08705cb531,26fb71ce-d2c8-44b5-d690-08cb5c7031b5,Tag for ranger companion Minsc.
+MINTHARA,4ec1d8be-fe5e-466f-ab0d-1f0f6f20fef3,4ec1d8be-fe5e-466f-0dab-0f1f206ff3fe,
+MONK,e1e460bb-d0ae-4452-8529-c9e176558731,e1e460bb-d0ae-4452-2985-e1c955763187,A master of martial arts% harnessing the power of the body in pursuit of physical and spiritual perfection.
+MONSTER,90101158-141e-4896-8e60-f8db03f6dde3,90101158-141e-4896-608e-dbf8f603e3dd,A global tag for all non humanoid creatures
+MONSTROSITY,081a2ef4-dc1b-4d5b-bae3-8db81bef1d06,081a2ef4-dc1b-4d5b-e3ba-b88def1b061d,Type Tag for monstrosity-type monsters
+MORADIN,cfad7ead-098a-4944-84a6-d0570a98984d,cfad7ead-098a-4944-a684-57d0980a4d98,Player or NPC worships Moradin.
+MOUND_GRAVEL,c3613de9-f008-49c0-bf69-af42030743fa,c3613de9-f008-49c0-69bf-42af0703fa43,
+MOUND_MUD,7e6a4698-c855-4fce-a53f-c2e575edd9ee,7e6a4698-c855-4fce-3fa5-e5c2ed75eed9,
+MOUND_SAND,ceed37ff-d663-4694-b231-ceb2a1df10fc,ceed37ff-d663-4694-31b2-b2cedfa1fc10,
+MOUNTAINDWARF,1dc20a7a-00e7-4126-80ad-aa1152a2136c,1dc20a7a-00e7-4126-ad80-11aaa2526c13,|Mountain Dwarf|
+MUSIC_VFX_DRUM,f3f2d52d-9ef3-492c-a7ec-d9b35a130c05,f3f2d52d-9ef3-492c-eca7-b3d9135a050c,
+MUSIC_VFX_FLUTE,838663ea-de99-44a4-bc4c-13ed5a6d75e9,838663ea-de99-44a4-4cbc-ed136d5ae975,
+MUSIC_VFX_LUTE,3a9a899b-4177-4763-b329-2598528beca5,3a9a899b-4177-4763-29b3-98258b52a5ec,
+MUSIC_VFX_LYRE,cd85b343-55a9-4b66-bd92-42ca70a084aa,cd85b343-55a9-4b66-92bd-ca42a070aa84,
+MUSIC_VFX_VIOLIN,81dbb2dd-ffe9-4b6a-9159-2c32c889e023,81dbb2dd-ffe9-4b6a-5991-322c89c823e0,
+MUSIC_VFX_VOCAL,233a89ec-140a-4f77-a13d-72020f53e6d0,233a89ec-140a-4f77-3da1-0272530fd0e6,
+MUTED,150ee63f-4d47-4951-b944-a853d8beb9a8,150ee63f-4d47-4951-44b9-53a8bed8a8b9,Character can't talk.
+MYCONID,480f5568-7c49-45e4-9543-7c06e43bdf52,480f5568-7c49-45e4-4395-067c3be452df,|Species tag|
+MYRKUL,f1fc9c3f-0db9-4d19-adb4-18b1174a6b9d,f1fc9c3f-0db9-4d19-b4ad-b1184a179d6b,|Player or NPC chose Myrkul.|
+MYRMIDON_AIR,60b66bb9-6f24-4d2b-8b5f-6ac08e7ccc32,60b66bb9-6f24-4d2b-5f8b-c06a7c8e32cc,|A Fire Myrmidon|
+MYRMIDON_EARTH,b77d7a6c-9d1b-4ddc-a337-749b3b6dacd9,b77d7a6c-9d1b-4ddc-37a3-9b746d3bd9ac,|A Earth Myrmidon|
+MYRMIDON_FIRE,f9fb6af0-50fa-48f9-b83d-091ada061359,f9fb6af0-50fa-48f9-3db8-1a0906da5913,|A Earth Myrmidon|
+MYRMIDON_WATER,71c5162a-a842-4322-a208-125dba72b354,71c5162a-a842-4322-08a2-5d1272ba54b3,|A Water Myrmidon|
+MYSTRA,e79d9eca-e8ac-486a-bd21-cf42ef1133af,e79d9eca-e8ac-486a-21bd-42cf11efaf33,|Player or NPC chose Mystra.|
+NARRATION,4cb0fac6-1396-46ff-8554-e64bc2635909,4cb0fac6-1396-46ff-5485-4be663c20959,Node is narration and should not have FaceFX applied
+NECROMITE,be9fc042-a394-465f-a2ca-19ccc9b76a4d,be9fc042-a394-465f-caa2-cc19b7c94d6a,Used to identify necromites for the Apostle of Myrkul
+NETHERBRAIN,ab877313-c376-4462-a970-47b3d4c0dc49,ab877313-c376-4462-70a9-b347c0d449dc,
+Neutral,a3262787-fea1-45a7-bd41-d7dc881acf07,a3262787-fea1-45a7-41bd-dcd71a8807cf,
+NIGHTMARE,d41da646-2951-4f63-9dfc-db5bb674a123,d41da646-2951-4f63-fc9d-5bdb74b623a1,Nightmare creatures
+NIGHTMAREWITCH,1afa97c7-8b5c-4421-a432-a716f6ceadcd,1afa97c7-8b5c-4421-32a4-16a7cef6cdad,Species tag for Nightmare Witch
+NO_GHOST,4392a3cc-07ad-4031-b5aa-bd92812572e5,4392a3cc-07ad-4031-aab5-92bd2581e572,
+NO_LEVELTEMPLATE_TRANSFER,577229d7-a806-40c9-81fc-3e843d1955c0,577229d7-a806-40c9-fc81-843e193dc055,Used to mark objects that shouldn't be transfered between persistent level templates
+NO_PATHFINDING_PORTAL,d9793375-20f0-437f-8033-011014b0b9ca,d9793375-20f0-437f-3380-1001b014cab9,Used to indicate that a portal should not be used for pathfinding% but needs to be used explicitely. 
+NO_RECORD,c8f0beb0-9052-4546-8b99-71ac110db3a4,c8f0beb0-9052-4546-998b-ac710d11a4b3,For Voice Recording
+NO_SE_MOVE_SOUND,03267cf2-d3d7-4a90-a928-fb5ff1537bbb,03267cf2-d3d7-4a90-28a9-5ffb53f1bb7b,Tag for checking if an items systemic movement sound events are triggered
+NOBLE,56825486-9cfc-4ec2-87d1-c8065c41774b,56825486-9cfc-4ec2-d187-06c8415c4b77,|You understand wealth% power% and privilege. You carry a noble title% and your family owns land% collects taxes% and wields significant political influence.|
+NOT_FOR_EA,5a0ebff7-9930-4a99-908b-400fcc2411f0,5a0ebff7-9930-4a99-8b90-0f4024ccf011,
+NOT_MESSING_AROUND,542b58f0-42ad-4157-a28e-27434e0e7b18,542b58f0-42ad-4157-8ea2-43270e4e187b,Disturbance (Crime) Tag
+NUWT_ACTIVE,82e21d0f-75cf-49d9-89d9-614b6020a40c,82e21d0f-75cf-49d9-d989-4b6120600ca4,Tag that indicates NUWT was enabled
+º,592d975a-e25d-481b-8e80-02e3ee1b98eb,592d975a-e25d-481b-808e-e3021beeeb98,
+OATHBREAKER,c7bdcdf2-15e7-456e-adf1-21dda3172e18,c7bdcdf2-15e7-456e-f1ad-dd2117a3182e,
+OATHBREAKER_ANCIENTS,d84a8a0b-b648-464c-9bd5-1ed9b965da2a,d84a8a0b-b648-464c-d59b-d91e65b92ada,
+OATHBREAKER_DEVOTION,d274b482-4add-4f36-a0a4-a94740f6630e,d274b482-4add-4f36-a4a0-47a9f6400e63,
+OATHBREAKER_VENGEANCE,732db1ed-740c-4af3-8a08-7f135d3f703c,732db1ed-740c-4af3-088a-137f3f5d3c70,
+OBJ_LARGE_NOSPIN,ed529293-ec51-4ada-95dc-6827e19f7623,ed529293-ec51-4ada-dc95-27689fe12376,Used for item throwing spin
+OBJ_LARGE_SPIN,892fdf2b-a9a2-4717-a8b8-675db02e7bb8,892fdf2b-a9a2-4717-b8a8-5d672eb0b87b,Used for item throwing spin
+OBJ_MEDIUM_NOSPIN,e53c02aa-1f2c-4f54-80a5-921742c6c613,e53c02aa-1f2c-4f54-a580-1792c64213c6,Used for item throwing spin
+OBJ_MEDIUM_SPIN,4ab4f2f5-792e-4c7d-9148-e37f43159a34,4ab4f2f5-792e-4c7d-4891-7fe31543349a,Used for item throwing spin
+OBJ_SMALL_NOSPIN,497b3c05-c845-439a-95ce-c1e5878974a3,497b3c05-c845-439a-ce95-e5c18987a374,Used for item throwing spin
+OBJ_SMALL_SPIN,9b144af1-f4c4-45ec-8d63-fa2501502bb6,9b144af1-f4c4-45ec-638d-25fa5001b62b,Used for item throwing spin
+OBJ_TINY_NOSPIN,738b3a6f-e2d2-4f76-b052-2e880280dbd4,738b3a6f-e2d2-4f76-52b0-882e8002d4db,Used for item throwing spin
+OBJ_TINY_SPIN,110287af-83cf-42c1-9cde-b2f8cc316d7f,110287af-83cf-42c1-de9c-f8b231cc7f6d,Used for item throwing spin
+OGHMA,7b019d89-9b7e-4c2a-a6b4-ffb64f25f734,7b019d89-9b7e-4c2a-b4a6-b6ff254f34f7,|Player or NPC chose Oghma.|
+OGRE,cb53ec1e-af17-4dc2-bb28-2ac56d7eba96,cb53ec1e-af17-4dc2-28bb-c52a7e6d96ba,Species tag for ogres
+ONEEYED,8df7d133-21cb-4e8d-92dd-9ef9394fd2d1,8df7d133-21cb-4e8d-dd92-f99e4f39d1d2,|Character is missing an eye.|
+OOZE,92f9e66f-630d-4249-b936-c3dc1ae2b337,92f9e66f-630d-4249-36b9-dcc3e21a37b3,Type tag for Ooze-type monsters
+ORGANIC_TRAP,24e33333-d67c-44b0-9ef5-4e6a63a23be4,24e33333-d67c-44b0-f59e-6a4ea263e43b,
+ORI_GALE_CONSUMABLEARTEFACT,7b96246c-54ba-43ea-b01d-4e0b20ad35f1,7b96246c-54ba-43ea-1db0-0b4ead20f135,
+ORI_GALE_DONEWITHITEMS,f37724b5-9235-4ab2-8d65-78efcf50f95b,f37724b5-9235-4ab2-658d-ef7850cf5bf9,
+ORI_GALE_MYSTRABLESSED,86539983-3b68-46f9-addb-08a0668cea27,86539983-3b68-46f9-dbad-a0088c6627ea,
+ORI_GALE_WEAKENED,4abdc116-3f36-4d76-9a4c-4a840b7956c1,4abdc116-3f36-4d76-4c9a-844a790bc156,
+ORI_KARLACH_ENRAGED,019f7408-2900-4864-9878-5591294040ce,019f7408-2900-4864-7898-91554029ce40,
+ORPHEUS,ff993422-c5db-457e-834d-8fe3f3848ebe,ff993422-c5db-457e-4d83-e38f84f3be8e,
+ORPHIC_HAMMER,3d1b8c17-e897-48ff-a5b5-7ed8a317ed67,3d1b8c17-e897-48ff-b5a5-d87e17a367ed,Checking for the Orphic Hammer to condition spell on Mindflayer/Player for Orpheus situation.
+OSKARSBELOVED_IMMUNITY,5e0d7e01-069a-4ebf-8302-07f4e20c8254,5e0d7e01-069a-4ebf-0283-f4070ce25482,
+OUTLANDER,d81df6f9-9f6e-4146-841a-9f285e6ee879,d81df6f9-9f6e-4146-1a84-289f6e5e79e8,|The wilds are in your blood% whether you were a nomad% an explorer% a recluse% a hunter-gatherer% or even a marauder. Even in places where you don't know the specific features of the terrain% you know the ways of the wild.|
+OWLBEAR,70913187-25ac-4301-9c12-16baf3634c65,70913187-25ac-4301-129c-ba1663f3654c,
+PACT_OF_THE_BLADE,be460271-537a-4443-a9b5-6c6c6a005ab3,be460271-537a-4443-b5a9-6c6c006ab35a,
+PALADIN,6d85ab2d-5c23-498c-a61e-98f05a00177a,6d85ab2d-5c23-498c-1ea6-f098005a7a17,A holy warrior bound to a sacred oath.
+PALADIN_ANCIENTS,7c89622b-4194-41df-b2ff-145a5056ee49,7c89622b-4194-41df-ffb2-5a14565049ee,
+PALADIN_BAHAMUT,28b5d96a-bbfb-433f-9cd4-bdff98eae252,28b5d96a-bbfb-433f-d49c-ffbdea9852e2,|Player or NPC is a paladin of Bahamut.|
+PALADIN_BANE,2502057c-6210-4dcb-9943-2812b59c3737,2502057c-6210-4dcb-4399-12289cb53737,Player or NPC is a paladin of Bane.
+PALADIN_BHAAL,5daae0e8-8f1a-4798-8247-c252dbc311da,5daae0e8-8f1a-4798-4782-52c2c3dbda11,Player or NPC is a paladin of Bhaal.
+PALADIN_BLOCK_OATHBREAK,b5825091-f2ed-4657-8d86-c0d020c358a0,b5825091-f2ed-4657-868d-d0c0c320a058,
+PALADIN_CORELLONLARETHIAN,95abfcc0-8783-4647-a922-b2c34ec5c025,95abfcc0-8783-4647-22a9-c3b2c54e25c0,Player or NPC is a paladin of Corellon Larethian.
+PALADIN_DEVOTION,2de0a4fc-5831-4439-94d3-a7ff9b7aacf6,2de0a4fc-5831-4439-d394-ffa77a9bf6ac,
+PALADIN_EILISTRAEE,b438b4e8-fb16-4202-b338-17d2d874c2c1,b438b4e8-fb16-4202-38b3-d21774d8c1c2,Player is a paladin of EIlistraee.
+PALADIN_EVIL,826714c9-b2e3-4372-9f5a-e59271d5a426,826714c9-b2e3-4372-5a9f-92e5d57126a4,Player is a paladin of an evil-aligned deity
+PALADIN_GARLGLITTERGOLD,9f6bb135-01f1-4b7d-80d3-50bab725728c,9f6bb135-01f1-4b7d-d380-ba5025b78c72,Player or NPC is a paladin of Garl Glittergold.
+PALADIN_GOOD,66d66544-3ca8-442f-bbb4-b7e18d72c106,66d66544-3ca8-442f-b4bb-e1b7728d06c1,Player is a paladin of a good-aligned deity
+PALADIN_GRUUMSH,e33e9729-73e1-4fb3-aea9-761d610d1551,e33e9729-73e1-4fb3-a9ae-1d760d615115,|Player or NPC is a paladin of Gruumsh.|
+PALADIN_HELM,36c5df8b-7efc-4125-828e-120ed6cffa71,36c5df8b-7efc-4125-8e82-0e12cfd671fa,Player or NPC is a paladin of Helm.
+PALADIN_ILMATER,bd987761-1952-4942-85f1-d4538042aff3,bd987761-1952-4942-f185-53d44280f3af,Player or NPC is a paladin of Ilmater.
+PALADIN_KELEMVOR,74548677-271b-4cc3-9625-1782e5f0ebd1,74548677-271b-4cc3-2596-8217f0e5d1eb,Player or NPC is a paladin of Kelemvor.
+PALADIN_LADUGUER,39cb63f2-3036-4641-9b43-777334c9ffab,39cb63f2-3036-4641-439b-7377c934abff,Player or NPC is a paladin of Laduguer.
+PALADIN_LATHANDER,cc528ff5-911c-467c-ac9f-7a1e94b97d25,cc528ff5-911c-467c-9fac-1e7ab994257d,Player or NPC is a paladin of Lathander.
+PALADIN_LOLTH,0cc54cdc-7b26-4b12-98af-f8000b37e988,0cc54cdc-7b26-4b12-af98-00f8370b88e9,Player is a paladin of Lolth.
+PALADIN_MIELIKKI,f18e3f3c-c227-4d11-8764-51c7fed44419,f18e3f3c-c227-4d11-6487-c751d4fe1944,Player or NPC is a paladin of Mielikki.
+PALADIN_MORADIN,395c6cef-953e-45c2-a342-e1326033c027,395c6cef-953e-45c2-42a3-32e1336027c0,Player or NPC is a paladin of Moradin.
+PALADIN_MYRKUL,6c080131-acd9-42e3-8bea-5de394672465,6c080131-acd9-42e3-ea8b-e35d67946524,Player or NPC is a paladin of Myrkul.
+PALADIN_MYSTRA,498946c4-246a-47dc-9c21-89fb538b2614,498946c4-246a-47dc-219c-fb898b531426,Player or NPC is a paladin of Mystra.
+PALADIN_NEUTRAL,5c09c86d-c068-4ef5-9850-aeb9aefd8038,5c09c86d-c068-4ef5-5098-b9aefdae3880,Player is a paladin of a neutral-aligned deity
+PALADIN_OGHMA,f639a9df-1adc-4897-b540-0a74b2bb5c2e,f639a9df-1adc-4897-40b5-740abbb22e5c,Player or NPC is a paladin of Oghma.
+PALADIN_PROTECTED_NPC,85a96b13-23ae-4cdf-91db-9a92973a1a9e,85a96b13-23ae-4cdf-db91-929a3a979e1a,
+PALADIN_SELUNE,f6dfdd47-bbf1-4419-b4b9-7a1e67a197da,f6dfdd47-bbf1-4419-b9b4-1e7aa167da97,Player or NPC is a paladin of Selune.
+PALADIN_SHAR,62f5382a-27c3-441c-bd57-33db4ca00f10,62f5382a-27c3-441c-57bd-db33a04c100f,Player or NPC is a paladin of Shar.
+PALADIN_TALOS,5cc0a323-50e0-4775-92af-76a719f53147,5cc0a323-50e0-4775-af92-a776f5194731,Player or NPC is a paladin of Talos.
+PALADIN_TEMPUS,0b2bdab1-6455-4baa-883b-4f299376abb6,0b2bdab1-6455-4baa-3b88-294f7693b6ab,Player or NPC is a paladin of Tempus.
+PALADIN_TIAMAT,70be60f2-016d-40e5-b944-81b8868c3af9,70be60f2-016d-40e5-44b9-b8818c86f93a,|Player or NPC is a paladin of Tiamat.|
+PALADIN_TYMORA,aecc62c1-99ce-4ff7-952c-8ddc6afe7a30,aecc62c1-99ce-4ff7-2c95-dc8dfe6a307a,Player or NPC is a paladin of Tymora.
+PALADIN_TYR,b8aec881-85fe-4e6e-8a28-7052ecd88899,b8aec881-85fe-4e6e-288a-5270d8ec9988,Player or NPC is a paladin of Tyr.
+PALADIN_VENGEANCE,a1aa47b2-4d0a-4c97-931b-2c53353d5b23,a1aa47b2-4d0a-4c97-1b93-532c3d35235b,
+PALADIN_VLAAKITH,e64a45b2-ba13-4097-a7f9-05f6c8bee312,e64a45b2-ba13-4097-f9a7-f605bec812e3,Player or NPC is a paladin of Vlaakith.
+PALADIN_YONDALLA,c771a524-58fe-43e4-b8f0-b976e1b92d9f,c771a524-58fe-43e4-f0b8-76b9b9e19f2d,Player or NPC is a paladin of Yondalla.
+PANTHER,e1ad9942-fa0e-467b-bfe9-c6e7c6680a83,e1ad9942-fa0e-467b-e9bf-e7c668c6830a,
+PARALYZED_ADV,4c458b90-b91e-48fe-8a8f-e483f9e4142c,4c458b90-b91e-48fe-8f8a-83e4e4f92c14,Advantage on rolls against paralyze statuses
+PARTIAL_CEREMORPH,c0cd4ed8-11d1-4fb1-ae3a-3a14e41267c8,c0cd4ed8-11d1-4fb1-3aae-143a12e4c867,
+PATCH_9_LINES,247c7c5e-a914-43f1-bab4-f50cea74ae7b,247c7c5e-a914-43f1-b4ba-0cf574ea7bae,
+PATCH_9_LINES,247c7c5e-a914-43f1-bab4-f50cea74ae7b,247c7c5e-a914-43f1-b4ba-0cf574ea7bae,
+PERMA_DEFEATED,867f3a1e-1e4b-48c2-869e-343415231727,867f3a1e-1e4b-48c2-9e86-343423152717,
+PERMA_DEFEATED_OR_OFFSTAGE,b9e63705-637a-4d3b-87ef-a49324cf703f,b9e63705-637a-4d3b-ef87-93a4cf243f70,
+PETPAL,dc860a81-f3c2-4c1a-ab90-e7583324845c,dc860a81-f3c2-4c1a-90ab-58e724335c84,Speak with Animals ability
+PIG,8c1ef184-43f1-46b1-bbf4-2aff5991dfa2,8c1ef184-43f1-46b1-f4bb-ff2a9159a2df,Species tag
+PLANAR,bad00ba2-8a49-450c-8387-af47681717f1,bad00ba2-8a49-450c-8783-47af1768f117,Race group (githyanki% warforged)
+PLANT,125b3d94-3997-4fc4-8211-1768b67dbe4a,125b3d94-3997-4fc4-1182-68177db64abe,Type Tag for plant-type monsters
+PLANT_IMPEDE_ADV,075a0f7d-7457-4e85-9a52-5adfb1c78e3f,075a0f7d-7457-4e85-529a-df5ac7b13f8e,
+PLAYABLE,25bf5042-5bf6-4360-8df8-ab107ccb0d37,25bf5042-5bf6-4360-f88d-10abcb7c370d,Character is a potential player character
+PLAYER,9f55390e-06b7-4f43-9b20-c96b7ee8462e,9f55390e-06b7-4f43-209b-6bc9e87e2e46,System
+POISONED,b48a0baa-18f7-4bf0-85e9-d03148565a1a,b48a0baa-18f7-4bf0-e985-31d056481a5a,Food/Consumable
+POISONED_ADV,494276cb-a499-4843-a985-a11926bf2785,494276cb-a499-4843-85a9-19a1bf268527,Advantage on rolls against poisoned statuses
+POISONED_MYRMIDON,da1b77f3-8e6e-42de-a7c2-ca1bf411b879,da1b77f3-8e6e-42de-c2a7-1bca11f479b8,|Used to apply a tag for VFX|
+POLYMORPHED_UNWILLING,59fb6527-bf28-4a78-bea2-bda70799ed16,59fb6527-bf28-4a78-a2be-a7bd990716ed,Is currently polymorphed against their will.
+POTION,56c99a77-8f6a-4584-8e41-2a3b9f6b5261,56c99a77-8f6a-4584-418e-3b2a6b9f6152,
+PRESET_HIRELING_BARBARIAN,e0d2bf22-63e0-40b1-96d3-796558364b0e,e0d2bf22-63e0-40b1-d396-657936580e4b,
+PRESET_HIRELING_BARD,694cfe5d-9a95-4cae-89c5-6bede382b111,694cfe5d-9a95-4cae-c589-ed6b82e311b1,
+PRESET_HIRELING_CLERIC,b3072bc4-2505-4c10-a308-ce6833641525,b3072bc4-2505-4c10-08a3-68ce64332515,
+PRESET_HIRELING_DRUID,f4d1035b-5d77-411a-85fb-c9bdfeb00e8b,f4d1035b-5d77-411a-fb85-bdc9b0fe8b0e,
+PRESET_HIRELING_FIGHTER,fcb45424-7516-4ead-8071-99e9c18d18be,fcb45424-7516-4ead-7180-e9998dc1be18,
+PRESET_HIRELING_MONK,37e5a250-a5b4-4225-8ba0-d013f4288b6c,37e5a250-a5b4-4225-a08b-13d028f46c8b,
+PRESET_HIRELING_PALADIN,009593a8-50c6-43bc-a5d6-52b72955fbd7,009593a8-50c6-43bc-d6a5-b7525529d7fb,
+PRESET_HIRELING_RANGER,4df6ec8c-ba2f-49f3-830b-effadc1f8a65,4df6ec8c-ba2f-49f3-0b83-faef1fdc658a,
+PRESET_HIRELING_ROGUE,1d05dde1-8ee2-4109-9963-6ee775f3ca0a,1d05dde1-8ee2-4109-6399-e76ef3750aca,
+PRESET_HIRELING_SORCERER,710d9065-a701-4b13-bb03-266a2c7996b9,710d9065-a701-4b13-03bb-6a26792cb996,
+PRESET_HIRELING_WARLOCK,81c59dc6-0ee0-4a1c-8e75-3811752df050,81c59dc6-0ee0-4a1c-758e-11382d7550f0,
+PRESET_HIRELING_WIZARD,58235251-ca50-4194-9889-85ecd49f849f,58235251-ca50-4194-8998-ec859fd49f84,
+PSIONICS,bfef85f2-6caa-40c8-b880-1983a49dcc07,bfef85f2-6caa-40c8-80b8-83199da407cc,|Has developed psionic powers|
+Puzzle,09962a69-b99d-40ed-b28e-c2542020666c,09962a69-b99d-40ed-8eb2-54c220206c66,
+Quest,8990df0e-adb1-4341-aca4-d6ef0fdfaa08,8990df0e-adb1-4341-a4ac-efd6df0f08aa,
+RABBIT,e4b1e457-f5fa-4611-8715-54fcb5a0b702,e4b1e457-f5fa-4611-1587-fc54a0b502b7,Species tag
+RANGER,37a733c1-a862-4157-b92a-9cff46232c6a,37a733c1-a862-4157-2ab9-ff9c23466a2c,A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.
+RANGER_BEAST_MASTER,bfaccaca-e512-43ea-89cc-372b5d1925ee,bfaccaca-e512-43ea-cc89-2b37195dee25,
+RANGER_COMPANION,228e9ea5-264d-428b-9451-e8602a745233,228e9ea5-264d-428b-5194-60e8742a3352,
+RANGER_GLOOM_STALKER,c023a2ef-b042-443b-b402-b1326f4b49f3,c023a2ef-b042-443b-02b4-32b14b6ff349,
+RANGER_HUNTER,5727fd64-090f-4932-a31c-c0e078b2146a,5727fd64-090f-4932-1ca3-e0c0b2786a14,
+RARE,d2f86ec3-c41f-47e1-8acd-984872a4d7d5,d2f86ec3-c41f-47e1-cd8a-4898a472d5d7,Race group (aasimar% dragonborn% firbolg% genasi% githyanki% half-drow% half-orc% tiefling% triton% warforged% yuan-ti pureblood)
+RAT,9568e56b-27a2-45fc-92c5-fa33eeb6f54c,9568e56b-27a2-45fc-c592-33fab6ee4cf5,Species tag
+RAVEN,ccf8ba00-8e00-4f74-b146-598f46c97e9a,ccf8ba00-8e00-4f74-46b1-8f59c9469a7e,Species type for VFX
+REALLY_AARAKOCRA,7e97c590-911f-422a-bdb6-068c137eb2c8,7e97c590-911f-422a-b6bd-8c067e13c8b2,Character is really an aarakocra
+REALLY_AASIMAR,2fddf7dd-f79b-4998-882c-d7257badbfe6,2fddf7dd-f79b-4998-2c88-25d7ad7be6bf,Character is really an aasimar
+REALLY_ALFIRA,0c8221b4-43c8-4c9e-aa00-1832f4d9bcb9,0c8221b4-43c8-4c9e-00aa-3218d9f4b9bc,
+REALLY_ASMODEUSTIEFLING,6591a20a-12de-46ff-bf82-b866cd97bb9a,6591a20a-12de-46ff-82bf-66b897cd9abb,|Asmodeus Tiefling% shapeshifted or not|
+REALLY_ASTARION,ffd08582-7396-4cac-bcd4-8f9cd0fd8ef3,ffd08582-7396-4cac-d4bc-9c8ffdd0f38e,| Really Astarion% Vampire companion |
+REALLY_BESTIAL,1029b3e3-3ff0-4d73-b4ed-79b622cad4f9,1029b3e3-3ff0-4d73-edb4-b679ca22f9d4,Race group for REALLY_ races (aarakocra% kenku% lizardfolk% tabaxi% tortle)
+REALLY_DARK_URGE,cd611d7d-b67d-42b4-a75c-a0c6091ef8a2,cd611d7d-b67d-42b4-5ca7-c6a01e09a2f8,|Dark urge origin tag; ignores shapeshift.|
+REALLY_DEEPGNOME,17d29357-beba-4096-accc-c28bdea88fda,17d29357-beba-4096-ccac-8bc2a8deda8f,|Deep Gnome% shapeshifted or not|
+REALLY_DISPLACER_BEAST,8fac3253-331c-4b9f-95fb-e2196fd1bc8d,8fac3253-331c-4b9f-fb95-19e2d16f8dbc,
+REALLY_DRAGONBORN,39783f17-8484-46a6-aa3b-f3d51122e5f3,39783f17-8484-46a6-3baa-d5f32211f3e5,Character is really a dragonborn
+REALLY_DROWELF,676e854b-d74b-44f3-8363-3ef27164a54d,676e854b-d74b-44f3-6383-f23e64714da5,|Drow% shapeshifted or not|
+REALLY_DROWHALFELF,3dbe23e0-2c9f-4a81-b586-ec6e50f720e1,3dbe23e0-2c9f-4a81-86b5-6eecf750e120,|Drow Half-Elf% shapeshifted or not|
+REALLY_DUERGARDWARF,45b007f7-f4f6-46e2-9480-395a49b87ef3,45b007f7-f4f6-46e2-8094-5a39b849f37e,|Duergar% shapeshifted or not|
+REALLY_DWARF,ad129444-0f41-4114-9ee5-2b9902d7ca8d,ad129444-0f41-4114-e59e-992bd7028dca,|Dwarf% shapeshifted or not|
+REALLY_ELF,772b1dc6-14be-417f-afa3-c6cf364f45b4,772b1dc6-14be-417f-a3af-cfc64f36b445,|Elf% shapeshifted or not|
+REALLY_FIRBOLG,9deae354-0108-40b4-a7db-6eb23fba050f,9deae354-0108-40b4-dba7-b26eba3f0f05,Character is really a firbolg
+REALLY_FORESTGNOME,b0401c02-70b3-47f5-998f-8d440ad6954f,b0401c02-70b3-47f5-8f99-448dd60a4f95,|Forest Gnome% shapeshifted or not|
+REALLY_GALE,9b0354c0-56d9-4723-8034-918ac9abab19,9b0354c0-56d9-4723-3480-8a91abc919ab,|Gale companion% shapeshifted or not|
+REALLY_GENASI,aa68eccb-7875-436f-881e-c3775eee37f6,aa68eccb-7875-436f-1e88-77c3ee5ef637,Character is really a genasi
+REALLY_GENERIC,264a6880-9a51-429c-a9fc-97f8952baf90,264a6880-9a51-429c-fca9-f8972b9590af,|Really Generic origin|
+REALLY_GITHYANKI,e49c027c-6ec6-4158-9afb-8b59236d10fd,e49c027c-6ec6-4158-fb9a-598b6d23fd10,Character is really a githyanki
+REALLY_GNOME,42483542-7915-4de5-a7d9-ac0d15fe301c,42483542-7915-4de5-d9a7-0dacfe151c30,|Gnome% shapeshifted or not|
+REALLY_HALFELF,277f9609-ad0c-4883-b56d-0850904e88df,277f9609-ad0c-4883-6db5-50084e90df88,|Half-elf% shapeshifted or not|
+REALLY_HALFLING,2b40a033-7a5c-47e9-92f0-7de9b5cd3a42,2b40a033-7a5c-47e9-f092-e97dcdb5423a,|Halfling% shapeshifted or not|
+REALLY_HALFORC,ab3eff19-d094-4102-88bd-d097b6b6e4f0,ab3eff19-d094-4102-bd88-97d0b6b6f0e4,Player is really a halforc
+REALLY_HALSIN,9b8709f9-8d2a-4b4e-a465-8505c561d7f5,9b8709f9-8d2a-4b4e-65a4-058561c5f5d7,|Halsin% shapeshifted or not|
+REALLY_HIGHELF,78884c5f-9504-41af-912d-ce212df0ebea,78884c5f-9504-41af-2d91-21cef02deaeb,|High Elf% shapeshifted or not|
+REALLY_HIGHHALFELF,bb7c731c-7af7-4c2d-b3d7-b4e8bd86a244,bb7c731c-7af7-4c2d-d7b3-e8b486bd44a2,|High Half-Elf% shapeshifted or not|
+REALLY_HILLDWARF,9a92ac6d-b7cc-4ccb-8965-074c6b36a342,9a92ac6d-b7cc-4ccb-6589-4c07366b42a3,|Hill Dwarf% shapeshifted or not|
+REALLY_HUMAN,8e288154-e7ca-4277-b2df-e61639b1cce8,8e288154-e7ca-4277-dfb2-16e6b139e8cc,|Human% shapeshifted or not|
+REALLY_JAHEIRA,8457eb5f-036c-4143-b6cf-447a9f555c7a,8457eb5f-036c-4143-cfb6-7a44559f7a5c,|Jaheira companion% shapeshifted or not|
+REALLY_KARLACH,1a2f70d6-8ead-4eb5-a824-79ee1971764a,1a2f70d6-8ead-4eb5-24a8-ee7971194a76,
+REALLY_KENKU,ec90a39d-ce0e-4ae1-b74d-0906dfd9a1d2,ec90a39d-ce0e-4ae1-4db7-0609d9dfd2a1,Character is really a kenku
+REALLY_LAEZEL,b5682d1d-c395-489c-9675-1f9b0c328ea5,b5682d1d-c395-489c-7596-9b1f320ca58e,| Lae'zel% the Gith Companion |
+REALLY_LIGHTFOOTHALFLING,da1d4f47-8583-49a1-b262-d77d361b2e09,da1d4f47-8583-49a1-62b2-7dd71b36092e,|Lightfoot Halfling% shapeshifted or not|
+REALLY_LIZARDFOLK,ef8444e2-a240-4cc1-9f57-73db6d99bc96,ef8444e2-a240-4cc1-579f-db73996d96bc,Character is really a lizardfolk
+REALLY_LOLTHDROWELF,c71eb8de-74e3-4d70-9826-22da7e2dc607,c71eb8de-74e3-4d70-2698-da222d7e07c6,|LOLTH-SWORN% shapeshifted or not|
+REALLY_MEPHISTOPHELESTIEFLING,c70e1dc2-72d4-44f9-83fd-c63d247edd9b,c70e1dc2-72d4-44f9-fd83-3dc67e249bdd,|Mephistopheles Tiefling% shapeshifted or not|
+REALLY_MINSC,aeb694fc-83fb-452d-819a-b97ba442dc42,aeb694fc-83fb-452d-9a81-7bb942a442dc,
+REALLY_MINTHARA,3e84e1cd-2193-4f9f-80b4-c2ededefaea6,3e84e1cd-2193-4f9f-b480-edc2efeda6ae,
+REALLY_MOUNTAINDWARF,18659b46-73ae-49d2-85a8-7e6cc43ce94f,18659b46-73ae-49d2-a885-6c7e3cc44fe9,|Mountain Dwarf% shapeshifted or not|
+REALLY_PLANAR,4cb02915-7ad7-4141-907e-93253c6a8644,4cb02915-7ad7-4141-7e90-25936a3c4486,Race group for REALLY_ races (githyanki% warforged)
+REALLY_RARE,987a41e3-2482-4c74-8c30-f3843cfdb7f3,987a41e3-2482-4c74-308c-84f3fd3cf3b7,Race group for REALLY_ races (aasimar% dragonborn% firbolg% genasi% githyanki% half-drow% half-orc% tiefling% triton% warforged% yuan-ti pureblood)
+REALLY_ROCKGNOME,df697d73-5469-405a-aa95-6e1e720c5ee6,df697d73-5469-405a-95aa-1e6e0c72e65e,|Rock Gnome% shapeshifted or not|
+REALLY_SELDARINEDROWELF,d2d60a81-688e-4d3d-ba56-3e467cae37fc,d2d60a81-688e-4d3d-56ba-463eae7cfc37,|Seldarine Drow% shapeshifted or not|
+REALLY_SHADOWHEART,642d2aee-e3df-47e3-9f47-bbcd441bb9e0,642d2aee-e3df-47e3-479f-cdbb1b44e0b9,|Really Shadowheart|
+REALLY_STOUTHALFLING,058df86a-97b6-4dc4-a246-a1db65ff3c0f,058df86a-97b6-4dc4-46a2-dba1ff650f3c,|Stout Halfling% shapeshifted or not|
+REALLY_TABAXI,bafc25f8-20b0-4693-a0fe-73967befcf05,bafc25f8-20b0-4693-fea0-9673ef7b05cf,Character is really a tabaxi
+REALLY_TIEFLING,7bf7207f-7406-49c0-b501-eaaa2bb4efd7,7bf7207f-7406-49c0-01b5-aaeab42bd7ef,|Tiefling% shapeshifted or not|
+REALLY_TORTLE,7839884d-892a-4d60-95cc-b073420d8474,7839884d-892a-4d60-cc95-73b00d427484,Character is really a tortle
+REALLY_TRITON,2a7e679e-2567-47f7-9645-550471cffcf7,2a7e679e-2567-47f7-4596-0455cf71f7fc,Character is really a triton
+REALLY_UNDERDARK,2d0a73b9-f113-4d35-bdee-a31ab9163d74,2d0a73b9-f113-4d35-eebd-1aa316b9743d,Character internally belongs to an Underdark race
+REALLY_US,2cff7db0-ae50-4267-82ea-84e961d3e3fa,2cff7db0-ae50-4267-ea82-e984d361fae3,A tag for Us% the Intellect Devourer companion
+REALLY_WARFORGED,e30b5b4d-2ceb-4791-914e-b6c6c122f059,e30b5b4d-2ceb-4791-4e91-c6b622c159f0,Character is really a warforged
+REALLY_WOODELF,b12e8dff-c1f0-4e9c-9ec0-1cafd22bb637,b12e8dff-c1f0-4e9c-c09e-af1c2bd237b6,|Wood Elf% shapeshifted or not|
+REALLY_WOODHALFELF,8ac1b27c-c5c4-4a2c-95dd-256e4349e483,8ac1b27c-c5c4-4a2c-dd95-6e25494383e4,|Wood Half-Elf% shapeshifted or not|
+REALLY_WYLL,5f40def5-d3ec-4698-a367-01a339888956,5f40def5-d3ec-4698-67a3-a30188395689,|Really Wyll% superhero warlock|
+REALLY_YUANTIPUREBLOOD,3d80e0d5-0e28-4363-b153-c1a1076d36d4,3d80e0d5-0e28-4363-53b1-a1c16d07d436,Character is really a yuan-ti pureblood
+REALLY_ZARIELTIEFLING,3a5efd84-5925-4a75-83ee-4f336b56f716,3a5efd84-5925-4a75-ee83-334f566b16f7,|Zariel Tiefling% shapeshifted or not|
+RECORD_ANTAGONIST,cf6225be-c617-420f-96bc-3da63143aa15,cf6225be-c617-420f-bc96-a63d433115aa,This character is a major Antagonist in the story. For Voice Recording Team only.
+RECORD_EXTRA,4e3a48be-f1a7-4f1f-a6c4-57b852eaa898,4e3a48be-f1a7-4f1f-c4a6-b857ea5298a8,This character is an Extra character. For Voice Recording Team only.
+RECORD_PLAYER,1402369e-b821-47be-95cc-435c90e5ca48,1402369e-b821-47be-cc95-5c43e59048ca,This character is a Player Character or an Origin Story. For Voice Recording Team only.
+RECORD_PROTAGONIST,541bd0f1-9164-4c16-b04e-7b5c96038471,541bd0f1-9164-4c16-4eb0-5c7b03967184,This character is a major Protagonist in the story. For Voice Recording Team only.
+RECORD_QUEST,855a45e4-91a4-41a1-9401-95b5bd015336,855a45e4-91a4-41a1-0194-b59501bd3653,This character is a Quest Giving character. For Voice Recording Team only.
+REDCAP,ec2ee51e-80de-42a2-9d34-a5c9aa75cf75,ec2ee51e-80de-42a2-349d-c9a575aa75cf,|Redcap tag used for spell targeting conditions|
+RESTRAINED_ADV,eacd09eb-cddc-4902-8133-b9d1b2a7c5cb,eacd09eb-cddc-4902-3381-d1b9a7b2cbc5,Advantage on rolls against restrained statuses
+RESTRAINED_DISADV,6b9d73ac-e853-43ad-acbb-492bbe3c4940,6b9d73ac-e853-43ad-bbac-2b493cbe4049,Disadvantage on rolls against restrained statuses
+RETREAT,9cefcf81-6c03-4505-96e1-9de55c8ab647,9cefcf81-6c03-4505-e196-e59d8a5c47b6,AI hint tag for trigger% Indicies interesting area for retreating
+Reward,d5cd4ee4-6c5d-429a-b3ef-2f56ec906dd7,d5cd4ee4-6c5d-429a-efb3-562f90ecd76d,
+RISING_PLATFORM,7f6c27d9-0ee6-4840-8d42-297cf5791f49,7f6c27d9-0ee6-4840-428d-7c2979f5491f,Rising platforms have these tags so they don't interfer with each other.
+ROCKGNOME,664cc044-a0ea-43a1-b21f-d8cad7721102,664cc044-a0ea-43a1-1fb2-cad872d70211,|Rock Gnome|
+ROGUE,f8a0608b-666c-4be6-a49c-03b369c10bd2,f8a0608b-666c-4be6-9ca4-b303c169d20b,A scoundrel who uses stealth and trickery to overcome obstacles and enemies.
+ROLAN_TARGET,8c7bdccd-132c-496a-a34f-75c39e721214,8c7bdccd-132c-496a-4fa3-c375729e1412,A tag to apply to Rolan so he is targets by the Shadows in the Rolan Rescue fight.
+SABERTOOTH,83485d43-2f1a-4916-b428-ab3f37aafedf,83485d43-2f1a-4916-28b4-3fabaa37dffe,
+SAGE,dad18490-c61d-4958-805c-f017eb68f8a0,dad18490-c61d-4958-5c80-17f068eba0f8,|You spent years learning the lore of the multiverse. You scoured manuscripts% studied scrolls% and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.|
+SAHUAGIN,5cb1729c-eff3-4878-adc5-128f71ecccdc,5cb1729c-eff3-4878-c5ad-8f12ec71dccc,
+SAILOR,3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0,3f4cfd9e-cc97-4fd9-7aae-f2218f94b0d1,
+SALAMANDER,d3be3db4-1261-422d-a2ff-2662a06884fd,d3be3db4-1261-422d-ffa2-622668a0fd84,Species tag
+SCL_DRIDER,0111a41a-d47f-42e5-a000-eea3f75e354d,0111a41a-d47f-42e5-00a0-a3ee5ef74d35,
+SCL_SHADOWCURSE_LANTERN,d40f0c3a-d95d-49fe-ae62-ca90ff2c2202,d40f0c3a-d95d-49fe-62ae-90ca2cff0222,
+SCL_SHADOWCURSE_LANTERN_INBLIGHT,8a98d81f-ec79-483e-aa89-9e71806a339e,8a98d81f-ec79-483e-89aa-719e6a809e33,
+SCRATCH,13a8385d-d502-496a-8b91-f6d9a8e7a2cb,13a8385d-d502-496a-918b-d9f6e7a8cba2,|Tag for scratch to find things in the world.|
+SCROLL,dd86c045-0370-4ec9-b7c5-b0b160706f09,dd86c045-0370-4ec9-c5b7-b1b07060096f,Magic scroll with a spell
+SCRYING_EYE,0bdf874a-3703-49be-b1cf-4d291d4e495b,0bdf874a-3703-49be-cfb1-294d4e1d5b49,Scrying Eyes crime reactions.
+SELDARINEDROWELF,6e913b6e-58b1-41bf-8751-89250dd17bff,6e913b6e-58b1-41bf-5187-2589d10dff7b,|Seldarine Drow|
+SELUNE,4533d292-5b1f-43c7-ad44-6bc7db1000ca,4533d292-5b1f-43c7-44ad-c76b10dbca00,|Player or NPC chose Selune.|
+SEPARATE_STACK_MERGING,f5071dac-7a94-4302-a3e6-a631d0d53619,f5071dac-7a94-4302-e6a3-31a6d5d01936,
+SEVEREDHEAD,80572cea-ebf2-4c53-8905-b0d53bbef449,80572cea-ebf2-4c53-0589-d5b0be3b49f4,Bodyparts that are severed heads
+SFX,794849b6-f8d9-49da-9c0c-d2b1f7517b2d,794849b6-f8d9-49da-0c9c-b1d251f72d7b,|For dialogue nodes that need SFX treatment in addition to VO|
+SFX_Only,450f4137-1a60-45e3-90cf-de9e182f3078,450f4137-1a60-45e3-cf90-9ede2f187830,|For dialogue nodes that are only SFX% no voice|
+SHADOW,a04374d9-c40f-4c41-a10f-7f3ca496b16a,a04374d9-c40f-4c41-0fa1-3c7f96a46ab1,A tag to identify shadows so that their combat fallback AD works as intended.
+SHADOWHEART,8b4cf0fa-f712-4839-9439-f86a519078fa,8b4cf0fa-f712-4839-3994-6af89051fa78,|Shadow Heart% Sharite companion|
+SHADOWHEART_ENEMYOFSHARPATH,8eca8027-996c-4c61-bec6-77f853de295b,8eca8027-996c-4c61-c6be-f877de535b29,
+SHADOWHEART_SHARPATH,9624a3fe-bb9e-47c5-b9ab-417e6da6f84b,9624a3fe-bb9e-47c5-abb9-7e41a66d4bf8,
+SHAR,486e4a27-e6f9-40a5-9dd1-108a1d0f60eb,486e4a27-e6f9-40a5-d19d-8a100f1deb60,|Player or NPC chose Shar.|
+SHARK,9fd9e0bb-bfc5-4696-90c7-133fd7e8e9f8,9fd9e0bb-bfc5-4696-c790-3f13e8d7f8e9,Species tag
+SHEEP,c52888c3-4131-41e7-89e4-f4366a334289,c52888c3-4131-41e7-e489-36f4336a8942,Species tag
+SHOPTRIGGER_BLOCK_FOR_SALE,f8fca7c4-c06b-4c2c-a9d4-43d959df51ec,f8fca7c4-c06b-4c2c-d4a9-d943df59ec51,
+SHOPTRIGGER_FOR_SALE,b148cfca-53d8-4b73-b052-de08394a235e,b148cfca-53d8-4b73-52b0-08de4a395e23,
+SHORT,50e7beca-4e90-43cd-b7c5-c235e236077f,50e7beca-4e90-43cd-c5b7-35c236e27f07,|Is a small humanoid.|
+SHOVEL,e2db698a-0705-43f4-9674-06fff1fd1e67,e2db698a-0705-43f4-7496-ff06fdf1671e,Tags items with which you can dig
+SKELETON,146a89e7-802f-4926-bc21-4a41c2478502,146a89e7-802f-4926-21bc-414a47c20285,
+SLAYER,ff6e2e2e-198c-40e3-ae79-4499c5a59eea,ff6e2e2e-198c-40e3-79ae-9944a5c5ea9e,Slayer species tag
+SLIPPING_ADV,1b6b3f27-23cc-4594-b0f2-a94054be0fc2,1b6b3f27-23cc-4594-f2b0-40a9be54c20f,Advantage on rolls against slipping surfaces.
+SOLDIER,d135f265-c2e1-4077-a836-b548ee871681,d135f265-c2e1-4077-36a8-48b587ee8116,|War has been your life for as long as you care to remember. You trained as a youth% studied the use of weapons and armor% learned basic survival techniques% including how to stay alive on the battlefield.|
+SORCERER,18266c0b-efbc-4c80-8784-ada4a37218d7,18266c0b-efbc-4c80-8487-a4ad72a3d718,A spellcaster who draws on inherent magic from a gift or bloodline.
+SORCERER_DRACONIC,f6d0e042-5b90-41d8-ab4a-a2239e27a13e,f6d0e042-5b90-41d8-4aab-23a2279e3ea1,
+SORCERER_METAMAGIC,6078032a-1638-4d33-ba16-996066490ccf,6078032a-1638-4d33-16ba-60994966cf0c,Character with this tag has access to metamagic
+SORCERER_WILD_MAGIC_GUARANTEED,4bac801e-9471-4f41-88bc-caa39e358c52,4bac801e-9471-4f41-bc88-a3ca359e528c,Character with this tag will have guaranteed wild magic next spell cast
+SORCERER_WILD_MAGIC_SUPRESSED,a3b7a422-4d28-413d-adc4-e7d2001e37f5,a3b7a422-4d28-413d-c4ad-d2e71e00f537,Character with this tag cannot trigger wild magic
+SORCERER_WILDMAGIC,885f8675-e400-4d53-924d-6204ff1d9558,885f8675-e400-4d53-4d92-04621dff5895,
+SPECIFIC_LADDERS,10a24282-b306-40f8-9e44-410799dc21cd,10a24282-b306-40f8-449e-0741dc99cd21,This creature only uses ladders that are meant for its race (e.g. NPC spiders only use web ladders). This must NOT apply to player transformations% as they are supposed to use any ladder that aren't specifically blocked from them.
+SPECTATOR,9c79bbd4-c01c-4894-a2cf-51e1aae09a90,9c79bbd4-c01c-4894-cfa2-e151e0aa909a,A combat tag allowing the petrified drow% around the spectator% to cast healing spells on him% and only on him
+SPELLLIGHTOBJECT,292e7f29-ff10-462d-8be9-94ddd18970ea,292e7f29-ff10-462d-e98b-dd9489d1ea70,A helper object created by a light-type spell.
+SPIDER,8c8932c5-45f7-4d45-8f62-182db82ddcb0,8c8932c5-45f7-4d45-628f-2d182db8b0dc,Species tag
+SPIDER_PHASE,c3b3e9cd-ad18-475a-8df1-4562b2a6af19,c3b3e9cd-ad18-475a-f18d-6245a6b219af,
+SQUIRREL,f2f86f8a-b927-4e70-888f-deffa10ec796,f2f86f8a-b927-4e70-8f88-ffde0ea196c7,Species tag
+STEEL_WATCHER,bc09a589-e076-4b2d-8b86-f8cccbb64449,bc09a589-e076-4b2d-868b-ccf8b6cb4944,
+STEEL_WATCHER_BIPED,6427d19c-0b93-4079-b76f-2647945081c5,6427d19c-0b93-4079-6fb7-47265094c581,
+STEEL_WATCHER_MALFUNCTION,62b8df63-c303-4956-97a9-5c9c97520ebf,62b8df63-c303-4956-a997-9c5c5297bf0e,
+STONE,556b33c9-2cde-4d41-8c00-ddcdc161c868,556b33c9-2cde-4d41-008c-cddd61c168c8,Used To mark movable items to play sounds according to the material
+STONE_CREATURE,3b030365-927d-43a1-83ba-111f3bab3059,3b030365-927d-43a1-ba83-1f11ab3b5930,
+STOUTHALFLING,8d545fa1-8416-493f-8325-7d112bceced8,8d545fa1-8416-493f-2583-117dce2bd8ce,|Stout Halfling|
+SUMMON,26c78224-a4c1-43e4-b943-75e7fa1bfa41,26c78224-a4c1-43e4-43b9-e7751bfa41fa,Generic tag for summons. Allows different treatements of crimes% similarly to the ANIMAL tag.
+SUMMONWITHOUTMOUTH,ff16e8ab-e8e6-4acb-a105-aae53a9d510e,ff16e8ab-e8e6-4acb-05a1-e5aa9d3a0e51,
+SURFACE_INTERRACTIONS_FROM_CENTER,30cc2141-376e-4bbf-9188-9d3a9c5741cb,30cc2141-376e-4bbf-8891-3a9d579ccb41,
+TABAXI,b83aa083-9544-454e-baef-2cb28f9c151b,b83aa083-9544-454e-efba-b22c9c8f1b15,Character looks like a tabaxi
+TADPOLE_00,c15c2234-9b19-453e-99cc-00b7358b9fce,c15c2234-9b19-453e-cc99-b7008b35ce9f,
+TADPOLE_01,c67231b6-93d5-4bab-888b-c5eeaa60a8df,c67231b6-93d5-4bab-8b88-eec560aadfa8,
+TADPOLE_02,f8b010f9-9e1b-49bb-92a9-986e91331926,f8b010f9-9e1b-49bb-a992-6e9833912619,
+TADPOLE_03,9cde0249-0e85-4d4d-b410-a88b5f073215,9cde0249-0e85-4d4d-10b4-8ba8075f1532,
+TADPOLE_04,0a6b3d54-dcb5-4fa3-a47c-bed147936461,0a6b3d54-dcb5-4fa3-7ca4-d1be93476164,
+TADPOLE_05,9d789ea8-3982-418d-b0e9-e1fa731c132d,9d789ea8-3982-418d-e9b0-fae11c732d13,
+TADPOLE_06,aad197e7-b335-423b-a718-384f1774e5de,aad197e7-b335-423b-18a7-4f387417dee5,
+TADPOLE_07,bbc4f0e0-38fd-40da-af69-0660ce53d92a,bbc4f0e0-38fd-40da-69af-600653ce2ad9,
+TADPOLE_08,488c84ef-24a7-4d56-8343-0eba225eb842,488c84ef-24a7-4d56-4383-ba0e5e2242b8,
+TADPOLE_09,b2666bd3-eeba-4bea-8395-673ccb9930ed,b2666bd3-eeba-4bea-9583-3c6799cbed30,
+TADPOLE_10,08b493da-3bbc-41f9-848d-73b7b9ecfacd,08b493da-3bbc-41f9-8d84-b773ecb9cdfa,
+TADPOLE_11,efc0b8ab-5ab2-4859-b1e7-6aa244d35f70,efc0b8ab-5ab2-4859-e7b1-a26ad344705f,
+TADPOLE_12,6cda55d9-75ce-490d-8636-5a16ffd7ccdb,6cda55d9-75ce-490d-3686-165ad7ffdbcc,
+TADPOLE_13,814c5204-7803-4a5d-ab3e-4b5f976f37db,814c5204-7803-4a5d-3eab-5f4b6f97db37,
+TADPOLE_14,38e0fbdf-f3bb-42ae-a6c6-def7a3009eec,38e0fbdf-f3bb-42ae-c6a6-f7de00a3ec9e,
+TADPOLE_15,120777be-9221-4e7a-9dbc-295cb36faa0c,120777be-9221-4e7a-bc9d-5c296fb30caa,
+TADPOLE_16,6661566d-269e-4497-9129-bd793fb5b9e8,6661566d-269e-4497-2991-79bdb53fe8b9,
+TADPOLE_17,52ef4242-0716-4aeb-9800-0b98f97124a1,52ef4242-0716-4aeb-0098-980b71f9a124,
+TADPOLE_18,a7b5acb7-0c12-4aad-9b2d-e9a9f1fd2f71,a7b5acb7-0c12-4aad-2d9b-a9e9fdf1712f,
+TADPOLE_19,521814d2-8cf2-4da5-9dad-726d2973f4da,521814d2-8cf2-4da5-ad9d-6d727329daf4,
+TADPOLE_20,b99ebe04-463e-427c-bb22-e3d7583c63e3,b99ebe04-463e-427c-22bb-d7e33c58e363,
+TADPOLE_21,6c5dce0a-92a6-476a-a527-ff4c68c14a60,6c5dce0a-92a6-476a-27a5-4cffc168604a,
+TADPOLE_22,34b507c8-c414-450b-824d-128fd9e57ed7,34b507c8-c414-450b-4d82-8f12e5d9d77e,
+TADPOLE_23,2dd0903c-c5ff-454f-94e0-678a66bfa9c1,2dd0903c-c5ff-454f-e094-8a67bf66c1a9,
+TADPOLE_24,bf2e5c5e-a664-4f71-a017-bc4def71d50d,bf2e5c5e-a664-4f71-17a0-4dbc71ef0dd5,
+TADPOLE_25,27ec7196-c8ca-4b56-9b15-105b21c01281,27ec7196-c8ca-4b56-159b-5b10c0218112,
+TADPOLE_ASSIGNED,089d4ca5-2cf0-4f54-84d9-1fdea055c93f,089d4ca5-2cf0-4f54-d984-de1f55a03fc9,
+TADPOLE_NORMAL,a81294a2-e779-464f-8c8a-4e84f8e9da34,a81294a2-e779-464f-8a8c-844ee9f834da,
+TADPOLE_POWERS_BLOCKED,dbbb5a43-a45f-4d6e-b6dd-eba372e8f294,dbbb5a43-a45f-4d6e-ddb6-a3ebe87294f2,|All tadpole special powers are blocked with this tag.|
+TADPOLE_REFUSAL,e7aa40e4-05e4-41c4-a3ee-bc95d934d35c,e7aa40e4-05e4-41c4-eea3-95bc34d95cd3,
+TADPOLE_TREE_UNLOCKED,efedb058-d4f5-4ab8-8add-bd5e32cdd9cd,efedb058-d4f5-4ab8-dd8a-5ebdcd32cdd9,
+TALOS,c8650f16-4610-4648-95d1-18a44a1188b7,c8650f16-4610-4648-d195-a418114ab788,Player or NPC worships Talos.
+TARGET_BOUND_CENTER,9d7b1a5a-c1ca-40d5-a7b9-aeaf9e512608,9d7b1a5a-c1ca-40d5-b9a7-afae519e0826,???
+TELEPATHY,ad247b59-d101-4f04-99ef-471c65678662,ad247b59-d101-4f04-ef99-1c4767656286,For Dialog lines that are marked a Telephaty Internal Speech
+TELEPORTER_HOLE_SMALL,263a8a31-154a-45dc-8479-5e75edc0cc75,263a8a31-154a-45dc-7984-755ec0ed75cc,
+TELEPORTER_HOLE_TINY,2e6933bc-7c9b-4293-992b-49a07875c460,2e6933bc-7c9b-4293-2b99-a049757860c4,
+TEMPUS,f6b88f18-328f-41c3-a579-e8a9b99c410b,f6b88f18-328f-41c3-79a5-a9e89cb90b41,|Player or NPC chose Tempus.|
+TIAMAT,328683c2-8785-4b71-b128-7cec90df0abe,328683c2-8785-4b71-28b1-ec7cdf90be0a,|Player or NPC chose Tiamat.|
+TIEFLING,aaef5d43-c6f3-434d-b11e-c763290dbe0c,aaef5d43-c6f3-434d-1eb1-63c70d290cbe,|Tiefling|
+TIGER,91333a5b-4a98-4a91-a0a8-54facf62f373,91333a5b-4a98-4a91-a8a0-fa5462cf73f3,Species tag
+Tool,273296fc-764e-4119-b36e-a2c2f29c96b1,273296fc-764e-4119-6eb3-c2a29cf2b196,
+TORCH,a8139e1a-c593-4e0b-88cd-f703f888db83,a8139e1a-c593-4e0b-cd88-03f788f883db,Tag for setting Status VFX overrides.
+TORCH_BLUE_FX,11504ff6-abb5-4e18-867a-2bd2eb3d8388,11504ff6-abb5-4e18-7a86-d22b3deb8883,
+TORCH_CURSED_FX,b25e76da-ae10-4922-ade3-975cf393e77e,b25e76da-ae10-4922-e3ad-5c9793f37ee7,
+TORCH_GREEN_FX,e749196a-3564-4420-9293-847bc2ee7cd2,e749196a-3564-4420-9392-7b84eec2d27c,
+TORCH_LANTERN,6d68eef3-1ad6-4954-8ab8-447002138df1,6d68eef3-1ad6-4954-b88a-70441302f18d,A different kind of torch% with a hanging light.
+TORCH_PURPLE_FX,678d693a-75dc-4b40-95a4-d331ce849249,678d693a-75dc-4b40-a495-31d384ce4992,
+TORCH_REVOCATION_FX,6374d29f-eaed-4f95-8e1b-a9912190714c,6374d29f-eaed-4f95-1b8e-91a990214c71,
+TORCH_TRUE_FX,2db3999b-8662-4e13-aba9-e55ef26e8e7e,2db3999b-8662-4e13-a9ab-5ee56ef27e8e,
+TORTLE,be68063a-83d0-4e3b-8d03-8127888af222,be68063a-83d0-4e3b-038d-27818a8822f2,Character looks like a tortle
+TOY,3c33430b-c7f0-4e26-907d-ab2a26ddb823,3c33430b-c7f0-4e26-7d90-2aabdd2623b8,Toys with which children play
+TRADER,91d5ebc6-91ea-44db-8a51-216860d69b5b,91d5ebc6-91ea-44db-518a-6821d6605b9b,
+TRICKSTER_HEDONIST,4978ed0d-9bb9-4d87-82e0-02e785512661,4978ed0d-9bb9-4d87-e082-e70251856126,
+TRITON,c622d782-f676-444a-bb31-9657b0f1415b,c622d782-f676-444a-31bb-5796f1b05b41,Character looks like a triton
+TROLL,df87ba10-f7bd-43f9-8af1-29dd378b3e29,df87ba10-f7bd-43f9-f18a-dd298b37293e,Species tag for Trolls
+TRUESOUL,11491bda-fa57-44ed-a306-a13fdf8e3b82,11491bda-fa57-44ed-06a3-3fa18edf823b,| Became a true soul by using tadpoled convince a lot. |
+TURNED_ADV,3f4cc1a0-fad8-4432-815d-f0803efea68e,3f4cc1a0-fad8-4432-5d81-80f0fe3e8ea6,Advantage on rolls against turned status
+TURTLE,0f68567e-1e38-41d9-b2ca-2833195ab2f4,0f68567e-1e38-41d9-cab2-33285a19f4b2,Species tag
+TYMORA,c0b03fe2-6495-4340-a0c8-ed6ccf206bcc,c0b03fe2-6495-4340-c8a0-6ced20cfcc6b,Player or NPC worships Tymora.
+TYR,aa9a53ed-afad-4a6d-824c-ff0125986eb7,aa9a53ed-afad-4a6d-4c82-01ff9825b76e,|Player or NPC chose Tyr.|
+UMBERLEE_PRIESTESS,dd51e703-36cc-416a-97c4-bdb83da2c463,dd51e703-36cc-416a-c497-b8bda23d63c4,
+UND_ADMANTINEGOLEM_TAUNT,c70bfd7e-1287-42cd-bb5a-fa0f17bfcf38,c70bfd7e-1287-42cd-5abb-0ffabf1738cf,Used in the UND_ADMANTINEGOLEM_TAUNT status to determine Taunt Target for the AI.
+UND_MONKAMULET_EQUIPPED,ee7b438e-10cf-4298-8e78-232b3a2211be,ee7b438e-10cf-4298-788e-2b23223abe11,
+UND_SUSSUR_SUSCEPTIBLE,45dad4f3-f6f2-4b7f-8c2c-6324435847c9,45dad4f3-f6f2-4b7f-2c8c-24635843c947,|Set on magical items in the Underdark that could be affected by Sussur Flowers aura. Not intended to be seen by player.|
+UND_SUSSURTREEANTIMAGIC,2c17c8a0-2aa4-49f3-8df2-9955762e51fc,2c17c8a0-2aa4-49f3-f28d-55992e76fc51,|Set on entities under with UND_SUSSURTREEANTIMAGIC status.|
+UNDEAD,33c625aa-6982-4c27-904f-e47029a9b140,33c625aa-6982-4c27-4f90-70e4a92940b1,Type Tag for undead-type monsters
+UNDEAD_BEAST,1d156657-b014-48fa-b34c-327763480627,1d156657-b014-48fa-4cb3-773248632706,Species tag for undead that are NOT members of the Undead race
+UNDERDARK,60f6b464-752f-4970-a855-f729565b5e07,60f6b464-752f-4970-55a8-29f75b56075e,Character visually belongs to an Underdark race
+UNDERDARK_EXILE,22097482-335b-43bb-9eb0-55fa7883b1e6,22097482-335b-43bb-b09e-fa558378e6b1,
+UNLOAD_WITH_LEVELTEMPLATE,87572f4a-8462-4042-a06a-caba1e0eb2cb,87572f4a-8462-4042-6aa0-baca0e1ecbb2,Used to mark that this object should not be moved to the main level when the parent levelmplate is unloaded by Osiris% and will thus be unloaded
+URCHIN,2faee476-d77b-42a7-a4c6-2b9ac934673c,2faee476-d77b-42a7-c6a4-9a2b34c93c67,|You grew up on the streets alone% orphaned% and poor. You've survived despite all odds% and did so through cunning% strength% speed% or some combination of each.|
+VAMPIRE,f6662b6e-b3bf-468e-82cb-402247176a1b,f6662b6e-b3bf-468e-cb82-224017471b6a,
+VEGETABLE,93267e98-b748-47c9-94b9-142decce3de5,93267e98-b748-47c9-b994-2d14ceece53d,Food/Consumable
+VETERAN_MENTOR,5666d6ce-21d5-491f-8833-2650b15a699d,5666d6ce-21d5-491f-3388-50265ab19d69,
+VFX_ASHPILE_LARGE,0a9ff41b-d599-4d51-bfbc-2389475ec883,0a9ff41b-d599-4d51-bcbf-89235e4783c8,
+VFX_ASHPILE_MEDIUM,0a79a905-d41f-401f-a0e4-a2401143fc17,0a79a905-d41f-401f-e4a0-40a2431117fc,
+VFX_BLOOD_ACID,a171ef78-79b3-4512-a648-ca28fe06f60b,a171ef78-79b3-4512-48a6-28ca06fe0bf6,
+VFX_BLOOD_GREEN,f791b866-0cc4-48e9-ba4b-80d356a49387,f791b866-0cc4-48e9-4bba-d380a4568793,
+VFX_BLOOD_SILVER,9d0fd44c-2495-44db-a184-4ca824832f3e,9d0fd44c-2495-44db-84a1-a84c83243e2f,
+VFX_BLOOD_SKELETON,5ae94f72-939d-45c9-83b2-8a20a626e371,5ae94f72-939d-45c9-b283-208a26a671e3,
+VFX_DEAD_WISP,f31d1582-9498-4a92-8559-def7a3222aef,f31d1582-9498-4a92-5985-f7de22a3ef2a,|Used for dead wisp VFX.|
+VFX_KNOCK_HATCH,a89ed58f-4f71-4fe5-b0e2-41c027e699c4,a89ed58f-4f71-4fe5-e2b0-c041e627c499,Knock spell VFX for hatches
+VFX_KNOCK_LARGE,b451184e-bb49-450e-9e77-d82d0e20a5e7,b451184e-bb49-450e-779e-2dd8200ee7a5,Knock spell VFX for large objects
+VFX_KNOCK_MEDIUM,c61c8907-8f50-46ab-9bdb-6fde97913a39,c61c8907-8f50-46ab-db9b-de6f9197393a,Knock spell VFX for medium objects
+VFX_KNOCK_SMALL,9b6f9531-c2d3-47b2-9153-861425152eb3,9b6f9531-c2d3-47b2-5391-14861525b32e,Knock spell VFX for small objects
+VFX_MOONLANTERN_POLE,a3a713b6-f06a-401d-a5e5-0b878fdb472e,a3a713b6-f06a-401d-e5a5-870bdb8f2e47,
+VFX_OLIVER_OWLBEAR,ed37b9f1-16ee-44cb-a833-e433d36ab906,ed37b9f1-16ee-44cb-33a8-33e46ad306b9,Used to apply the purple-ish VFX that indicates that this creature was summoned by Oliver. For the Lifting the Curse quest.
+VFX_OLIVER_SHADOW,b20686d0-1b08-4187-b55e-6a3e5a6fdabd,b20686d0-1b08-4187-5eb5-3e6a6f5abdda,Used to apply the purple-ish VFX that indicates that this creature was summoned by Oliver. For the Lifting the Curse quest.
+VFX_OLIVER_SHADOWMASTIFF,04674772-1ca1-4a3d-a2d1-2b9e28efc5d8,04674772-1ca1-4a3d-d1a2-9e2bef28d8c5,Used to apply the purple-ish VFX that indicates that this creature was summoned by Oliver. For the Lifting the Curse quest.
+VFX_RAGE,2dcbb93b-28fb-4805-8b7a-028f90171663,2dcbb93b-28fb-4805-7a8b-8f0217906316,Rage causes VFX of the spells change
+VFX_SNEAKING,2c9222d8-0db3-481c-b70f-78e6243edf69,2c9222d8-0db3-481c-0fb7-e6783e2469df,
+VLAAKITH,d84b4081-6800-45f9-b03f-16dba592c75d,d84b4081-6800-45f9-3fb0-db1692a55dc7,Player or NPC worships Vlaakith.
+VO_DO_NOT_RECORD,3844a596-bf41-4cfe-a6d0-64d0ded9a07e,3844a596-bf41-4cfe-d0a6-d064d9de7ea0,Used to make sure VO is not recorded for a node
+VO_IGNORE_GENDER,057ca665-7d1c-4cef-a29d-bb00d5a1059b,057ca665-7d1c-4cef-9da2-00bba1d59b05,Indicates to ignore gender filtering for this character
+VO_POSTPROCESS,eae44d86-3321-4a0a-811d-4fd8e48b5723,eae44d86-3321-4a0a-1d81-d84f8be42357,a Tag that indicates that this character will need Voice Processing on thier voice
+VOLO_SLAYER,f09707c1-7c58-4611-a06b-ce34dd2826c6,f09707c1-7c58-4611-6ba0-34ce28ddc626,This is used to give the Slayer the special volo additional ability.
+WARFORGED,54a4726b-9399-4e8e-825e-42c60273939e,54a4726b-9399-4e8e-5e82-c64273029e93,Character looks like a warforged
+WARLOCK,5804f55a-93f7-4281-9512-8d548a9e2a22,5804f55a-93f7-4281-1295-548d9e8a222a,A wielder of magic that is derived from a bargain with an extraplanar entity.
+WARLOCK_ARCHFEY,86de94fa-91a2-4abb-8601-f2ad96c70659,86de94fa-91a2-4abb-0186-adf2c7965906,
+WARLOCK_FIEND,fbe3ee5d-1bb8-4c0b-a18c-26386101a680,fbe3ee5d-1bb8-4c0b-8ca1-3826016180a6,
+WARLOCK_GREAT_OLD_ONE,cdad1fc1-352b-4441-82f2-73d8433e42ea,cdad1fc1-352b-4441-f282-d8733e43ea42,
+WATERDAVIAN_MAGUS,b20cb269-417c-4a01-9f00-4c0f493f47fa,b20cb269-417c-4a01-009f-0f4c3f49fa47,
+WEIGHT_GARGANTUAN,7f26284a-0c98-48d8-85f3-6c7ab52997df,7f26284a-0c98-48d8-f385-7a6c29b5df97,Gargantuan Weight Category
+WEIGHT_HUGE,5e77c1e9-5dbf-4b24-a616-80b5740e77b5,5e77c1e9-5dbf-4b24-16a6-b5800e74b577,Huge Weight Category
+WEIGHT_LARGE,346b447c-93ba-426c-acf5-da9244fb22ec,346b447c-93ba-426c-f5ac-92dafb44ec22,Large Weight Category
+WEIGHT_MEDIUM,653cb906-38d1-4b80-b598-00b064efff3d,653cb906-38d1-4b80-98b5-b000ef643dff,Medium Weight Category
+WEIGHT_SMALL,7e99123d-6833-4461-9b4a-b5e281586734,7e99123d-6833-4461-4a9b-e2b558813467,Small Weight Category
+WEIGHT_TINY,9360d001-0cef-49e0-a2e0-4d715d4976ea,9360d001-0cef-49e0-e0a2-714d495dea76,Tiny Weight Category
+WILDSHAPE,04ae77c4-f708-4ffa-8b8c-763b062a2e6e,04ae77c4-f708-4ffa-8c8b-3b762a066e2e,
+WINDUPTOY,ccc174af-46e1-452b-a177-8d33579a3b36,ccc174af-46e1-452b-77a1-338d9a57363b,Species tag
+WIZARD,6fe3ae27-dc6c-4fc9-9245-710c790c396c,6fe3ae27-dc6c-4fc9-4592-0c710c796c39,A scholarly magic-user capable of manipulating the structures of reality.
+WIZARD_NECROMANCY,90d7fbd5-1264-4bd6-93ba-67c2116e6ab0,90d7fbd5-1264-4bd6-ba93-c2676e11b06a,
+WOLF,5f38a755-e386-4a3a-a145-d22c9d6bf6b7,5f38a755-e386-4a3a-45a1-2cd26b9db7f6,Species tag
+WOOD,4ddafc45-7b85-4ae3-a616-8f4a228d04ed,4ddafc45-7b85-4ae3-16a6-4a8f8d22ed04,Used To mark movable items to play sounds according to the material
+WOODELF,889e0db5-d03e-4b63-86d7-13418f69729f,889e0db5-d03e-4b63-d786-4113698f9f72,|Wood Elf|
+WOODHALFELF,5ffb703c-3ef4-493b-966d-749bc038f6bd,5ffb703c-3ef4-493b-6d96-9b7438c0bdf6,|Wood Half-Elf|
+WOODWOAD,84906b84-1c8a-44d5-b40e-0301920a8727,84906b84-1c8a-44d5-0eb4-01030a922787,
+WOODWOAD_CLUB,21a90b16-03ab-43c3-b145-020eb9ccbef9,21a90b16-03ab-43c3-45b1-0e02ccb9f9be,
+WORG,4cdfd238-10eb-4b06-945f-f9a4b865179b,4cdfd238-10eb-4b06-5f94-a4f965b89b17,Subspecies tag
+WPN_BATTLEAXE,7609654e-b213-410d-b08f-6d2930da6411,7609654e-b213-410d-8fb0-296dda301164,
+WPN_CLUB,9b333d67-365f-41fa-80b2-08e86588e9ac,9b333d67-365f-41fa-b280-e8088865ace9,
+WPN_DAGGER,7490e5d0-d346-4b0e-80c6-04e977160863,7490e5d0-d346-4b0e-c680-e90416776308,
+WPN_DART,c23ac9ef-5b47-4c2d-8ce5-7b60a8b34787,c23ac9ef-5b47-4c2d-e58c-607bb3a88747,
+WPN_FLAIL,5d7b1304-6d20-4d60-ba1b-0fbb491bfc18,5d7b1304-6d20-4d60-1bba-bb0f1b4918fc,
+WPN_GLAIVE,7a15ea4f-cb00-4201-8e7f-024627e3d014,7a15ea4f-cb00-4201-7f8e-4602e32714d0,
+WPN_GREATAXE,02da79f5-6f13-4f90-9819-102e37693f48,02da79f5-6f13-4f90-1998-2e106937483f,
+WPN_GREATCLUB,ab44887d-0eb0-4fef-bd9d-943ea8971aa2,ab44887d-0eb0-4fef-9dbd-3e9497a8a21a,
+WPN_GREATSWORD,aec4ed1a-993b-491f-a2db-640bf11869c1,aec4ed1a-993b-491f-dba2-0b6418f1c169,
+WPN_HALBERD,2c74855f-769a-43f5-b6db-48c4c47721ff,2c74855f-769a-43f5-dbb6-c44877c4ff21,
+WPN_HAND_CROSSBOW,1c12ee6d-50e2-459f-90c8-ae56701190ce,1c12ee6d-50e2-459f-c890-56ae1170ce90,
+WPN_HANDAXE,09dd1e1e-6d9f-4cc6-b514-68e981c80543,09dd1e1e-6d9f-4cc6-14b5-e968c8814305,
+WPN_HEAVY_CROSSBOW,2cc23bb9-d777-4265-a34c-333528628b90,2cc23bb9-d777-4265-4ca3-35336228908b,
+WPN_JAVELIN,b6e3bfa1-2c63-404f-becb-21d047aacce1,b6e3bfa1-2c63-404f-cbbe-d021aa47e1cc,
+WPN_LIGHT_CROSSBOW,a302a8e2-a3f9-41e1-a68c-70a453e65399,a302a8e2-a3f9-41e1-8ca6-a470e6539953,
+WPN_LIGHT_HAMMER,edc46cc0-25d0-4da9-bfcb-edba239edcce,edc46cc0-25d0-4da9-cbbf-baed9e23cedc,
+WPN_LONGBOW,557d335c-0780-4665-9802-709a7d202dba,557d335c-0780-4665-0298-9a70207dba2d,
+WPN_LONGSWORD,96a99a42-ec5d-4081-9d62-c9e3f0057136,96a99a42-ec5d-4081-629d-e3c905f03671,
+WPN_MACE,c29fc6ce-0482-420d-a839-41a0bab95c2d,c29fc6ce-0482-420d-39a8-a041b9ba2d5c,
+WPN_MAUL,2503012b-9cc4-491c-a068-282f8cea8707,2503012b-9cc4-491c-68a0-2f28ea8c0787,
+WPN_MORNINGSTAR,aa4cfcea-aee8-44b9-a460-e7231df796b1,aa4cfcea-aee8-44b9-60a4-23e7f71db196,
+WPN_PIKE,ca1a548b-f409-4cad-af5a-dfdd5834c709,ca1a548b-f409-4cad-5aaf-dddf345809c7,
+WPN_RAPIER,aeaf4e95-38d7-45ec-8900-40bc9e6106b0,aeaf4e95-38d7-45ec-0089-bc40619eb006,
+WPN_SCIMITAR,206f9701-7b24-4eaf-9ac4-a47746c251e2,206f9701-7b24-4eaf-c49a-77a4c246e251,
+WPN_SHIELD,dc9e09f0-b2ba-4720-bd28-ee9ddbdef2f1,dc9e09f0-b2ba-4720-28bd-9deededbf1f2,
+WPN_SHORTBOW,81197304-7116-4d7b-8ef4-207bbf636682,81197304-7116-4d7b-f48e-7b2063bf8266,
+WPN_SHORTSWORD,c826fd1e-4780-43d4-b49b-87f30c060fe6,c826fd1e-4780-43d4-9bb4-f387060ce60f,
+WPN_SICKLE,bfdc63bd-b8f6-4eac-9363-0c71882ff46f,bfdc63bd-b8f6-4eac-6393-710c2f886ff4,
+WPN_SLING,59c686ae-c70c-453a-a6ce-8ffceb82026d,59c686ae-c70c-453a-cea6-fc8f82eb6d02,
+WPN_SPEAR,fef6b399-19da-4d4b-b1ec-c79dff7f46c3,fef6b399-19da-4d4b-ecb1-9dc77fffc346,
+WPN_STAVE,00a09d42-c23c-48b0-90cc-c67f6cbd9e3d,00a09d42-c23c-48b0-cc90-7fc6bd6c3d9e,
+WPN_TRIDENT,c808f076-4a0f-422a-97db-e985ce35f3f9,c808f076-4a0f-422a-db97-85e935cef9f3,
+WPN_VFX_AXE_LARGE,3db6e0f6-1af6-4155-b5c8-c84a4abc5067,3db6e0f6-1af6-4155-c8b5-4ac8bc4a6750,
+WPN_VFX_AXE_SMALL,11101253-7810-4806-b689-dc216a3ecdc2,11101253-7810-4806-89b6-21dc3e6ac2cd,
+WPN_VFX_BOW,bb363e2e-9a11-4828-80cb-8409e347ff8a,bb363e2e-9a11-4828-cb80-098447e38aff,
+WPN_VFX_DAGGER,0006ca6f-28f9-48e9-9f34-3deb32ff0fef,0006ca6f-28f9-48e9-349f-eb3dff32ef0f,
+WPN_VFX_HAMMER_LARGE,d931bca0-7d04-42b0-971a-7d5b236adad2,d931bca0-7d04-42b0-1a97-5b7d6a23d2da,
+WPN_VFX_HAMMER_SMALL,d72c59a0-a9a5-482b-8ebb-c1f2e7e9eab0,d72c59a0-a9a5-482b-bb8e-f2c1e9e7b0ea,
+WPN_VFX_LONGBLADE,ef13fc1c-dd55-4167-ab82-88059e5798f3,ef13fc1c-dd55-4167-82ab-0588579ef398,
+WPN_VFX_QUARTERSTAFF,0b1663f7-ebdd-4f63-9c03-d310ac8036ed,0b1663f7-ebdd-4f63-039c-10d380aced36,
+WPN_VFX_SHORTBLADE,9e3ed11b-61c4-4540-8c26-13168c8dc0d0,9e3ed11b-61c4-4540-268c-16138d8cd0c0,
+WPN_VFX_SHORTBLADE_SLASH,0b8538bc-9d96-41de-93c0-223b581263f4,0b8538bc-9d96-41de-c093-3b221258f463,
+WPN_VFX_SPEAR,6a584605-6605-497b-bd6f-d38d07af6d16,6a584605-6605-497b-6fbd-8dd3af07166d,
+WPN_WAR_PICK,eed87cdb-c5ee-45c2-9a5a-6949dce87a1e,eed87cdb-c5ee-45c2-5a9a-4969e8dc1e7a,
+WPN_WARHAMMER,1dff197e-b74c-4173-94d3-e1323239556c,1dff197e-b74c-4173-d394-32e139326c55,
+WYLL,facf82dc-a6e1-4720-a0bd-6efde960dc5f,facf82dc-a6e1-4720-bda0-fd6e60e95fdc,|Wyll% the superhero warlock|
+WYLL_DEVIL,5e844f0e-d822-4210-a28e-6af149a7bd4b,5e844f0e-d822-4210-8ea2-f16aa7494bbd,|Wyll is in devil form|
+WYR_CIRCUS_CHEESE,6c06f5e4-d4fa-498a-91b9-e1ed98773e92,6c06f5e4-d4fa-498a-b991-ede17798923e,
+WYR_PUZZLEBRAZIER,b8c31431-3412-4e93-b648-df5208deca34,b8c31431-3412-4e93-48b6-52dfde0834ca,
+WYR_PUZZLEPAINTING,b05da0e7-999e-4de2-a590-15414c810cd9,b05da0e7-999e-4de2-90a5-4115814cd90c,
+WYR_WYRMWAY_PUZZLES_ENTRANCE_GALE_MINSC,ade20608-45b9-449f-aef4-3fa34216cd1b,ade20608-45b9-449f-f4ae-a33f16421bcd,
+YONDALLA,4335093d-2fa7-4775-a4cc-bc17b5d16e5a,4335093d-2fa7-4775-cca4-17bcd1b55a6e,Player or NPC worships Yondalla.
+YUANTIPUREBLOOD,1ff4bf9e-a8dd-4627-8142-f60b3aa7123e,1ff4bf9e-a8dd-4627-4281-0bf6a73a3e12,Character looks like a yuan-ti pureblood
+ZARIELTIEFLING,ab677895-e08a-479f-a043-eac2d8447188,ab677895-e08a-479f-43a0-c2ea44d88871,|Zariel Tiefling|
+ZHENTRECRUIT,7ba800bc-5a08-428c-bb72-0fa2b61e2673,7ba800bc-5a08-428c-72bb-a20f1eb67326,Player has been recruited by the Zhentarim.
+ZOMBIE,6181b81c-b910-4e1c-b9ec-5099ac210ae7,6181b81c-b910-4e1c-ecb9-995021ace70a,A tag to identify zombies so that their combat fallback AD works as intended.

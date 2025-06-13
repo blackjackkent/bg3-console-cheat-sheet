@@ -9,6 +9,7 @@ import CharacterUuidsTools from "../tools/character-uuids/CharacterUuidsTools";
 import TriggerRespecTools from "../tools/trigger-respec/TriggerRespecTools";
 import SetApprovalTools from "../tools/set-approval/SetApprovalTools";
 import TriggerCutsceneTools from "../tools/trigger-cutscene/TriggerCutsceneTools";
+import CharacterTagsTools from "../tools/character-tags/CharacterTagsTools";
 
 const HomeMenuAccordion = () => {
 	const [value, setValue] = useState<string[]>([]);
@@ -21,6 +22,9 @@ const HomeMenuAccordion = () => {
 		>
 			<HomeMenuAccordionItem value="manage-flags" title="Manage Plot Flags">
 				<PlotFlagsTools />
+			</HomeMenuAccordionItem>
+			<HomeMenuAccordionItem value="set-tags" title="Set Character Tags">
+				<CharacterTagsTools />
 			</HomeMenuAccordionItem>
 			<HomeMenuAccordionItem value="spawn-items" title="Spawn Items">
 				<SpawnItemsTools />

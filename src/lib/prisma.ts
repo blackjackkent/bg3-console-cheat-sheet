@@ -5,6 +5,7 @@ export type {
 	Cutscene,
 	CutsceneCharacter,
 	CutsceneCategory,
+	CharacterTag,
 } from "../../prisma/generated/prisma";
 
 const prisma = new PrismaClient();

@@ -1,4 +1,4 @@
-export type { PlotFlag, GameItem } from "@/lib/prisma";
+export type { PlotFlag, GameItem, CharacterTag } from "@/lib/prisma";
 import type {
 	CutsceneCategory,
 	CutsceneCharacter,

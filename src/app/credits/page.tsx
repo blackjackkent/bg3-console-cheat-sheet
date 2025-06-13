@@ -63,6 +63,15 @@ const CreditsPage = () => {
 					on FearlessRevolution.com for their extracted collection of plot flag
 					information.
 				</List.Item>
+
+				<List.Item>
+					The unknown creator of
+					<ExternalLink href="https://docs.google.com/spreadsheets/d/1Z2Yty5zoBmLdFMi0RVuHEkYJmVPV2HxU/edit?gid=105394460#gid=105394460">
+						this spreadsheet
+					</ExternalLink>{" "}
+					for their collection of character tag IDs. (If you created this
+					spreadsheet, please let me know; I would love to credit you!)
+				</List.Item>
 				<List.Item>
 					<ExternalLink href="https://www.tumblr.com/astreamofstars">
 						astreamofstars
