@@ -65,7 +65,7 @@ const CreditsPage = () => {
 				</List.Item>
 
 				<List.Item>
-					The unknown creator of
+					The unknown creator of{" "}
 					<ExternalLink href="https://docs.google.com/spreadsheets/d/1Z2Yty5zoBmLdFMi0RVuHEkYJmVPV2HxU/edit?gid=105394460#gid=105394460">
 						this spreadsheet
 					</ExternalLink>{" "}
