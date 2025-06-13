@@ -1,13 +1,13 @@
-import { HStack, Link } from "@chakra-ui/react";
+import { Box, Link } from "@chakra-ui/react";
 
 const Footer = () => {
 	return (
-		<HStack
+		<Box
 			minH={10}
 			color="white"
 			bg="orange.800"
 			w="full"
-			justifyContent="center"
+			textAlign="center"
 			p={4}
 		>
 			This site is a fan resource for Baldur&apos;s Gate 3 and not associated
@@ -17,10 +17,11 @@ const Footer = () => {
 				rel="noopener noreferrer"
 				href="http://www.blackjack-software.com"
 				variant="underline"
+				display="inline"
 			>
 				Blackjack Software
 			</Link>
-		</HStack>
+		</Box>
 	);
 };
 

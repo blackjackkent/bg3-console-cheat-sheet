@@ -1,5 +1,5 @@
 import ExternalLink from "@/components/common/ExternalLink";
-import HomeMenuAccordion from "@/components/common/HomeMenuAccordion";
+import HomeMenuSelector from "@/components/common/HomeMenuSelector";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
 
@@ -34,7 +34,7 @@ export default function Home() {
 				<Heading size="2xl" my={8}>
 					What would you like to do?
 				</Heading>
-				<HomeMenuAccordion />
+				<HomeMenuSelector />
 			</Flex>
 		</Box>
 	);

@@ -1,20 +1,29 @@
-import { HStack, Link, Text } from "@chakra-ui/react";
+import { Box, HStack, Link, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 const Header = () => {
 	return (
 		<HStack
-			h={10}
+			minH={10}
 			bg="orange.800"
 			color="white"
 			w="full"
 			p={4}
-			justifyContent="space-between"
+			justifyContent={{ base: "flex-end", sm: "space-between" }}
 		>
-			<NextLink href="/">
-				<Text fontWeight="bold">BG3 Console Cheat Sheet</Text>
-			</NextLink>
+			<Box display={{ base: "none", sm: "block" }}>
+				<NextLink href="/">
+					<Text fontWeight="bold">BG3 Console Cheat Sheet</Text>
+				</NextLink>
+			</Box>
 			<HStack spaceX={4}>
+				<Link
+					variant="underline"
+					asChild
+					display={{ base: "inline", sm: "none" }}
+				>
+					<NextLink href="/">Home</NextLink>
+				</Link>
 				<Link variant="underline" asChild>
 					<NextLink href="/contribute">Contribute</NextLink>
 				</Link>
