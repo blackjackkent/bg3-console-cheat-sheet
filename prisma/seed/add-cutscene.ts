@@ -1,21 +1,29 @@
 import { prompt, PromptObject } from "prompts";
 import { PrismaClient } from "../generated/prisma";
-import sceneDataList from "./scenes.json";
-import { SceneData } from "./load-cutscene-data";
-import { copy } from "copy-paste";
-import chalk from "chalk";
-import fs from "fs";
 
 const prisma = new PrismaClient();
 
 type PromptResponseData = {
+	uuid: string;
+	name: string;
 	description: string;
 	categoryId: number;
 	notes: string;
+	numberOfCharacters: number;
 };
 
-async function addCutsceneInformation(scene: SceneData) {
+async function addCutsceneInformation() {
 	const questions: PromptObject[] = [
+		{
+			type: "text",
+			name: "uuid",
+			message: "What is the cutscene UUID?",
+		},
+		{
+			type: "text",
+			name: "name",
+			message: "What is the cutscene name?",
+		},
 		{
 			type: "text",
 			name: "description",
@@ -43,10 +51,15 @@ async function addCutsceneInformation(scene: SceneData) {
 			name: "notes",
 			message: "Any important notes for running this scene?",
 		},
+		{
+			type: "number",
+			name: "numberOfCharacters",
+			message: "How many characters does this scene have?",
+		},
 	];
 	const answers: PromptResponseData = await prompt(questions);
 	const characters: { index: number; description: string }[] = [];
-	for (let i = 0; i < scene.numberOfCharacters; i++) {
+	for (let i = 0; i < answers.numberOfCharacters; i++) {
 		const characterAnswer = await prompt({
 			type: "text",
 			name: "description",
@@ -59,8 +72,8 @@ async function addCutsceneInformation(scene: SceneData) {
 
 	await prisma.cutscene.create({
 		data: {
-			name: scene.sceneName,
-			uuid: scene.sceneUuid,
+			name: answers.name,
+			uuid: answers.uuid,
 			description: answers.description,
 			notes: answers.notes,
 			categoryId: answers.categoryId,
@@ -71,63 +84,8 @@ async function addCutsceneInformation(scene: SceneData) {
 	});
 }
 
-async function processCutscenes() {
-	const data: SceneData[] = [...sceneDataList];
-	for (const [idx, scene] of data.entries()) {
-		const shouldSkip =
-			scene.sceneName.startsWith("PB_") ||
-			scene.sceneName.includes("_PB_") ||
-			scene.sceneName.includes("AD_") ||
-			scene.sceneName.includes("_AD") ||
-			scene.sceneName.includes("PointNClick") ||
-			scene.sceneName.endsWith("_Dead") ||
-			scene.sceneName.includes("SwD") ||
-			scene.sceneName.includes("SpeakWithDead") ||
-			scene.sceneName.includes("InParty") ||
-			scene.sceneName.includes("Leaving") ||
-			scene.sceneName.includes("ViciousMockery") ||
-			scene.sceneName.toLocaleUpperCase().includes("TEST_") ||
-			scene.sceneName.toLocaleUpperCase().includes("_TEST") ||
-			!scene.sceneName ||
-			scene.sceneName.startsWith("BHVR");
-		if (!shouldSkip) {
-			const shouldGatherCutsceneInfo = await checkCutscene(scene, idx);
-			if (shouldGatherCutsceneInfo) {
-				await addCutsceneInformation(scene);
-			}
-		}
-		const updatedFileInfo = data.slice(idx + 1);
-		fs.writeFileSync(
-			"prisma/seed/scenes.json",
-			JSON.stringify(updatedFileInfo),
-			"utf8"
-		);
-		console.log({
-			choppedArrayLength: updatedFileInfo.length,
-			importedArrayLength: sceneDataList.length,
-			originalArrayLength: data.length,
-		});
-	}
-}
-
-async function checkCutscene(scene: SceneData, idx: number) {
-	console.log("----------");
-	console.log(
-		chalk.blue(`Processing scene ${idx + 1} of ${sceneDataList.length}: `) +
-			chalk.bgBlue(scene.sceneName)
-	);
-	console.log("Command copied to clipboard: " + chalk.red(scene.command));
-	copy(scene.command);
-	const { shouldGatherCutsceneInfo } = await prompt({
-		type: "confirm",
-		name: "shouldGatherCutsceneInfo",
-		message: "Should this cutscene be processed?",
-	});
-	return shouldGatherCutsceneInfo;
-}
-
 async function main() {
-	await processCutscenes();
+	await addCutsceneInformation();
 }
 main()
 	.catch((e) => {
