@@ -2,7 +2,14 @@ import { HStack, Link } from "@chakra-ui/react";
 
 const Footer = () => {
 	return (
-		<HStack h={10} bg="orange.800" w="full" justifyContent="center" p={4}>
+		<HStack
+			minH={10}
+			color="white"
+			bg="orange.800"
+			w="full"
+			justifyContent="center"
+			p={4}
+		>
 			This site is a fan resource for Baldur&apos;s Gate 3 and not associated
 			with Larian Studios. | &copy; {new Date().getFullYear()}{" "}
 			<Link
