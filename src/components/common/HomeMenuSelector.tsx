@@ -11,6 +11,7 @@ import CharacterTagsTools from "../tools/character-tags/CharacterTagsTools";
 import SingleValueSelect from "./SingleValueSelect";
 import { Box, ClientOnly, Skeleton } from "@chakra-ui/react";
 import { useColorModeValue } from "../ui/color-mode";
+import SetHitpointsTools from "../tools/set-hitpoints/SetHitpointsTools";
 
 type HomePageItem = {
 	key: string;
@@ -61,6 +62,11 @@ const HomeMenuSelector = () => {
 			key: "set-approval",
 			displayName: "Set Companion Approval",
 			content: <SetApprovalTools />,
+		},
+		{
+			key: "set-hitpoints",
+			displayName: "Set Character Hitpoints",
+			content: <SetHitpointsTools />,
 		},
 	];
 	return (
