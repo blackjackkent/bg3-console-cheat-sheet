@@ -1,5 +1,7 @@
 import { prompt, PromptObject } from "prompts";
 import { PrismaClient } from "../generated/prisma";
+import chalk from "chalk";
+import { copy } from "copy-paste";
 
 const prisma = new PrismaClient();
 
@@ -13,12 +15,19 @@ type PromptResponseData = {
 };
 
 async function addCutsceneInformation() {
+	const { uuid } = await prompt({
+		type: "text",
+		name: "uuid",
+		message: "What is the cutscene UUID?",
+	});
+	const shouldProcess = await checkCutscene(uuid);
+
+	if (!shouldProcess) {
+		console.log(chalk.red("Aborting..."));
+		return;
+	}
+
 	const questions: PromptObject[] = [
-		{
-			type: "text",
-			name: "uuid",
-			message: "What is the cutscene UUID?",
-		},
 		{
 			type: "text",
 			name: "name",
@@ -73,7 +82,7 @@ async function addCutsceneInformation() {
 	await prisma.cutscene.create({
 		data: {
 			name: answers.name,
-			uuid: answers.uuid,
+			uuid: uuid,
 			description: answers.description,
 			notes: answers.notes,
 			categoryId: answers.categoryId,
@@ -82,6 +91,18 @@ async function addCutsceneInformation() {
 			},
 		},
 	});
+}
+
+async function checkCutscene(uuid: string) {
+	const command = `Osi.QRY_StartDialogCustom_Fixed("${uuid}", "Jaheira_226cd0fb-8870-3c3a-4206-4fc92d465b0d", "Khalid_567dde16-8893-7c1c-4b74-a663fd54194e",1,1,-1,1)`;
+	console.log("Command copied to clipboard: " + chalk.red(command));
+	copy(command);
+	const { shouldGatherCutsceneInfo } = await prompt({
+		type: "confirm",
+		name: "shouldGatherCutsceneInfo",
+		message: "Should this cutscene be processed?",
+	});
+	return shouldGatherCutsceneInfo;
 }
 
 async function main() {
