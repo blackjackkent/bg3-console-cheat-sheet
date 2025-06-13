@@ -12,7 +12,7 @@ export async function GET(request: NextRequest) {
 		.replace("%", "\\%")}%`;
 
 	const results =
-		await prisma.$queryRaw`SELECT * FROM GameItem WHERE name LIKE ${escapedQuery} ESCAPE '\\' OR description LIKE ${escapedQuery} ESCAPE '\\' ORDER BY name`;
+		await prisma.$queryRaw`SELECT * FROM GameItem WHERE name LIKE ${escapedQuery} ESCAPE '\\' OR description LIKE ${escapedQuery} ESCAPE '\\' OR displayName LIKE ${escapedQuery} ESCAPE '\\' ORDER BY name`;
 
 	return Response.json(results);
 }

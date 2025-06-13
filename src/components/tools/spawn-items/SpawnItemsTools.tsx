@@ -21,11 +21,13 @@ const SpawnItemsTools = () => {
 			</Text>
 			<SearchableCombobox
 				apiKey="items"
-				itemToDescription={(item: GameItem) => item.description}
-				itemToString={(item: GameItem) => item.name}
+				itemToDescription={(item: GameItem) => item.name}
+				itemToSub={(item: GameItem) => item.description}
+				itemToString={(item: GameItem) => item.displayName}
 				itemToValue={(item: GameItem) => item.mapKey}
 				selectedValues={selectedItemUuids}
 				setSelectedValues={setSelectedItemUuids}
+				itemSize={120}
 			/>
 			{!!selectedItemUuids.length && (
 				<HStack mb={4}>
