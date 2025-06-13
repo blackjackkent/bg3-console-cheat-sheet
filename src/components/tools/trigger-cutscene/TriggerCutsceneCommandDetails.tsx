@@ -50,7 +50,7 @@ const TriggerCutsceneCommandDetails = ({
 			<Box w="full">
 				{isLoading && <Spinner />}
 				{!!error && (
-					<Text color="red.500">Error generating cutscene tools.</Text>
+					<Text color="red.500">Error rendering cutscene tools.</Text>
 				)}
 				{!isLoading && !error && (
 					<VStack alignItems="flex-start">

@@ -21,7 +21,7 @@ const TriggerCutsceneTools = ({}) => {
 			</Text>
 			<Text mb={4} fontSize="sm" color="fg.muted">
 				<Span color="orange.fg" fontWeight="bold" textDecor="underline">
-					NOTE:{" "}
+					NOTE:
 				</Span>{" "}
 				This collection of cutscenes is not exhaustive, as the number of scenes
 				in the game is prohibitively large. Can&apos;t find the scene

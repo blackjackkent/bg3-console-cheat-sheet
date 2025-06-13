@@ -1,12 +1,15 @@
-import { Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Field, Heading, Input, Text, VStack } from "@chakra-ui/react";
 import { CharacterTag } from "@/lib/types";
 import CommandText from "../../common/CommandText";
 import { useState } from "react";
 import SearchableCombobox from "@/components/common/SearchableCombobox";
 import CharacterTagsAboutModal from "./CharacterTagsAboutModal";
+import { useColorModeValue } from "@/components/ui/color-mode";
 
 const CharacterTagsTools = ({}) => {
 	const [selectedTagUuids, setSelectedTagUuids] = useState<string[]>([]);
+	const [characterUuid, setCharacterUuid] = useState("");
+	const inputColor = useColorModeValue("gray.300", "gray.700");
 
 	return (
 		<>
@@ -27,21 +30,39 @@ const CharacterTagsTools = ({}) => {
 				setSelectedValues={setSelectedTagUuids}
 			/>
 			{!!selectedTagUuids?.length && (
-				<VStack alignItems="flex-start">
-					<Text color="orange.fg">To set this flag:</Text>
+				<>
+					<Text mb={4}>
+						Enter character UUID to which the tag should be attached:
+					</Text>
+					<Box mb={2} w="full">
+						<Field.Root>
+							<Input
+								borderColor={inputColor}
+								value={characterUuid}
+								onChange={(e) => setCharacterUuid(e.currentTarget.value)}
+								placeholder="Character UUID"
+								w="full"
+							/>
+						</Field.Root>
+					</Box>
+				</>
+			)}
+			{!!selectedTagUuids?.length && !!characterUuid && (
+				<VStack alignItems="flex-start" mt={4}>
+					<Text color="orange.fg">To attach this tag to this character:</Text>
 					<CommandText
-						value={`SetFlag("${selectedTagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
+						value={`SetTag("${characterUuid}", "${selectedTagUuids[0]}")`}
 					/>
-					<Text color="orange.fg">To unset this flag:</Text>
+					<Text color="orange.fg">To remove this tag from this character:</Text>
 					<CommandText
-						value={`ClearFlag("${selectedTagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
+						value={`ClearTag("${characterUuid}", "${selectedTagUuids[0]}")`}
 					/>
 					<Text color="orange.fg">
-						To check the value of this flag (returns &quot;0&quot; for unset,
-						&quot;1&quot; for set):
+						To check the value of this tag on this character (returns
+						&quot;0&quot; for unset, &quot;1&quot; for set):
 					</Text>
 					<CommandText
-						value={`print(GetFlag("${selectedTagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1]))`}
+						value={`print(IsTagged("${characterUuid}", "${selectedTagUuids[0]}"))`}
 					/>
 				</VStack>
 			)}
