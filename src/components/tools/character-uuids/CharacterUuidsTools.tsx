@@ -8,7 +8,7 @@ const CharacterUuidsTools = () => {
 				Character UUID Information
 			</Heading>
 			<VStack alignItems="flex-start">
-				<Heading size="md" color="orange.300">
+				<Heading size="md" color="orange.fg">
 					Origin/Companion Character UUIDs
 				</Heading>
 				<Box w="full" pl={4}>
@@ -91,12 +91,12 @@ const CharacterUuidsTools = () => {
 						value={`S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d`}
 					/>
 				</Box>
-				<Text color="orange.300">
+				<Text color="orange.fg">
 					The UUID of the avatar character of your playthrough (Tav, Durge, or
 					the origin character you selected at game start):
 				</Text>
 				<CommandText value={`Osi.DB_Avatars:Get(nil)[1][1]`} />
-				<Text color="orange.300">
+				<Text color="orange.fg">
 					To get the UUID of another character in the party (such as a
 					hireling), select them, then run:
 				</Text>

@@ -42,7 +42,7 @@ const SetApprovalTools = () => {
 			</HStack>
 			{!!selectedCharacter && !!selectedApproval && (
 				<VStack alignItems="flex-start">
-					<Text color="orange.300">
+					<Text color="orange.fg">
 						To set this character&apos;s approval to the selected level:
 					</Text>
 					<CommandText

@@ -69,7 +69,7 @@ const TriggerCutsceneCommandDetails = ({
 								</Text>
 							)}
 						</Box>
-						<Text color="orange.300">
+						<Text color="orange.fg">
 							Enter a UUID for a character to fill each of the following roles:
 						</Text>
 						{data?.characters?.map((c) => {
@@ -87,7 +87,7 @@ const TriggerCutsceneCommandDetails = ({
 						})}
 						{!hasUnfilledCharacters && (
 							<>
-								<Text color="orange.300">To set this flag:</Text>
+								<Text color="orange.fg">To set this flag:</Text>
 								<Box px={4}>
 									<CommandText value={generateCommandString()} />
 								</Box>

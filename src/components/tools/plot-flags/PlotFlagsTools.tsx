@@ -28,15 +28,15 @@ const PlotFlagsTools = ({}) => {
 			/>
 			{!!selectedFlagUuids?.length && (
 				<VStack alignItems="flex-start">
-					<Text color="orange.300">To set this flag:</Text>
+					<Text color="orange.fg">To set this flag:</Text>
 					<CommandText
 						value={`SetFlag("${selectedFlagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
 					/>
-					<Text color="orange.300">To unset this flag:</Text>
+					<Text color="orange.fg">To unset this flag:</Text>
 					<CommandText
 						value={`ClearFlag("${selectedFlagUuids[0]}", Osi.DB_Avatars:Get(nil)[1][1])`}
 					/>
-					<Text color="orange.300">
+					<Text color="orange.fg">
 						To check the value of this flag (returns &quot;0&quot; for unset,
 						&quot;1&quot; for set):
 					</Text>

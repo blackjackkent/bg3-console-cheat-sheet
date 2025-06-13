@@ -1,4 +1,4 @@
-import { Heading, Separator, Text } from "@chakra-ui/react";
+import { Heading, Separator, Span, Text } from "@chakra-ui/react";
 import { Cutscene } from "@/lib/types";
 import { useState } from "react";
 import SearchableCombobox from "@/components/common/SearchableCombobox";
@@ -20,7 +20,12 @@ const TriggerCutsceneTools = ({}) => {
 				console commands to manipulate that flag in game.
 			</Text>
 			<Text mb={4} fontSize="sm" color="fg.muted">
-				Can&apos;t find the scene you&apos;re looking for?{" "}
+				<Span color="orange.fg" fontWeight="bold" textDecor="underline">
+					NOTE:{" "}
+				</Span>{" "}
+				This collection of cutscenes is not exhaustive, as the number of scenes
+				in the game is prohibitively large. Can&apos;t find the scene
+				you&apos;re looking for?{" "}
 				<ExternalLink href="https://github.com/blackjackkent/bg3-console-cheat-sheet/issues">
 					File an issue on GitHub
 				</ExternalLink>{" "}

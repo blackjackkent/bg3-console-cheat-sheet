@@ -24,7 +24,7 @@ const AddGoldTools = () => {
 			</HStack>
 			{quantity > 0 && (
 				<VStack alignItems="flex-start">
-					<Text color="orange.300">
+					<Text color="orange.fg">
 						To spawn {quantity} gold in the currently selected character&apos;s
 						inventory:
 					</Text>

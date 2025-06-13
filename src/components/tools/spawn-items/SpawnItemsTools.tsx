@@ -45,7 +45,7 @@ const SpawnItemsTools = () => {
 			)}
 			{!!selectedItemUuids?.length && quantity > 0 && (
 				<VStack alignItems="flex-start">
-					<Text color="orange.300">
+					<Text color="orange.fg">
 						To spawn {quantity} of this item in the currently selected
 						character&apos;s inventory:
 					</Text>

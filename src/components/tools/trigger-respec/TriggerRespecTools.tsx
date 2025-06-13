@@ -8,7 +8,7 @@ const TriggerRespecTools = () => {
 				Generate Character Respec Command
 			</Heading>
 			<VStack alignItems="flex-start">
-				<Text color="orange.300">
+				<Text color="orange.fg">
 					To trigger a respec for the currently selected character:
 				</Text>
 				<CommandText
