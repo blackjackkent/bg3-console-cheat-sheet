@@ -1,7 +1,7 @@
 import { Box, Field, Heading, Input, Text, VStack } from "@chakra-ui/react";
 import { CharacterTag } from "@/lib/types";
 import CommandText from "../../common/CommandText";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import SearchableCombobox from "@/components/common/SearchableCombobox";
 import CharacterTagsAboutModal from "./CharacterTagsAboutModal";
 import { useColorModeValue } from "@/components/ui/color-mode";
@@ -10,6 +10,12 @@ const CharacterTagsTools = ({}) => {
 	const [selectedTagUuids, setSelectedTagUuids] = useState<string[]>([]);
 	const [characterUuid, setCharacterUuid] = useState("");
 	const inputColor = useColorModeValue("gray.300", "gray.700");
+	const uuidRenderedString = useMemo(() => {
+		if (!characterUuid || characterUuid.includes("DB_Avatars")) {
+			return characterUuid;
+		}
+		return `"${characterUuid}"`;
+	}, [characterUuid]);
 
 	return (
 		<>
@@ -51,18 +57,18 @@ const CharacterTagsTools = ({}) => {
 				<VStack alignItems="flex-start" mt={4}>
 					<Text color="orange.fg">To attach this tag to this character:</Text>
 					<CommandText
-						value={`SetTag("${characterUuid}", "${selectedTagUuids[0]}")`}
+						value={`SetTag(${uuidRenderedString}, "${selectedTagUuids[0]}")`}
 					/>
 					<Text color="orange.fg">To remove this tag from this character:</Text>
 					<CommandText
-						value={`ClearTag("${characterUuid}", "${selectedTagUuids[0]}")`}
+						value={`ClearTag(${uuidRenderedString}, "${selectedTagUuids[0]}")`}
 					/>
 					<Text color="orange.fg">
 						To check the value of this tag on this character (returns
 						&quot;0&quot; for unset, &quot;1&quot; for set):
 					</Text>
 					<CommandText
-						value={`print(IsTagged("${characterUuid}", "${selectedTagUuids[0]}"))`}
+						value={`print(IsTagged(${uuidRenderedString}, "${selectedTagUuids[0]}"))`}
 					/>
 				</VStack>
 			)}

@@ -39,7 +39,12 @@ const TriggerCutsceneCommandDetails = ({
 	const generateCommandString = () => {
 		let string = `Osi.QRY_StartDialogCustom_Fixed("${data?.uuid}",`;
 		for (let i = 0; i < characterCount; i++) {
-			string += `"${characterUuids[i]}",`;
+			const uuid = characterUuids[i];
+			if (uuid.includes("DB_Avatars")) {
+				string += `${uuid},`;
+			} else {
+				string += `"${uuid}",`;
+			}
 		}
 		string += "1,1,-1,1)";
 		return string;
