@@ -3,6 +3,13 @@ import Header from "@/components/layout/Header";
 import { ColorModeButton } from "@/components/ui/color-mode";
 import { Provider } from "@/components/ui/provider";
 import { Box, VStack } from "@chakra-ui/react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "BG3 SE Console Cheat Sheet",
+	description:
+		"Rapidly generate console commands for the Baldur's Gate 3 Script Extender for a variety of useful tasks.",
+};
 
 export default function RootLayout(props: { children: React.ReactNode }) {
 	const { children } = props;
