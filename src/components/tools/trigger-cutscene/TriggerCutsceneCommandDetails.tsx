@@ -92,7 +92,7 @@ const TriggerCutsceneCommandDetails = ({
 						})}
 						{!hasUnfilledCharacters && (
 							<>
-								<Text color="orange.fg">To set this flag:</Text>
+								<Text color="orange.fg">To trigger this cutscene:</Text>
 								<Box px={4}>
 									<CommandText value={generateCommandString()} />
 								</Box>
