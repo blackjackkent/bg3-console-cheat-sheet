@@ -24,14 +24,24 @@ const HomeMenuSelector = () => {
 	const itemBg = useColorModeValue("gray.100", "gray.900");
 	const items: HomePageItem[] = [
 		{
+			key: "get-uuids",
+			displayName: "Get Character UUIDs",
+			content: <CharacterUuidsTools />,
+		},
+		{
 			key: "manage-flags",
 			displayName: "Manage Plot Flags",
 			content: <PlotFlagsTools />,
 		},
 		{
 			key: "set-tags",
-			displayName: "Set Character Tags",
+			displayName: "Manage Character Tags",
 			content: <CharacterTagsTools />,
+		},
+		{
+			key: "trigger-cutscene",
+			displayName: "Trigger Cutscenes",
+			content: <TriggerCutsceneTools />,
 		},
 		{
 			key: "spawn-items",
@@ -44,14 +54,9 @@ const HomeMenuSelector = () => {
 			content: <AddGoldTools />,
 		},
 		{
-			key: "trigger-cutscene",
-			displayName: "Trigger Cutscene",
-			content: <TriggerCutsceneTools />,
-		},
-		{
-			key: "get-uuids",
-			displayName: "Get UUIDs",
-			content: <CharacterUuidsTools />,
+			key: "set-hitpoints",
+			displayName: "Set Character Hitpoints",
+			content: <SetHitpointsTools />,
 		},
 		{
 			key: "trigger-respec",
@@ -62,11 +67,6 @@ const HomeMenuSelector = () => {
 			key: "set-approval",
 			displayName: "Set Companion Approval",
 			content: <SetApprovalTools />,
-		},
-		{
-			key: "set-hitpoints",
-			displayName: "Set Character Hitpoints",
-			content: <SetHitpointsTools />,
 		},
 	];
 	return (
