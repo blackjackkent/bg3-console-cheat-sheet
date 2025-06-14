@@ -6,6 +6,7 @@ import { Box, VStack } from "@chakra-ui/react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://bg3se.netlify.app"),
 	title: "BG3 SE Console Cheat Sheet",
 	description:
 		"Rapidly generate console commands for the Baldur's Gate 3 Script Extender for a variety of useful tasks.",
