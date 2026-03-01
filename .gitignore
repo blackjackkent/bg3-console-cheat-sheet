@@ -44,3 +44,5 @@ prisma/generated
 
 # Local Netlify folder
 .netlify
+
+.claude/*

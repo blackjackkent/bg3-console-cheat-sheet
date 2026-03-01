@@ -14,6 +14,14 @@ type PromptResponseData = {
 	numberOfCharacters: number;
 };
 
+/**
+ * Find cutscene UUID:
+ * Search for dialogue in parser files, get file name
+ * Search for filename in modder's multitool
+ * Open **Dialogs**_merged.lsf in results
+ * use ID with npm run add-cutscene
+ */
+
 async function addCutsceneInformation() {
 	const { uuid } = await prompt({
 		type: "text",
